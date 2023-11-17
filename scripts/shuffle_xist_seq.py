@@ -6,12 +6,14 @@ seq = f_lines[1].strip()
 # shuffle nucleotides to create random sequence of same TCGA ratio
 import random
 nucleotides = list(seq)
-random.shuffle(nucleotides)
-seq_rand = ''.join(nucleotides)
 
 # write to file
-f_rand = open("Xist_shuffled_seq.fa", "a")
-f_rand.writelines([f_lines[0], seq_rand])
-f_rand.close()
+for i in range(1, 51):
+  random.shuffle(nucleotides)
+  seq_rand = ''.join(nucleotides)
+  f_rand_n = "Xist_shuffled_seq" + str(i) + ".fa"
+  f_rand = open(f_rand_n, "a")
+  f_rand.writelines([f_lines[0], seq_rand])
+  f_rand.close()
 
 f.close()
