@@ -1,0 +1,283 @@
+########################################
+# Program: water
+# Rundate: Mon  4 Dec 2023 20:47:43
+# Commandline: water
+#    -auto
+#    -stdout
+#    -asequence emboss_water-I20231204-204735-0537-57299850-p1m.aupfile
+#    -bsequence emboss_water-I20231204-204735-0537-57299850-p1m.bupfile
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: raw
+# 2: KJ440524.1MusmusculusXistARantisenseRNA_completesequence_XistAR_M_act
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 3004
+# Identity:    1286/3004 (42.8%)
+# Similarity:  1286/3004 (42.8%)
+# Gaps:         906/3004 (30.2%)
+# Score: 5197.5
+# 
+#
+#=======================================
+
+raw                4 AAACT-----CAACAGTGACAAAGAGACGAAGTACGGT----TCCAGGC-     43
+                     ||.||     |.|.|..|.|||..|.||..||.|.|.|    |..|||| 
+KJ440524.1Mus      3 AATCTAGATGCCATAAAGGCAAGAACACACAGAAAGTTGAAATGTAGGCC     52
+
+raw               44 -------TCCAATTCT--CGGAGACTC---TCGGAGACTCGAGGGCAGTT     81
+                            |.|.|||.|  |.|..|.||   |.|..|||.| ||.|||.|.
+KJ440524.1Mus     53 TTAATATTACTATTATAACAGTAAGTCTGATAGAGGACAC-AGAGCATTA    101
+
+raw               82 TACATACAGGTACAACGGGACCAGCCTGGAGCCAGCCATCGGGAAGAGAT    131
+                     .|..|..|||..|.....|||.||  |..|.|||....||          
+KJ440524.1Mus    102 CAATTCAAGGCTCTTGCTGACAAG--TAAAACCATTAGTC----------    139
+
+raw              132 AGTAAAGAGAACTCCAACTGCATCACCCTCTATTTCTTACCGAGTCTCAA    181
+                     |.||.||. |.|..|||..|||.||....|.|...||.|.|..||.|   
+KJ440524.1Mus    140 AATATAGC-ATCAACAATAGCAACAAAAGCAAAGCCTGAACTGGTAT---    185
+
+raw              182 AGAAGGGAGAAGGCACCTC-----CGCCCG-CACCCCTCC--------CC    217
+                                .|.|||||     |.||.| ||.||...|        |.
+KJ440524.1Mus    186 -----------AGAACCTCAAATACTCCTGACATCCAGTCATAATGTTCA    224
+
+raw              218 CGTTTTAGAAGCACTAGCAG------CAGGTTTCAGGCTCTGGGGAGCAG    261
+                     |.||..|..|.||.||.|.|      .||..||.|...|.||..|||.||
+KJ440524.1Mus    225 CTTTACATTAACAGTATCTGTGTTATAAGACTTAAAAATTTGAAGAGTAG    274
+
+raw              262 CACCCCCTACCCCGCTGCCTGAG-----------ATCCCTTCAA---CCG    297
+                     |.          ||.||..||||           .|.|.||.||   ||.
+KJ440524.1Mus    275 CT----------CGGTGGATGAGTTTGAAAGAAAGTACATTTAAGTGCCA    314
+
+raw              298 AGTGATTTAGATGG----TGCC------------GAGAGCTCT-----CT    326
+                     |||.||||...|..    ||||            ||.|.||.|     ||
+KJ440524.1Mus    315 AGTAATTTGAGTATCATCTGCCAAAAAAATTATTGAAAACTTTAAGGACT    364
+
+raw              327 CCGTGTT---------CTAATGG---------------CGTCAT-TGCGC    351
+                     ||....|         ||||.||               |..||. |..||
+KJ440524.1Mus    365 CCAAAGTAACAATTCACTAAAGGTAATTAAAATGAATTCAACAAGTAAGC    414
+
+raw              352 TGTCCTTCACCACA-TCTGGAAACTGAGACTTC--------------AC-    385
+                     ....|.|.|..||| |.||.||||....|||||              || 
+KJ440524.1Mus    415 AAATCGTAAATACATTTTGAAAACAATCACTTCGGTTTTAAATTCAAACA    464
+
+raw              386 CT---AAAGGACCCTA--ATATGAGTTGGATGCAGAGGGACCGA---ATT    427
+                     ||   ||||.||.|||  |.|.|.||.|...|||     .||.|   |||
+KJ440524.1Mus    465 CTAGCAAAGCACACTATCAGACGTGTCGTTGGCA-----TCCAAAATATT    509
+
+raw              428 CCTGTAAATAGAGGCTCAACCT----------------------------    449
+                     |.|..||||..|....|||||.                            
+KJ440524.1Mus    510 CATTGAAATCAAAATGCAACCCCAGCAATAGTCATGGGGTAGATTTTGGA    559
+
+raw              450 -----GAAGGAATACGCTTCTT----------------TCCACAGTGA--    476
+                          |.||||.|...|.||||                |||||..|||  
+KJ440524.1Mus    560 AGAAGGTAGGATTCTACCTCTTCACCAGTGATTTGTGATCCACTATGACT    609
+
+raw              477 GTGGC---AGGCATCCC----GACCAG--GGC------ACCAGCTTGC--    509
+                     .||||   ||.||.|.|    ..||||  |||      |.|.|||||.  
+KJ440524.1Mus    610 CTGGCCAAAGTCACCACTTATACCCAGTAGGCTTAGAGAACCGCTTGAGA    659
+
+raw              510 ------CGGACT-----------CTGGGAGTGAG---------CTCAGAG    533
+                           |.|.||           |..||.||.||         |.|.||.
+KJ440524.1Mus    660 TCAGTGCTGGCTAAATCAGAGGCCAAGGTGTAAGTAGACTAGCCACTGAA    709
+
+raw              534 C----CACTGGGATGGAT---GCTGGAAGAATGGG---GTACCTCCTGGC    573
+                     |    ||..||.|||||.   ||||  ||..|..|   |.|||.||..|.
+KJ440524.1Mus    710 CAATACAAAGGAATGGAACGGGCTG--AGTTTTAGTTTGCACCGCCACGT    757
+
+raw              574 ----AACCCGG--------------CGCCTGCAGCTG----------CCA    595
+                         |.|.|.|              |||..||.|.||          ||.
+KJ440524.1Mus    758 ATAGAGCACTGTAAGAGACTATGAACGCAAGCGGATGAGTCAAATGTCCT    807
+
+raw              596 TGTGAAAAGGACC------------CCTTCTCAACCTGGTTGATG-CTCA    632
+                     ||   |||.|.||            |.||||.....|.|.|||.| .|||
+KJ440524.1Mus    808 TG---AAATGGCCTTAGATACTTTTCTTTCTTTTAATAGGTGAGGTTTCA    854
+
+raw              633 CTG----CCCGCAACAAAACAGGAAAC--CAGCGCCGGGCTTT-------    669
+                     .||    .|..|.||    ||.|||.|  ||||..|||.||.|       
+KJ440524.1Mus    855 ATGATTTACATCGAC----CAAGAACCCGCAGCCTCGGTCTCTCGAATCG    900
+
+raw              670 ------ATATCAACAAATACACCGTAGATGGTCGAGAGTTTGAAGGAAGT    713
+                           |.||||.|.||.||..|           ||.|||.|||     |
+KJ440524.1Mus    901 GATCCGACATCATCCAACACTTC-----------AGTGTTAGAA-----T    934
+
+raw              714 AGCGGGTTTGCG---TCTAAGTCTGGTGCTGTTGGAC-TCG--GTGTTTC    757
+                     .||..|..||||   ||.....|||| ||.|  |.|| |||  ....|..
+KJ440524.1Mus    935 TGCAAGCATGCGCTCTCCCGACCTGG-GCAG--GCACTTCGAAAAAATGA    981
+
+raw              758 TCCCTGAGAAATCAGCGTGGAG--CCAGGAG-AACT-GGGCCCATAGGGG    803
+                     |..||.|..|..|| ||||.||  |||.|.| |||| ..|.||.||.|||
+KJ440524.1Mus    982 TGACTAAAGACACA-CGTGAAGTACCAAGCGAAACTCACGTCCTTATGGG   1030
+
+raw              804 TCTTCCGTAAGGACAC-TCCCCATCTGGCTGTGAATTCTTAATAG--ACA    850
+                     .|      |..|||.| ||.|..||      |.|.|.|.|..|.|  ||.
+KJ440524.1Mus   1031 AC------AGTGACTCATCACAGTC------TAATTCCATCCTGGCCACC   1068
+
+raw              851 AAGCAACAGAGGGAGGGAAACTCA---CCAGCAAGGAGAAAGGGGGAAAC    897
+                     ||||||.|..|         |.||   |.|.|..|.||..|.|       
+KJ440524.1Mus   1069 AAGCAATAATG---------CACATTTCTAACTGGAAGTCAAG-------   1102
+
+raw              898 TCAAGACCCCTTCAAGTACACACTGAGGTGTAATCAGATTTTACAGGCAC    947
+                      ||| ||.||..||..|.||||||    |||...||    ||.|.|.|..
+KJ440524.1Mus   1103 -CAA-ACACCAACACTTTCACACT----TGTGCCCA----TTTCTGACGA   1142
+
+raw              948 GTTATATACTGT---AACCATAGCTATGTGTGTGCCT----TCA--TAC-    987
+                     ||||..|...||   |||||...||.....|..||||    |||  |.| 
+KJ440524.1Mus   1143 GTTACGTCAAGTGGCAACCAACACTTCCACTTAGCCTTGCCTCAGCTTCG   1192
+
+raw              988 ----GCACACG-----------CACAGATTCACA-----CACCAAATGTA   1017
+                         |||||.|           ||||...|..||     ||||||.||||
+KJ440524.1Mus   1193 AGTGGCACAAGGTAGGACCAACCACACCCTACCATAATGCACCAAGTGTA   1242
+
+raw             1018 TACACAGGCACAAGCGTAGTGAAATACAGTCATTATGC-CAAGTCCTAAG   1066
+                     ..|.|.|||| ||||           |.|.||....|| .|||.||....
+KJ440524.1Mus   1243 CCCTCGGGCA-AAGC-----------CCGCCAAGTAGCTAAAGCCCGCCA   1280
+
+raw             1067 GGGGGAAAATCACCTTGTCAAAGCAGC--CTGGTGGCCAG---------T   1105
+                     .....||||||||    |.||||.|.|  ||.|.||.|||         .
+KJ440524.1Mus   1281 AAAAAAAAATCAC----TGAAAGAAACCACTAGAGGGCAGGTCACATGAC   1326
+
+raw             1106 TTCCTGTCCTCTGGTTCA-ATTC---AGCTTTCTCCAAC-CACTGGTC--   1148
+                     |||| |.|.|||....|| ||||   |||.|...|||.| |.|..|.|  
+KJ440524.1Mus   1327 TTCC-GCCATCTTAGACACATTCAAGAGCATGTGCCACCTCTCCAGGCTA   1375
+
+raw             1149 -CTCCCTCCTGGGTCTGTAAAT---ACGGTAAATACAC----CTGTCTTC   1190
+                      |||...|.||...||| |.||   ||....||..|.|    |..|.|.|
+KJ440524.1Mus   1376 ACTCAGACATGAAGCTG-ACATGTGACACACAAAGCCCTTTGCGTTATAC   1424
+
+raw             1191 AG----TGGAAGGTGAGCGGCCCATCAGCATTTGTCTGGTTCAGATGGCC   1236
+                     .|    ..|||..|||||.| |||||     ||.||..||.|    |.||
+KJ440524.1Mus   1425 CGCACCAAGAACTTGAGCCG-CCATC-----TTTTCCTGTAC----GACC   1464
+
+raw             1237 TCC----CCTAGAATCTCTGG--ACCCTCCCG----------GAGCTGTT   1270
+                     |..    ||||.||||..|.|  ||.|.||.|          |.||||| 
+KJ440524.1Mus   1465 TAAATGTCCTATAATCCATTGCTACACACCAGAACAAAGATTGGGCTGT-   1513
+
+raw             1271 CCGAGCTTGTGAGGGAGCCTCC-AGCTGCAGTCCTTTG----TCTGTGGG   1315
+                      |||||.|..|..||||||.|| |||.||..|..|.|.    ||||.|..
+KJ440524.1Mus   1514 -CGAGCCTCGGGTGGAGCCCCCGAGCCGCCATTTTATAGACTTCTGAGCA   1562
+
+raw             1316 AC---TAGATCC-----------CTTCATGG--CCCAATGCTCTGGGAAA   1349
+                     .|   ||.|.||           |..||.||  ||..||||.|    |.|
+KJ440524.1Mus   1563 GCCCTTAAAGCCACGGGGGACCGCGCCAGGGGTCCATATGCAC----ACA   1608
+
+raw             1350 CGAAGCAGCTCAATACAAACTTTTGATATTAGTTTTTTAAAGGTATTTAC   1399
+                     | |..|.||.||||.|..||     |.....|.|     .||...|.|.|
+KJ440524.1Mus   1609 C-ACCCTGCCCAATCCCCAC-----ACCCACGCT-----GAGCCCTATCC   1647
+
+raw             1400 ACTTTGGTGAGAGTAGCTGGGTACGGAAGCTGCTTCGTTAATCAGCCCCC   1449
+                     .||        |||. ||     |.|..|||.|..||..|..|.||.|.|
+KJ440524.1Mus   1648 CCT--------AGTC-CT-----CTGCGGCTTCCGCGCAACACCGCACAC   1683
+
+raw             1450 GACCCCGA-----CCTTAGGTT--------CGGCTGGGACTAGGAGCTGG   1486
+                     .|...|||     ||||.|.||        |||||.|.||    |.|.  
+KJ440524.1Mus   1684 TAATACGAGCACTCCTTGGCTTTCTACTTCCGGCTAGCAC----AACC--   1727
+
+raw             1487 CCGGAAAAGAAAAAAAGCTTCGGGAAGTCGGAGAGAAT---GAAAAACAA   1533
+                     |||        .|||.|||.|...||.||...|.||||   |.||..|..
+KJ440524.1Mus   1728 CCG--------CAAATGCTACCACAAATCAAGGCGAATCCCGCAACCCCG   1769
+
+raw             1534 AACAAAACTGCACAAGGTCATTTTCTGTTCCTGGAAACTGAGTAAGTGG-   1582
+                     .|||.|  |..|.||.|.|.||..||       ....|.|.|.||.||| 
+KJ440524.1Mus   1770 CACATA--TAAAGAAAGCCTTTAGCT-------AGCGCAGCGCAATTGGT   1810
+
+raw             1583 -GCCAT--TCCAG------GGACTCCCCAG-----------TTGGC--CA   1610
+                      ||..|  |||||      |..||||.|.|           |||||  .|
+KJ440524.1Mus   1811 TGCTTTTATCCAGTCCGCTGTGCTCCTCGGTGTCCTAATTCTTGGCGTAA   1860
+
+raw             1611 CTCCCTC--------CCGCTTTGTACAGGGAACATGTTTTC---TGC---   1646
+                     ||..|||        |||..|....|||....|||..|..|   .||   
+KJ440524.1Mus   1861 CTGGCTCGAGAATAGCCGTATCACGCAGAAGCCATAATGGCGGACGCGGG   1910
+
+raw             1647 CTTT----GCCTAATACAACAACTACACTTTAAAA-------TATATTTC   1685
+                     ||.|    |||....|||.|.||| ||.|||||.|       ..|.||||
+KJ440524.1Mus   1911 CTCTCCACGCCCTGAACACCCACT-CAGTTTAAGAGCAAAGTCGTTTTTC   1959
+
+raw             1686 ----CC-------CCCTCCCAATACATATAAAGGT--GTAGCAAGC----   1718
+                         ||       |.|||.||...||...||.|.|  |.||||| |    
+KJ440524.1Mus   1960 TAAGCCATAGGTTCACTCACACAGCACCAAACGATCAGCAGCAA-CAGTA   2008
+
+raw             1719 CCCTCTA--------CA-------TCCAGTTTAT-CTTTGACT-------   1745
+                     |.|.|.|        ||       |||||.|..| |..|.|||       
+KJ440524.1Mus   2009 CACGCAAATAAGAGGCATAGATATTCCAGGTAGTGCAATAACTCACAAAA   2058
+
+raw             1746 --TTATTATCATCTTATCTTGCATACCTTTTTTGATAATTAAAGCTTAAT   1793
+                       .||||..|||| .|.|..||...||  .||.|....|.|||....||.
+KJ440524.1Mus   2059 CCATATTTCCATC-CACCAAGCGCCCC--GTTGGGCCGTGAAAAAAAAAA   2105
+
+raw             1794 TATATCCCAGGTATTGAACTGCTTC-ATTCTCAATAGAAGGTTTTGAGAA   1842
+                     |.||...|||||||. .||.||..| ||...|||.||||     ..||||
+KJ440524.1Mus   2106 TTTAAAGCAGGTATC-CACAGCCCCGATGGGCAAAAGAA-----AAAGAA   2149
+
+raw             1843 TTTTTAAGATTGTGAGAAAGGGGTGAAC-TGGAGTTGTTTGAGGCAAGGA   1891
+                     .....||.|.|...||.|   |||...| .||....|||  .||||.||.
+KJ440524.1Mus   2150 AAAAAAATAATAACAGCA---GGTATCCGAGGCCCCGTT--GGGCATGGG   2194
+
+raw             1892 CTATTGAG---AGCCCAAGGTTTCACCAAGAAGGAACC--TGGAGCAAAA   1936
+                     ..|...||   |..|..||||.||.     .|||..||  ||||.|.|.|
+KJ440524.1Mus   2195 AAAAAAAGACTAAACGCAGGTATCC-----GAGGTCCCGATGGACCGAGA   2239
+
+raw             1937 AAGATTTGGGATCTTATCTGAAATTGTATGTGTCTTCTTTATAAAAA---   1983
+                     |||.|||      ||.|     .||.|.|.|.|.||.||||.|||||   
+KJ440524.1Mus   2240 AAGGTTT------TTTT-----GTTTTTTTTTTTTTTTTTACAAAAAGCA   2278
+
+raw             1984 -TTACACATG----CGGGGG------------------AGGGTTATATC-   2009
+                      .||..||||    ||..||                  ||..|.|.|.| 
+KJ440524.1Mus   2279 GGTATCCATGGCCCCGATGGGCTAAGGAGAAGAAAAAAAGAATAAAAGCA   2328
+
+raw             2010 ---AACTTCTTCTCTGA--GTCC---TTTCACTGAAGATT--TCTGTTCG   2049
+                        |.|..|..|.|.||  |.|.   ||..|...||.|.|  |..|....
+KJ440524.1Mus   2329 GGTATCCACAGCCCAGATGGGCAAGTTTAGAAAAAAAAATAATAAGAAAA   2378
+
+raw             2050 TTTAAGATTGATGTGG-GGGT-----------GCCCTGT-----------   2076
+                     ...||||.|||...|| .|||           .|||.||           
+KJ440524.1Mus   2379 AAAAAGAATGAAAAGGCAGGTAAGTATCCAAAACCCCGTTGGGCATGGAA   2428
+
+raw             2077 ---------GTCCTAACTTG-ATACATTTTCACGTTAAGCAAATGCTTAT   2116
+                              |..|..||..| ||.|.|...|.||.|..||||.....|||
+KJ440524.1Mus   2429 TGGCGGGGAGGACACACAGGTATCCGTGGCCCCGATGGGCAAGAATATAT   2478
+
+raw             2117 TTCCTAT----------------TTCAAAACA-TCTC---TTTC--CCTA   2144
+                     ...|.||                ..|.|.||| .|.|   |.||  ||.|
+KJ440524.1Mus   2479 AAACAATGAAAGAAAGGTAAGTCCACCATACACACACAAGTATCAACCAA   2528
+
+raw             2145 TAGACATCTCATAGAAAT-TTC-----TAATG---------CTTAA----   2175
+                     .||.||...||.|||||| |||     .||||         ||.||    
+KJ440524.1Mus   2529 AAGGCACAACAAAGAAATATTCCTTAAAAATGAAAAATTGACTGAAAATA   2578
+
+raw             2176 --ACTAAGAGAAGAAAG---GGTGGAC-TGAATTGATATCAAAGTTACCA   2219
+                       ||.||.|..|.||||   ||.|||| ||.....|.|..||..||||||
+KJ440524.1Mus   2579 TTACAAATATCAAAAAGTATGGAGGACATGTCAAAAAAAAAATCTTACCA   2628
+
+raw             2220 TGG-TTTTCTA---GAAAAAAA--------AATGTAGCTCTG--------   2249
+                     ... .|.||.|   |..|||||        |||.|.|.|.||        
+KJ440524.1Mus   2629 GAACATATCAAAACGTCAAAAATCTCGTGGAATTTTGATATGTTTTCTTA   2678
+
+raw             2250 --TACGCCTT---------------------TTAAAATATTCCTTC--TG   2274
+                       ||.|||.|                     |.|||||.||||..|  .|
+KJ440524.1Mus   2679 AATAAGCCATAAGGCTTGGTGGTAGGGGAACTAAAAATGTTCCCCCAAAG   2728
+
+raw             2275 CAAC-AAGAGATTTTTAAAATACTGAATAAAAGCACG--AATGTTTTGTT   2321
+                     |..| .|||.......|||..||.|||.||..||||.  .|.|.......
+KJ440524.1Mus   2729 CTCCTTAGATGGAGAGAAACCACGGAAGAACCGCACATCCACGGGAAACG   2778
+
+raw             2322 TGCA   2325
+                     .|||
+KJ440524.1Mus   2779 AGCA   2782
+
+
+#---------------------------------------
+#---------------------------------------
