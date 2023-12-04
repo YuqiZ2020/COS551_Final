@@ -1,0 +1,1263 @@
+########################################
+# Program: water
+# Rundate: Mon  4 Dec 2023 20:57:26
+# Commandline: water
+#    -auto
+#    -stdout
+#    -asequence emboss_water-I20231204-205712-0621-69185398-p1m.aupfile
+#    -bsequence emboss_water-I20231204-205712-0621-69185398-p1m.bupfile
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: lncRNArawseq_Morrbid_M_rep.fa
+# 2: Xist_M_rep
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 15297
+# Identity:    5698/15297 (37.2%)
+# Similarity:  5700/15297 (37.3%)
+# Gaps:        6758/15297 (44.2%)
+# Score: 21480.0
+# 
+#
+#=======================================
+
+lncRNArawseq_      2 CTGGGGGGTGTATGGTGTGTGTG------TATA-----------TGTGCT     34
+                     ||   ||.|||..||.||.|.||      ||||           |.||||
+Xist_M_rep      2612 CT---GGATGTCAGGAGTATTTGAGGTTCTATACCAGTTCAGGCTTTGCT   2658
+
+lncRNArawseq_     35 T---GTGC-ATTGTGCATGCAA---------------------ATC----     55
+                     |   .||| |||||..||||.|                     .||    
+Xist_M_rep      2659 TTTGTTGCTATTGTTGATGCTATATTGACTAATGGTTTTACTTGTCAGCA   2708
+
+lncRNArawseq_     56 ------------TGT-ATGC-CTGTGCACTC-----------CTGTGCAA     80
+                                 ||| |||| |||||..|||           ||||...|
+Xist_M_rep      2709 AGAGCCTTGAATTGTAATGCTCTGTGTCCTCTATCAGACTTACTGTTATA   2758
+
+lncRNArawseq_     81 AGAG-AGGAGAAGGGCC------------TTCAGTGT-------CCTTT-    109
+                     |.|| |..|..|.||||            |||.||||       ||||| 
+Xist_M_rep      2759 ATAGTAATATTAAGGCCTACATTTCAACTTTCTGTGTGTTCTTGCCTTTA   2808
+
+lncRNArawseq_    110 -----TCTA--------TCAAG-CTC-----------------CACTTAA    128
+                          ||||        ||||| |||                 |..||..
+Xist_M_rep      2809 TGGCATCTAGATTCTCCTCAAGACTCAGCAAATAGTGCTGCTGCTATTGC   2858
+
+lncRNArawseq_    129 TTCCCTTGAGACAGGTC---------------------------------    145
+                     |.|||..|...||||.|                                 
+Xist_M_rep      2859 TGCCCCAGCCCCAGGCCCAGCCCCAGCCCCTGCCCCAGCCCCAGCCCCAG   2908
+
+lncRNArawseq_    146 ------TCACAG----AGACCCTGAAACT----CA--CCATTTTCCAG--    177
+                           .|.|||    ||.|||||...||    ||  ||.|...||||  
+Xist_M_rep      2909 CCCCTGCCCCAGCCCCAGCCCCTGCCCCTGCCCCAGCCCCTGCCCCAGCC   2958
+
+lncRNArawseq_    178 CAGGCCCCAG----------------------AGCTCCTCCCAACC--CC    203
+                     |..|||||||                      .||.||.|||||||  ||
+Xist_M_rep      2959 CCAGCCCCAGCCCCTACCCCTGCCCCTGCCCCTGCCCCACCCAACCAACC   3008
+
+lncRNArawseq_    204 CT--------CGGCCTT--CTCTTCCAGGT--TAAAACAAGGTCCAAGAA    241
+                     |.        |.|||.|  |.|..||..||  ||...|.||| ||.|||.
+Xist_M_rep      3009 CAATCCAGTCCAGCCCTGCCCCAGCCCAGTCCTAGCCCCAGG-CCCAGAT   3057
+
+lncRNArawseq_    242 ACACTGGGACCTTGCCCTTAGTTCCCT------------------GACCT    273
+                     ||..|..|||||..||| .||..|.||                  .|.||
+Xist_M_rep      3058 ACTTTCAGACCTATCCC-AAGCCCACTTCTACTTAGAGAAATTCGAATCT   3106
+
+lncRNArawseq_    274 ACACTG----AGTGTGACAATGGGATTTCCCTCTAGGAGCTGTTG----T    315
+                     .||.||    ||||..|.||||...|.|||.||....|||...|.    |
+Xist_M_rep      3107 TCATTGATTCAGTGCTAAAATGCAGTGTCCATCACTCAGCCTATAAGACT   3156
+
+lncRNArawseq_    316 GAG---GACCATCGGCTACCACACCATTGTAATTAATATTG-------AT    355
+                     |||   |.|||||.....||.|.||||..|.|.|..||..|       ||
+Xist_M_rep      3157 GAGACAGCCCATCTATACCCCCTCCATACTGACTTCTAGAGTCATGGAAT   3206
+
+lncRNArawseq_    356 ATCA-TTTGTACATGATATTGAAAAGCT---TTGAGGT--------CACA    393
+                     .||| ||..|.|||...||.|.|..|||   .||..||        |.||
+Xist_M_rep      3207 TTCACTTAATGCATAGAATCGTATTGCTAAAATGCAGTGCCCATCACTCA   3256
+
+lncRNArawseq_    394 G----------TGTGATG--------ATGACCTGATTAAACAGGTTTGAA    425
+                     |          ||.|||.        ||..||.....|.||.|..||..|
+Xist_M_rep      3257 GCCTATAAGACTGAGATAGCCCATCTATACCCCCTCCATACTGACTTACA   3306
+
+lncRNArawseq_    426 CATACTGGGGGTT--------------CAAACCCA----------GCTAT    451
+                     .|..|..||.|||              ||..||.|          ||..|
+Xist_M_rep      3307 GAGTCATGGAGTTTCACTTAATGCATGCAGTCCTATTGCTAAAATGCAGT   3356
+
+lncRNArawseq_    452 TCAC--------GCCTATGTAAC----ATGTCTC-----TACCACCAGAC    484
+                     .|.|        ||||||...||    ||..|.|     ||||.|....|
+Xist_M_rep      3357 GCCCATAACTCAGCCTATAAGACTGAGATAGCCCATTTATACCCCATACC   3406
+
+lncRNArawseq_    485 CCCACCCTGCT-TTTTCT------------TTTCTTTT------------    509
+                     |||.||.|.|| ..||||            ||||..||            
+Xist_M_rep      3407 CCCTCCATACTGACTTCTAGGGTCATGGAATTTCACTTAATACATAGAAT   3456
+
+lncRNArawseq_    510 -------CT---------TTTCCTCTTCTTCTTCTT--------------    529
+                            ||         |.|||....||...|||.              
+Xist_M_rep      3457 CGTATTGCTAAAATGCAGTGTCCATCACTCAGTCTATAAGACTGAGATAT   3506
+
+lncRNArawseq_    530 --CTTTTTTT-------------TTTTTTTTGGATACAGGATTCATAG--    562
+                       ||.|.|.|             |...|..||..|.|..||.||||||  
+Xist_M_rep      3507 CCCTATGTATACCCCATACTCCCTCCATACTGACTTCCAGAGTCATAGAA   3556
+
+lncRNArawseq_    563 -------TT-------GTCC---TGCCAAAAAGAA---------TCTCTG    586
+                            ||       ||||   |||.||||.|.|         .|||.|
+Xist_M_rep      3557 TTTCACTTTGCATACGGTCCTATTGCTAAAATGCAGTGTCCATCACTCAG   3606
+
+lncRNArawseq_    587 ACTCCAAGGAT--GTTTTCTCAAGGGATTCC-----CGCCCGC-------    622
+                     .||..|||..|  |.|.||.|.|.|.||.||     |.|||.|       
+Xist_M_rep      3607 TCTATAAGACTGAGATATCCCTATGTATACCCCATACTCCCTCCATACTG   3656
+
+lncRNArawseq_    623 ACTGCCAG---------------------TTACCATC------------A    639
+                     |||.||||                     .|||..||            .
+Xist_M_rep      3657 ACTTCCAGAGTCATAGAATTTCACTTTGCATACGGTCCTATTGCTAAAAT   3706
+
+lncRNArawseq_    640 GCAGGACTCCTGACT--GCCT----GACT------------------CCA    665
+                     ||||..|.|.|.|||  ||||    ||||                  ||.
+Xist_M_rep      3707 GCAGTGCCCATCACTCAGCCTATAAGACTGAGATAGCCCATCTATACCCC   3756
+
+lncRNArawseq_    666 CTCCAT------TTC-----TCATGGAA----------------------    682
+                     ||||||      |||     ||||||||                      
+Xist_M_rep      3757 CTCCATACTGACTTCCAGAGTCATGGAATTTCACTTAATGCATGCAGTCC   3806
+
+lncRNArawseq_    683 ----GCCAGAAGGTAGTGC-----------------AGGCTG--------    703
+                         ||.|.||.|.|||||                 ||.|||        
+Xist_M_rep      3807 TATTGCTAAAATGCAGTGCCCATCACTCAGCCTATAAGACTGAGATAGCC   3856
+
+lncRNArawseq_    704 -------TCCCCA----CCC-------------CCAGGGT----------    719
+                            .|||||    |||             ||||.||          
+Xist_M_rep      3857 CATCTATACCCCATACCCCCTCCATACTGACTTCCAGAGTCATGGAATTT   3906
+
+lncRNArawseq_    720 ---------------GAC----------AAAGCTGTG-------------    731
+                                    |.|          ||.||.|||             
+Xist_M_rep      3907 CACTTAATGCATGCAGTCCTATTGCTAAAATGCAGTGCCCATCACTCAGC   3956
+
+lncRNArawseq_    732 --------ATGAGG-AGCC-------ACCC--------CAGA-----AGA    752
+                             .||||. ||||       ||||        |.||     |||
+Xist_M_rep      3957 CTATAAGACTGAGATAGCCCATCTATACCCACTCCATACTGACTTCCAGA   4006
+
+lncRNArawseq_    753 G----GGAA-----------------------------------CTG-GC    762
+                     |    ||||                                   |.| ||
+Xist_M_rep      4007 GTCATGGAATTTCACTTAATGCATGCAGTCCTATTGCTAAAATGCAGTGC   4056
+
+lncRNArawseq_    763 AC----CTCAGCCTG-AGAACTG-----GCCC-----------------T    785
+                     .|    ||||||||. |..||||     ||||                 .
+Xist_M_rep      4057 CCATCACTCAGCCTATAAGACTGAGATAGCCCATCTATACCCACTCCATA   4106
+
+lncRNArawseq_    786 ATGGCTAACCGAGTAGAGGA----AGCTTAATTCTT----TCTTTTT---    824
+                     .||.||..|.||||...|||    ..||||||.|.|    ||.|.||   
+Xist_M_rep      4107 CTGACTTCCAGAGTCATGGAGTTTCACTTAATGCATGCAGTCCTATTGCT   4156
+
+lncRNArawseq_    825 ---------------TAATTTTGCATTTTATTTTAAATTTTTATTATTAA    859
+                                    |||.|..||.|.|.|...|.|..|.......|||.
+Xist_M_rep      4157 AAAATGCAGTGCCCATAACTCAGCCTATAAGACTGAGATAGCCCATTTAT   4206
+
+lncRNArawseq_    860 A----ATACAACAAACATA------TCAATAAT-ATTGAGTAT---TTTG    895
+                     |    ||||..|...||||      ||.|...| ||.||.|.|   ||..
+Xist_M_rep      4207 ACCCCATACCCCCTCCATACTGACTTCTAGGGTCATGGAATTTCACTTAA   4256
+
+lncRNArawseq_    896 AGAATCAAATAATATATAAAAAAT----------TTGTTCAACTTTT---    932
+                     .|.||..|||..|||....|||||          ||..|||.|.|.|   
+Xist_M_rep      4257 TGCATAGAATCGTATTGCTAAAATGCAGTGTCCATTACTCAGCCTATAAG   4306
+
+lncRNArawseq_    933 ------ATATTCATAT--------------CCTTTCATAC--CCTAAAAG    960
+                           ||||.|.|||              ||.|.|||||  .||...||
+Xist_M_rep      4307 ACTGAGATATCCCTATGTATACCCCATACCCCCTCCATACTGACTTCCAG   4356
+
+lncRNArawseq_    961 CATCATTAA---------TGAATA------------TTTAATACTGT--C    987
+                     ...|||..|         ||.|||            |..|||.|.||  |
+Xist_M_rep      4357 AGACATAGAATTTCACTTTGCATACGGTCCTATTGCTAAAATGCAGTGCC   4406
+
+lncRNArawseq_    988 CAT--------------AACTGAGGATTCTGTATCTA-------------   1010
+                     |||              .||||||...||..||||||             
+Xist_M_rep      4407 CATCACTCAGCCTATAAGACTGAGATATCCCTATCTATACCCTCTACCCC   4456
+
+lncRNArawseq_   1011 ----ATGTTGAATACTAAATT------GTTTCAAAACATACAAAATATTT   1050
+                         ||..|||.|.|.|.|.|      .|||||.|..||..|.|. ||||
+Xist_M_rep      4457 CTCCATACTGACTTCCAGAGTCATGGAATTTCACATAATGTATAG-ATTT   4505
+
+lncRNArawseq_   1051 CT---------------------------------TGGGAATTAGG----   1063
+                     ||                                 |..||.|.||.    
+Xist_M_rep      4506 CTATTGCTAAAATGCAGTGCCCATAACTCAGCCTATAAGACTGAGATAGC   4555
+
+lncRNArawseq_   1064 ----------------CAT----AGTAAAAGAG-CATAAAAT----ATTA   1088
+                                     |||    |||...|||| |||..|||    .|||
+Xist_M_rep      4556 CCATCTATACCCCCTCCATACTGAGTTCCAGAGTCATGGAATTTCACTTA   4605
+
+lncRNArawseq_   1089 A--AAATGAATCATTAAG---AAATACA------TTCA------------   1115
+                     |  .|..|||||.|...|   ||||.||      .|||            
+Xist_M_rep      4606 ATGCATAGAATCGTATTGCTAAAATGCAGTGCCCATCACTCAGCCTATAA   4655
+
+lncRNArawseq_   1116 ---AAAGTCCTTATATG----ATACCACCTGACATAGTG------AGAG-   1151
+                        ..||.||.|.|||.    |||||.||| .||||.||      |||| 
+Xist_M_rep      4656 GACTGAGCCCATCTATACCCCATACCCCCT-CCATACTGACTTCCAGAGT   4704
+
+lncRNArawseq_   1152 ---AGTATTT-------AAAAC--TCATTCTATATCTGTGTACATGGTCT   1189
+                        .|.||||       .|.||  ||.|.||.|| || |||.|||||.|.
+Xist_M_rep      4705 CATGGAATTTCACTTTGCATACAGTCCTACTTTA-CT-TGTCCATGGACA   4752
+
+lncRNArawseq_   1190 AACAATC------CGCTTAT--------TTAAGCAAGATT-ATCAGTGTT   1224
+                     |..||.|      |.|||.|        ||||.||||||. |.||.|...
+Xist_M_rep      4753 AGTAAACAAAGAACTCTTGTCCTTCATGTTAATCAAGATACACCAATCAA   4802
+
+lncRNArawseq_   1225 TCTAGGAGAGAAATTATTTTATCAGTAAGCATATTTTAAAAATTTCA---   1271
+                     .|.||       |.|.||.|||||| |..|.|....|..|..|.|||   
+Xist_M_rep      4803 ACAAG-------AGTTTTATATCAG-AGACTTGCCATGGAGGTATCATCT   4844
+
+lncRNArawseq_   1272 ---AAATAGCAAAAACTTT----GAAGTTAAACATTAAGAAAATGCT---   1311
+                        ||.|..|.....||||    .|||..||.||||..|..|.||||   
+Xist_M_rep      4845 CTCAAGTCTCCTTTCCTTTAAGGAAAGAAAACCATTCTGTCATTGCTGTA   4894
+
+lncRNArawseq_   1312 ---------------AATTT-TAAGCA-----------------------   1322
+                                    |.||| ||||||                       
+Xist_M_rep      4895 GTAGTCACAGTCCCAAGTTTCTAAGCAGTGTTCAGTCGTCTTTTCTCATG   4944
+
+lncRNArawseq_   1323 --------TGA-----GAAAAATTAT-----TAATACTATTTCCATGGTG   1354
+                             |||     |||.||||.|     .||||.|.|.|||||.|..
+Xist_M_rep      4945 TATTACCTTGAGTACTGAATAATTCTGTCAGAAATATTTTGTCCATTGGA   4994
+
+lncRNArawseq_   1355 TTTG--------TAGACCA--------TG--------------------A   1368
+                     ||.|        |||.|||        ||                    |
+Xist_M_rep      4995 TTAGACTTTAGCTAGTCCAGCCCTGTGTGCATTTAGCAAAGGGGCAAACA   5044
+
+lncRNArawseq_   1369 CCGTAATATTCTCA-ACTGTTAATATTCAACAGAC-----------AGAA   1406
+                     |.|...|.||.||| ||.|||||..|.| .|||.|           .|.|
+Xist_M_rep      5045 CAGGTCTGTTATCAGACAGTTAAAGTGC-TCAGTCCCAATTTTCAAGGCA   5093
+
+lncRNArawseq_   1407 TAGTTATTTTAAG-------------ATATATT------------TCAT-   1430
+                     |.|....||.|||             |||||.|            |||| 
+Xist_M_rep      5094 TTGGCCATTAAAGGGGGTAGAATACTATATACTGTTGGCATGCTGTCATG   5143
+
+lncRNArawseq_   1431 --TGTTTTCTCTCC----CTTTTCATT---TCTGAT---------TTTAT   1462
+                       ||.|.||.|.||    |...||.||   .|||||         |||||
+Xist_M_rep      5144 GGTGCTATCGCCCCAGGTCACATCTTTCTAACTGATGGAGATACATTTAT   5193
+
+lncRNArawseq_   1463 T--------AATTTGGATTCTGAACTCT-GTGCCCTCTGGTTAGTCTGGC   1503
+                     |        |..|||.||.||...|||. .|||..|||..||  ||.|.|
+Xist_M_rep      5194 TTGCTCATGATATTGTATACTAGTCTCACATGCTTTCTTATT--TCAGCC   5241
+
+lncRNArawseq_   1504 TAA-------------------------TGGTTTATCTTG--------TT   1520
+                     .||                         |||.|.|||.||        ||
+Xist_M_rep      5242 AAAAACCTCTGCACTGGAACATTTTATGTGGATAATCCTGACTAGGAATT   5291
+
+lncRNArawseq_   1521 GA---TTTTCTCAAAGAAC-----CAACTCCTGGTTT------------T   1550
+                     ||   |||||||||.|..|     |.||.|.||.|||            |
+Xist_M_rep      5292 GAGTCTTTTCTCAAGGTCCTAATACTACCCTTGCTTTATGTAAAGAGGGT   5341
+
+lncRNArawseq_   1551 GTTGATT-CTT--TGCCTAGTTCT-TTTTGTTTCTCTTTG--GTTGATTT   1594
+                     |.||||| |||  |||||..|.|. ..||||......|||  ||||  ||
+Xist_M_rep      5342 GCTGATTACTTAATGCCTCTTACACAATTGTGCAAAATTGCAGTTG--TT   5389
+
+lncRNArawseq_   1595 CAG---CCCTGAGTTTGATTAGGAAACTTAAT---------TCTTA----   1628
+                     ||.   ||||   |.|| ||||.||.|...||         ||.||    
+Xist_M_rep      5390 CAAGTCCCCT---TCTG-TTAGTAACCAAGATCCCATACCCTCATACCCT   5435
+
+lncRNArawseq_   1629 -----GAGA--------GGCGCCTTCC-------CCACTACGC----CTG   1654
+                          |.||        ||.|||..||       |||||.|.|    |||
+Xist_M_rep      5436 AATGGGTGACAATCAAGGGTGCCAACCAATGAGACCACTTCTCTGTTCTG   5485
+
+lncRNArawseq_   1655 ------TTGC--TACTAGAGAGGCAACTCTT-------------------   1677
+                           .|||  |.||.|.||..|||..|||                   
+Xist_M_rep      5486 GTCTTTCTGCTGTGCTGGGGAATCAAACCTTGAGTCTTGTGTACGCTAGT   5535
+
+lncRNArawseq_   1678 ----CCCTTTCCACAGAGCCCCTGACAGACCTGAGGAGAGTGGGTGCCAG   1723
+                         |.||.| ||.|||||..|.|.|..|||      |.||||..|...|
+Xist_M_rep      5536 AAAGCACTGT-CATAGAGCTACAGCCCCACC------GTGTGGTGGTTTG   5578
+
+lncRNArawseq_   1724 TGAGTCCTGAGTCT-------CCTGCACAGTCCCTGCCTTCCCTTTATCT   1766
+                     .|||..|.|..|||       ||||..|.|..|..|.|||.|....|| |
+Xist_M_rep      5579 AGAGAACAGCCTCTTATGTAGCCTGGGCTGGGCGGGACTTACAGGCAT-T   5627
+
+lncRNArawseq_   1767 GCAGCCTG-------GGCATTCT--TGACTCTTGTCTG-ACATC------   1800
+                     ||..||||       ..|||..|  ||.||.||||.|| |||.|      
+Xist_M_rep      5628 GCCACCTGTAATGTAAACATATTTGTGCCTGTTGTGTGCACAGCTGCATT   5677
+
+lncRNArawseq_   1801 --TCCCACCCCCTT--CA--------------CAGTCTAAG---------   1823
+                       ||||.|..|||.  ||              ||..|||||         
+Xist_M_rep      5678 TGTCCCTCTTCCTAAGCATTGGATAAAGAAACCAAACTAAGTCAAGTCAT   5727
+
+lncRNArawseq_   1824 --AGTTGGTAATTAATTAGCC--TTGACCTTAACC--TTTGACACCACCC   1867
+                       .|||||||||.||..||.|  ||||.| |..||  |||...||..||.
+Xist_M_rep      5728 TTTGTTGGTAATCAAGAAGACCTTTGATC-TGTCCTGTTTTTAACTTCCA   5776
+
+lncRNArawseq_   1868 AGCCATCCAG----ATGGGTTAT---CCA----CACCT-------GGTAA   1899
+                     .||...||.|    .|.|..|||   |||    ..|||       .|.|.
+Xist_M_rep      5777 GGCTGGCCTGGAACTTAGCATATAACCCAGGCTAGCCTTGAGCTCAGGAT   5826
+
+lncRNArawseq_   1900 CTGACCTGGGGTCACC--------------------CCT-CCACTCTGCC   1928
+                     ||..||||.|.|.|.|                    ||| |||||.||||
+Xist_M_rep      5827 CTAGCCTGCGTTTAACAAGTGTTGGCATATCTGGTTCCTACCACTATGCC   5876
+
+lncRNArawseq_   1929 CAGC-TGCCGCCCTACTGGGCTGAATTTTATG--TTTGC--TTGTC-TTT   1972
+                     |.|| |||.|.|.|.|        ||.||.||  |.|||  .|||| |||
+Xist_M_rep      5877 CTGCATGCAGTCTTTC--------ATATTGTGAATGTGCATATGTCATTT   5918
+
+lncRNArawseq_   1973 CTCTGAATCAGATTTTTTTCTGGT---CACTTAC---TATAGCTG-----   2011
+                     |.|||.|..| ||.|...||||||   .|||||.   |||.||.|     
+Xist_M_rep      5919 CACTGTAGTA-ATCTGCATCTGGTGAAGACTTATTTGTATTGCAGCAGTA   5967
+
+lncRNArawseq_   2012 --ACAGCTCCAT---------GCTG-GCA------TCACTCTTCAG----   2039
+                       ..||.|||.|         ..|| |||      |.|||||...|    
+Xist_M_rep      5968 TTTAAGATCCTTAACATAGTAAATGTGCACAGTGTTAACTCTATTGTACA   6017
+
+lncRNArawseq_   2040 ---TCTGAAACCTACAG------CTTTTT-TTC----CTCC----CTTA-   2070
+                        |||.|...|.||||      |||||. .||    ||||    |||| 
+Xist_M_rep      6018 TATTCTCATGTCCACAGTTGTGCCTTTTAGATCAGGACTCCTGTACTTAG   6067
+
+lncRNArawseq_   2071 ---------------CTCTGATATA---CTTTCTTCAT-----------T   2091
+                                    |.||.|||||   |||..|||||           |
+Xist_M_rep      6068 CAAAGCAAAGAGGCTCACTAATATAAAGCTTCTTTCATGAGACTATAGAT   6117
+
+lncRNArawseq_   2092 TG---CTTTTCCCATTGGGCCCAAGAATGG-AGATCAGGGTGTG----CT   2133
+                     ||   |..||||.||..||.|    ||||| ...|||.|||..|    ||
+Xist_M_rep      6118 TGAAACGATTCCAATACGGTC----AATGGTCCTTCAAGGTAAGACTTCT   6163
+
+lncRNArawseq_   2134 GTCTTTG---AATCAAG-------------GTGGAAATGTGTCTACAGAG   2167
+                     ||||.||   |.|||..             .|||||.|.|||.|.....|
+Xist_M_rep      6164 GTCTCTGATCATTCATATCCTCTTTGCTTTATGGAATTATGTATGTGCTG   6213
+
+lncRNArawseq_   2168 TCCCCT------CCCTGCCCC-----------GGGTATCCTGAGC-----   2195
+                     |.|.||      ||||.||.|           |...||.||| ||     
+Xist_M_rep      6214 TGCACTTGAAACCCCTTCCTCAAACTATTTATGTACATACTG-GCAATTT   6262
+
+lncRNArawseq_   2196 ---------------TACTGAGCTAAGCAATGTGGTAAAG----GATTCT   2226
+                                    ||||   ||.|.|..||..|||.||    |.|..|
+Xist_M_rep      6263 TAGTAGGATCAATTTTACT---CTTAACTTTGAAGTACAGAAGTGGTGTT   6309
+
+lncRNArawseq_   2227 GTCCTGGGCTGACCCA------GGCT------------------------   2246
+                     |.|||.....|.||||      ||||                        
+Xist_M_rep      6310 GACCTATAAGGTCCCATTTTGTGGCTTGCTAATAATAATGACTGATTGTA   6359
+
+lncRNArawseq_   2247 ------------------CTACAG--------------------------   2252
+                                       ||||||                          
+Xist_M_rep      6360 GTAGGCCTTTTCTGTTCACTACAGAAGGAAACCTGAACAGCGTAAAACTG   6409
+
+lncRNArawseq_   2253 --------------------CTAGCA-------------ATACAG-----   2264
+                                         ||.|||             .|||.|     
+Xist_M_rep      6410 TAATGGCCATAAACATGTACCTTGCATATTAGTATGCATTTACTGCACAC   6459
+
+lncRNArawseq_   2265 -----ATTCCCCTTG-------------------ACCC-----CAGGGTT   2285
+                          |||||..|||                   ||||     |||   |
+Xist_M_rep      6460 ATCTCATTCCATTTGGATACGATCCTACTCTCAAACCCTTTTGCAG---T   6506
+
+lncRNArawseq_   2286 TCCTCCAGGGAGCC--------------CAGCATCCTCC----CTATG--   2315
+                     .|..|.||||...|              |..||||.|||    |..||  
+Xist_M_rep      6507 ACAGCAAGGGTCACTAATCTTTTGGCTTCTTCATCTTCCTGGACACTGGA   6556
+
+lncRNArawseq_   2316 ---AGCTG-CTCCTCCTGCTCACATTCTTTA---------GCTGATGCTT   2352
+                        .|||| |.||||||...|||  ||||||         .||..|.|||
+Xist_M_rep      6557 TAAGGCTGTCCCCTCCTTTCCAC--TCTTTAATTTCCAGGACTATTACTT   6604
+
+lncRNArawseq_   2353 T------------TGTGC--------TGGGTTCTAT--------------   2368
+                     |            |.|||        ||||.|.|.|              
+Xist_M_rep      6605 TAAAGACTTAATATTTGCATAAAGGATGGGGTTTTTAATTGATAACATGT   6654
+
+lncRNArawseq_   2369 -CCTTGTGGTTTTCTGCATTTATTGGGGGCTTTCTGCATTC---------   2408
+                      |||||....||..||.||.||...|||.|.|..|.|||||         
+Xist_M_rep      6655 CCCTTGAACATTAATGTATATAACAGGGACATGATCCATTCATTTTAATA   6704
+
+lncRNArawseq_   2409 ------CTCGCTCTG----------AGGTTGC-CATTTGAACAGC-----   2436
+                           ||.|..|.|          |..||.| |.|.|..|||.|     
+Xist_M_rep      6705 AAAATACTTGGCCAGTTAATGTGTAAAATTACACTTATCCACAACCTTAT   6754
+
+lncRNArawseq_   2437 -------------------TCTCTGGTCACCCTGGCTAGAATTCGGCAGC   2467
+                                        |||||.| |||.|..||.||...|  .|.|.
+Xist_M_rep      6755 TACTTTTCGGACCATTGTATCTCTTG-CACTCCTGCAAGGGAT--ACCGT   6801
+
+lncRNArawseq_   2468 TCTTCTCCCATGTT---GGCTGGTACACC---------CTG-----CTTC   2500
+                     |..|||||||.|.|   .|||.||..|||         |.|     ||||
+Xist_M_rep      6802 TTATCTCCCAAGGTCCCTGCTAGTGGACCATTAATATACAGTGAATCTTC   6851
+
+lncRNArawseq_   2501 C--------TGCCAG--------GACCCTGC----------------TGC   2518
+                     |        ||||||        |.||.|.|                |||
+Xist_M_rep      6852 CTTTGTCTTTGCCAGTAAACAAAGGCCATACTCCTTCGCCTTTCATTTGC   6901
+
+lncRNArawseq_   2519 TC----TCGGGGTG----GATC------------------TGGGCTAAGC   2542
+                     .|    ||.||.|.    ||||                  |||.||....
+Xist_M_rep      6902 ACTATATCAGGATATGCTGATCAACAAGGCCGCATTCTTTTGGACTGTTA   6951
+
+lncRNArawseq_   2543 TCC---------------AGAAGACACAATTCCCAGCTCTG---------   2568
+                     ||.               .|.|..|||.....||.||||||         
+Xist_M_rep      6952 TCATATATTAAATGTATGCGTATGCACTGCCACCTGCTCTGTGCACTTGA   7001
+
+lncRNArawseq_   2569 ---------ACTC-CATC-----CACATGC--------------------   2583
+                              |||| |.||     |||.|.|                    
+Xist_M_rep      7002 AAGGATCCCACTCACTTCCTTAGCACCTTCAGCAGGAAGTGATAATAAGC   7051
+
+lncRNArawseq_   2584 -CCAGATGTTCCTCTG-------CTCATTTCTCCTCTCTTCTCT------   2619
+                      |.|||..|||.|.||       |.|||.|||...|.|||||||      
+Xist_M_rep      7052 TCAAGACTTTCATTTGGAAAGTTCACATGTCTAAGCACTTCTCTAAGAAC   7101
+
+lncRNArawseq_   2620 ---------------TCC-----AAAGCC-----AGGG--------AG--   2634
+                                    |||     |||||.     ||||        ||  
+Xist_M_rep      7102 TACTGTACCCTCTTCTCCGCTTTAAAGCAGAAAGAGGGTTGTACGAAGTG   7151
+
+lncRNArawseq_   2635 -----CAT-----CTTGAGTGAGAGAAGGCA---------CAAGCGGGTC   2665
+                          |||     |||.||||....||.|||         |.|.|....|
+Xist_M_rep      7152 CTCTTCATTTGGACTTAAGTGCATTAATGCAGTTAGTTGTCCATCATTAC   7201
+
+lncRNArawseq_   2666 C----------------ACAGC-----ACTCATTCGG-TCC---------   2684
+                     |                |||.|     ||||.||.|. .||         
+Xist_M_rep      7202 CTTTGGAGTTGGATTTTACATCCTTGTACTCTTTTGACACCAGAGGCATA   7251
+
+lncRNArawseq_   2685 ------ATTTC---------CTC---TCAAAA--ACTTTGTA-GCAAACA   2713
+                           |||||         |||   ||||.|  |.|.|||| .|..|||
+Xist_M_rep      7252 TTAATTATTTCTGAGCACTTCTCTTGTCAATATTAATCTGTACCCTTACA   7301
+
+lncRNArawseq_   2714 CAAGGG---TGGGCGTGGAGAGCAGATT--------CCTCCC----AACT   2748
+                     ||...|   ||.||| |.||...||.||        |||.||    .|||
+Xist_M_rep      7302 CATATGACCTGTGCG-GCAGCAAAGGTTCTGAAATGCCTACCTTTTGACT   7350
+
+lncRNArawseq_   2749 TG-------GAGGGG----------------CCTCA--------------   2761
+                     .|       |||.||                |||||              
+Xist_M_rep      7351 GGGGCTGCTGAGTGGTAGTAACTATTAGTAACCTCAGCATTTGGATGATT   7400
+
+lncRNArawseq_   2762 ---------------CAAG--CCAG------CGC--TGCAGGCCTTCAC-   2785
+                                    ||||  ||.|      |.|  ||||..||.|||. 
+Xist_M_rep      7401 ACTATGCAAAAATGTCAAGGACCTGTGTGCTCTCTTTGCATACCATCAAG   7450
+
+lncRNArawseq_   2786 ---------TCCC----------------------------ATATC----   2794
+                              ||||                            |||.|    
+Xist_M_rep      7451 GCTACTGAGTCCCAGAATTAATTGCTAAGTTATGCGTATTTATAACTATG   7500
+
+lncRNArawseq_   2795 -ATCTCTG-----------ACCATTT----------GGTAGTGACTGA--   2820
+                      ||.||||           .||.|||          .|..||..||||  
+Xist_M_rep      7501 AATGTCTGGAATATTTTGTCCCCTTTACATTATTGCAGAGGTTGCTGAGC   7550
+
+lncRNArawseq_   2821 CCTGGCTACGACATCTGTGCTTAAGAAGAGT----GTGCAATGAGGGAT-   2865
+                     ||..|..||.||. |.||.||....|.|||.    |.||..|||.|.|| 
+Xist_M_rep      7551 CCCCGAAACTACC-CGGTACTGTCAATGAGCACAGGGGCTCTGACGAATG   7599
+
+lncRNArawseq_   2866 ------TCTC--------AGTGCCTTTGGAGCTCAATAT-----------   2890
+                           ||||        |.||..|||||..|||...||           
+Xist_M_rep      7600 ACCTGCTCTCTTCCTTAAACTGATTTTGGGACTCTTAATAGGCACAATGG   7649
+
+lncRNArawseq_   2891 -----------------TTTACTGGTCTA---TAAGCAA----CCTGCTA   2916
+                                      |||.||..||.|   |.|||||    |||||||
+Xist_M_rep      7650 CAGTTCTGGATGGTTTATTTTCTACTCCAACTTGAGCAAATCCCCTGCTA   7699
+
+lncRNArawseq_   2917 CTTAC----------------------------GT--TCCAAGCTGAGAA   2936
+                     .||.|                            ||  .||.|.|...||.
+Xist_M_rep      7700 GTTTCCCAATGATATAATAAAGTACAGCAGTATGTACACCCAACAATGAC   7749
+
+lncRNArawseq_   2937 CC---------------------------------------------TAG   2941
+                     ||                                             |||
+Xist_M_rep      7750 CCGGATTTCGACCCTTTTTGCATTGCTTTAATATATACAATCCTAAATAG   7799
+
+lncRNArawseq_   2942 CCGC-----CACACAT-----------------ACAGC----AGTGTGTT   2965
+                     .|.|     |||||.|                 .|.||    |||.|||.
+Xist_M_rep      7800 TCACAATCTCACACTTTATAGTGTTCCTTTTGCCCGGCCTCTAGTTTGTC   7849
+
+lncRNArawseq_   2966 C-----------------------------------------------GA   2968
+                     |                                               ||
+Xist_M_rep      7850 CATTGACCACTTTTCTGAATCACTAATTCTCACAAACCCATCATTAAGGA   7899
+
+lncRNArawseq_   2969 A-----------------------------------------GCC-----   2972
+                     |                                         |||     
+Xist_M_rep      7900 AGAGTTTGTGCCCTTTCTCAATTCCATCATGCCATCCCTTTTGCCTCTTT   7949
+
+lncRNArawseq_   2973 ------ACAGT------TGAGCAGGGCAGATCTGAGGA--TGAAAT----   3004
+                           |||||      ||.|||..||...|||...||  |.||.|    
+Xist_M_rep      7950 GTTTGAACAGTATTGACTGGGCAAAGCCCTTCTCTTGACTTAAAGTCAAC   7999
+
+lncRNArawseq_   3005 ----CCAGGT----------------------TGTC-CAG---------C   3018
+                         ||||.|                      |||| |||         |
+Xist_M_rep      8000 AACACCAGTTTACTCACTTCATATGGCTACAGTGTCTCAGTTGCCTTCTC   8049
+
+lncRNArawseq_   3019 CTT--TCCTACTG-------------------------------------   3029
+                     |||  |||.||||                                     
+Xist_M_rep      8050 CTTGCTCCCACTGAACAGAGACACCTCGAATTCTTACATTATTCTGGGTA   8099
+
+lncRNArawseq_   3030 -------------------------GTGTCTTTA----------------   3038
+                                              |||||.|||                
+Xist_M_rep      8100 ATGTTAATTACCCCAAACACCCTATGTGTCATTAATAAATTTTGGTGTAT   8149
+
+lncRNArawseq_   3039 ----AAGCTG-------AAAGCTGGTCTCT--TAGGAGG--------TCA   3067
+                         |..|||       |||||.||.|...  ||||.||        |||
+Xist_M_rep      8150 TTATACACTGAATAGCAAAAGCAGGCCAAAACTAGGTGGATGAGCCTTCA   8199
+
+lncRNArawseq_   3068 G---ATGAC-TGC-CTGC-------CTCC----CAGTCTG-TGTCTATTG   3100
+                     .   .|.|| ||| ||.|       .|||    |...||| ||.|...|.
+Xist_M_rep      8200 ATCTTTAACTTGCACTTCTAAATTATTCCAATTCCAACTGCTGGCACATT   8249
+
+lncRNArawseq_   3101 CTAG-------------------CTACC--------------------CG   3111
+                     ||||                   |||||                    |.
+Xist_M_rep      8250 CTAGGGCCAGGAACCATTCTTGCCTACCTTTATTAATGCTTTATTGTGCA   8299
+
+lncRNArawseq_   3112 GAG---TGCAGGAAAGGGG----GAGAGGTGG---GC-------TGGATA   3144
+                     .|.   ||||||.|||..|    |.|||.|||   ||       |...|.
+Xist_M_rep      8300 AAATATTGCAGGCAAGTAGCTCAGGGAGTTGGATTGCCACCTTTTACTTG   8349
+
+lncRNArawseq_   3145 GGGCAGAC----AGGGTATGAAGGCAGAA----------CACAAATAGAA   3180
+                     ||||...|    |..|||||||  |.|||          |..|.|..|||
+Xist_M_rep      8350 GGGCTTTCCTTTACAGTATGAA--CTGAAAATTGTCTTCCTGAGAAGGAA   8397
+
+lncRNArawseq_   3181 GCT--GCA------------------------GGAGGAGCCAGCACACTG   3204
+                     |||  |||                        |.||||||||.|...|||
+Xist_M_rep      8398 GCTTAGCACTTTTCTTTCCGTTCTTCCTCCAGGAAGGAGCCAACTGTCTG   8447
+
+lncRNArawseq_   3205 GGTGTGAACCTTGGAGAC-----------------ACAG--CAGAGCCAG   3235
+                     ..|..|||.|||..||.|                 ||.|  |||..|||.
+Xist_M_rep      8448 CTTAAGAAACTTTAAGCCCGATTTTGTATATTGCTACTGTACAGGACCAA   8497
+
+lncRNArawseq_   3236 AGATCAGAGC-------------------CCCTGGGAATGCCAGTTGGGG   3266
+                     ....||||..                   ||.|..|||.|.||.||||..
+Xist_M_rep      8498 CTGCCAGAAAAGTTATTGATAATTTTATTCCTTAAGAAAGGCATTTGGAT   8547
+
+lncRNArawseq_   3267 TG-GGGGTGGG--GGGTGTG---------------GTGAGGTGGG-----   3293
+                     || ..|||||.  |..||||               ||||.||...     
+Xist_M_rep      8548 TGCAAGGTGGATTGACTGTGAGATCATTAGCTTTTGTGAAGTAAAAATAG   8597
+
+lncRNArawseq_   3294 ------GTG----------GGGGGCT--GCCGAAACTGCTG----CTGGG   3321
+                           |||          |..|.||  ||.|...|| |.|    |||.|
+Xist_M_rep      8598 CCATTTGTGTCATGTTTCTGAAGACTAAGCAGTGTCT-CAGTGTACTGAG   8646
+
+lncRNArawseq_   3322 GGTGGGG-----GTGGGGGG-------------TGGAAGGATATTT----   3349
+                     ||||..|     ||||...|             |.|.||.||.|||    
+Xist_M_rep      8647 GGTGATGAGTCTGTGGAAAGATCAGTGCAACTATTGCAGAATGTTTAAGA   8696
+
+lncRNArawseq_   3350 CACG-----------GGGC----------------CAGAGAAAAGGAGTC   3372
+                     ||.|           ||.|                ||.|...||..||||
+Xist_M_rep      8697 CAAGTATCTTTGCTTGGTCTTTACTACAAGTTTAACAAAACGAAAAAGTC   8746
+
+lncRNArawseq_   3373 CAT-------TGGCC-TTAGTA-------------------------AAG   3389
+                     .||       ||||| ||||||                         |||
+Xist_M_rep      8747 AATCTTTGTGTGGCCTTTAGTATGATTAACTTTTTGGAAGATGACCTAAG   8796
+
+lncRNArawseq_   3390 ------------------------------GGACAACA--TCTTG--TTT   3405
+                                                   ||.||.||  .||||  |.|
+Xist_M_rep      8797 CCTTCTAATCATTATATTTTGTCTGACATTGGTCACCAGTCCTTGCTTAT   8846
+
+lncRNArawseq_   3406 TATTAAAAGCCTGTTGCTGGCTGGAT------------------AAGCCG   3437
+                     |.|||||||   ||..||||.|||||                  |||.||
+Xist_M_rep      8847 TTTTAAAAG---GTGACTGGATGGATTAAATTTGAGAACATGTCAAGTCG   8893
+
+lncRNArawseq_   3438 TC--TGCCTGCTGAGTGGGCAGGGGC--------------------CCAA   3465
+                     .|  ||.....|...|.|||.....|                    |||.
+Xist_M_rep      8894 CCTTTGAAAATTATATAGGCCATCACATTTAATTAATTCATTCTATCCAC   8943
+
+lncRNArawseq_   3466 TATT--ACTGTGGC--TAATTCGGAG-------------CC---AGTG--   3493
+                     .|||  |||.||||  |||||.|.||             ||   ||||  
+Xist_M_rep      8944 CATTAAACTCTGGCAATAATTTGAAGTAGCTTGAAAATTCCTAAAGTGGG   8993
+
+lncRNArawseq_   3494 ------TTGGAGAGCTGACATCAAACCAGGAAACGCTC------------   3525
+                           ||..||||.||  ||..||||.|....|.|.|            
+Xist_M_rep      8994 AATTTATTTTAGAGATG--ATAGAACCTGTTTCCCCACTTTACATTTTAA   9041
+
+lncRNArawseq_   3526 -----GCGCGCGCGGCTCTC-----TCC----------CTCTCC------   3549
+                          |...||..||.|||.     |||          |.||.|      
+Xist_M_rep      9042 AATATGTCTGCCAGGATCTAATCATTCCTTTAAACGTACACTTCAAAGAG   9091
+
+lncRNArawseq_   3550 -GGCTCTCC--------------CTCTCCCTC------------CCT---   3569
+                      |..|.|||              ||.||.||.            |.|   
+Xist_M_rep      9092 AGATTTTCCTAGTAAGAAAAGAGCTTTCTCTAGTGTGAAGGGTGCTTTGT   9141
+
+lncRNArawseq_   3570 --CCGCCTCCT-CTTCTCTCATTCTTGAGCTTGAATCTACTGTGCATGA-   3615
+                       |||||...| |||...||.||.|||     |.|.|||.||||.|||| 
+Xist_M_rep      9142 AGCCGCCGAGTACTTAGGTCTTTTTTG-----GGAGCTATTGTGTATGAG   9186
+
+lncRNArawseq_   3616 --TATGTGTGCATGTGTGTCCGTGTGTCTCTCTGTGTG-----------T   3652
+                       |||||.||..|||||||.|.||..|.|..|||.|.|           |
+Xist_M_rep      9187 TGTATGTATGTGTGTGTGTACATGCATGTTGCTGCGCGCAGTCATTCATT   9236
+
+lncRNArawseq_   3653 GACATTATGTACA---------------------------CTTG------   3669
+                     .||||..||..||                           ||||      
+Xist_M_rep      9237 CACATGGTGCTCAGACAACAATGGGAGCTGGTTCGTCTATCTTGTGGGTC   9286
+
+lncRNArawseq_   3670 CTGG----------GAGTTCACCC--CATGGC-------------TCCCT   3694
+                     ||||          |||.|||.|.  |.||||             .||||
+Xist_M_rep      9287 CTGGAGATCAAAGTGAGATCATCAGGCTTGGCAGCAAGTGCCTTTACCCT   9336
+
+lncRNArawseq_   3695 CCTC-------CT---CTTCCTG---------------------------   3707
+                     ||.|       ||   |.|||.|                           
+Xist_M_rep      9337 CCGCGTGCCATCTTGCCATCCCGCTGCTGAGTGTTTGATATGACATTGCT   9386
+
+lncRNArawseq_   3708 -----------TCCTC----------TACTCCC-----------------   3719
+                                ||.||          |.|||||                 
+Xist_M_rep      9387 GATGAAAATAATCATCACAACAGCAGTTCTCCCAGCATTACTGAGAAATG   9436
+
+lncRNArawseq_   3720 ----------TCTGC----------CAAG-----CACCC-----------   3733
+                               ||||.          ||||     ||.||           
+Xist_M_rep      9437 ATACTATTTTTCTGAGGAGGATGTTCAAGTAACTCATCCAGTGCAGGATC   9486
+
+lncRNArawseq_   3734 ------------CAGCCCCACCTTTGC------CCCTGGC--------CT   3757
+                                 |.||.||.||.||.|      |.|||||        ||
+Xist_M_rep      9487 CTGCTTGAACTACTGCTCCTCCGTTACATCAGACTCTGGCTGTTTAGACT   9536
+
+lncRNArawseq_   3758 CC---------------TCAGT------CTCC------------------   3768
+                     .|               ||.||      ||||                  
+Xist_M_rep      9537 ACAGGATGAATTTGGAGTCTGTTTTGTGCTCCTGCCTCAAGAAGAAGGAT   9586
+
+lncRNArawseq_   3769 ------------------------------------GCCC----------   3772
+                                                         ||||          
+Xist_M_rep      9587 TGCCTGGATTTAGAGGAGTGAAGAGTGCTGGAGAGAGCCCAAAGGGACAA   9636
+
+lncRNArawseq_   3773 ----------------------------CCAGAAGACT------------   3782
+                                                 ||||.||.||            
+Xist_M_rep      9637 ACAATCCCTATGTGAGACTCAAGGACTGCCAGCAGCCTATACAGCTACAT   9686
+
+lncRNArawseq_   3783 ---------------------------------------TGAACA-----   3788
+                                                            ||||||     
+Xist_M_rep      9687 TACATCTCAGCAGAACTTCTCTTCAAGTCCTCGCTACTCTGAACAAAAAG   9736
+
+lncRNArawseq_   3789 ---------------GAGAAGA-----------CCCAGACT--ATGGC--   3808
+                                    |||||.|           ||||||.|  ..|||  
+Xist_M_rep      9737 CTTACAGGCCACATGGAGAAAAAAAGATCTCCCCCCAGAATTGTGGGCTT   9786
+
+lncRNArawseq_   3809 --------------CTGGGGT--TATTTACTGAGACG---CCTGGG----   3835
+                                   ||||.|.  ||||..||..||||   |||.||    
+Xist_M_rep      9787 GCTGCTTTGCAGTGCTGGCGACCTATTCCCTTTGACGATCCCTAGGTGGA   9836
+
+lncRNArawseq_   3836 ----------------------GAGGAAAGTTTCG------------AAA   3851
+                                           |.||||....||.            ||.
+Xist_M_rep      9837 GATGGGGCATGAGGATCCTCCAGGGGAATAGCTCACCACCACTGGGCAAC   9886
+
+lncRNArawseq_   3852 TGACCAAACCCA------------CCCCTTTCCAGATCTC----------   3879
+                     .|.||.|.||||            .|.||||||.||.|.|          
+Xist_M_rep      9887 AGGCCTAGCCCAGATTTCAGTGAGACGCTTTCCTGAACCCAGCAAGGAAG   9936
+
+lncRNArawseq_   3880 --------------------------CAT--TTGTAGGTTAAAA------   3895
+                                               |||  ..|||||..||||      
+Xist_M_rep      9937 ACAAAGGCTCAAAGAATGCCACCCTACATCAAAGTAGGAGAAAAGCTGCT   9986
+
+lncRNArawseq_   3896 GAAAAAG------------TAAAGGAAGTCATT-----------------   3916
+                     |.||.||            |..||||||.||||                 
+Xist_M_rep      9987 GCAATAGTGGCACTGACCTTCGAGGAAGCCATTCTGCTCTATTTGGTTCT  10036
+
+lncRNArawseq_   3917 -TCAAAAGAAACCAGGAGG-------------------------------   3934
+                      ||...||||.|.||||..                               
+Xist_M_rep     10037 CTCTCCAGAAGCTAGGAAAGCTTTGCCAGCTGTTTACATACTTCAAGATG  10086
+
+lncRNArawseq_   3935 --------------------------------------------------   3934
+                                                                       
+Xist_M_rep     10087 CACTGCTACCCTACTCATGCCATATAATACACAATGCCATCTACCAAATA  10136
+
+lncRNArawseq_   3935 ------------AAAGCGGCTC-----------TCTTCGGC-------AG   3954
+                                 |||||.||.|           |||||.||       ||
+Xist_M_rep     10137 TTACCCTTCCCCAAAGCAGCACAGAAAACTGGGTCTTCAGCGTGATCAAG  10186
+
+lncRNArawseq_   3955 CATGTGTGATTA------------------TTATTAAT--------ATTA   3978
+                     || .|||||..|                  ||||.|||        ..|.
+Xist_M_rep     10187 CA-ATGTGAACACACAAAAGGAAGGCAGCTTTATAAATGACCCGAGGATC  10235
+
+lncRNArawseq_   3979 GACTTG---------------TTTAAGGCAAGGGAAAAA---TGTAAAAT   4010
+                     .||.||               ||.||.||||..|||..|   ||||...|
+Xist_M_rep     10236 AACATGCCTGACTGCAGCATCTTAAAAGCAATAGAATGAGTGTGTATTGT  10285
+
+lncRNArawseq_   4011 GGCT-----TTTTTCCTGTTTT---TATCGTAGTTTTTTGTTG--TTGTT   4050
+                     ||.|     |.||||.||||||   |||| ||.|||||..|||  .|||.
+Xist_M_rep     10286 GGGTGTGTCTATTTCTTGTTTTATGTATC-TATTTTTTCCTTGGTCTGTG  10334
+
+lncRNArawseq_   4051 GGTTTTGTTTTTTGTT-----TTTTTGTT------TTTTTGT-TTTTTTT   4088
+                     .||.|..||.||||||     |.|||.||      |||.||| |.|.|||
+Xist_M_rep     10335 TGTCTAATTCTTTGTTACATCTATTTCTTCCTTGCTTTGTGTGTCTATTT  10384
+
+lncRNArawseq_   4089 TTTCCTT--TTT-----TCTTCTACTGTCTTGGGAGTCAGAAGGGCAAA-   4130
+                     .||||||  |||     |||..|.||..||||     ||..|.|.|.|| 
+Xist_M_rep     10385 CTTCCTTGCTTTGTGTGTCTATTTCTTCCTTG-----CATTATGTCTAAT  10429
+
+lncRNArawseq_   4131 -C--AGTAATTTCAGAGT-----AAGATGGAAGCC---ATCATC------   4163
+                      |  .||.||.||....|     ..|.|....|.|   .||.||      
+Xist_M_rep     10430 TCTTTGTTATATCTATTTCTTCCTTGCTTTGTGTCTATTTCTTCCTTGCA  10479
+
+lncRNArawseq_   4164 ------TC-----CTTAGTT-CATGTGATGTCTTTCTGGGAATTGGGAGA   4201
+                           ||     |||.||| |||.| ||.||||.||.|...|   |.|.
+Xist_M_rep     10480 GTTGTGTCTAATTCTTTGTTACATCT-ATTTCTTCCTTGCTTT---GTGT  10525
+
+lncRNArawseq_   4202 GTGAATGAGTTTCATGTA-AACGCCTA--------TAATCACTTTTCCTG   4242
+                     ||..||...||.|.||.| ...|.|||        |.||..||.||.||.
+Xist_M_rep     10526 GTCTATTTCTTCCTTGCATTGTGTCTAATTCTTTGTTATATCTATTTCTT  10575
+
+lncRNArawseq_   4243 CTAAGGTTTTAGAG---GAC--------------TCTGAGTCTCCCAATT   4275
+                     |...|.|||..|.|   |.|              |||...|||.||   |
+Xist_M_rep     10576 CCTTGCTTTGTGTGTCTGTCTTCCTTGCTTTGTGTCTATTTCTTCC---T  10622
+
+lncRNArawseq_   4276 TGC---TGTAACTTA----AAGTCACCCAAATTGCTTCC--ACTTT----   4312
+                     |||   |||..||.|    ..||.||....|||.|||||  .||||    
+Xist_M_rep     10623 TGCAGTTGTGTCTAATTCTTTGTTACATCTATTTCTTCCTTGCTTTTGTG  10672
+
+lncRNArawseq_   4313 TACCdnachromosomechromosomeGRCmC-----ACCTTGC------   4351
+                     |..|...|.. . :   |.. . :  .|.|..     .||||||      
+Xist_M_rep     10673 TGTCTTTCTTTCTTG--CTTTTGTG-TGTCTATTTCTTCCTTGCAGTTGT  10719
+
+lncRNArawseq_   4352 -TCATCTCC-------CATCACCTACTGTTTCTCGCTCATGTGT------   4387
+                      ||...|.|       ||||...|.|  ||.||.|||..|||||      
+Xist_M_rep     10720 GTCTAATTCTTTGTTACATCTATTTC--TTCCTTGCTTTTGTGTGTCTAT  10767
+
+lncRNArawseq_   4388 -----------ATGGGGGCTGG------GGGGTGTA-----------TGG   4409
+                                ||.|.|.||..      ||..|.||           ||.
+Xist_M_rep     10768 TTCTTCCTTGCATTGTGTCTAATTCTTTGGTATATATATTTCTTCATTGC  10817
+
+lncRNArawseq_   4410 TGTGTGTGTATATG--TGCTTGTG----------CATTG-TGCA------   4440
+                     |.|||||||.||||  |.||||||          |.||| ||||      
+Xist_M_rep     10818 TTTGTGTGTCTATGTCTCCTTGTGTTGTCTAATTCGTTGTTGCATCTATT  10867
+
+lncRNArawseq_   4441 -------TGC-----------AAATC----------TGTATGCCTGTGCA   4462
+                            |||           |..||          |||.||.||.||..
+Xist_M_rep     10868 TCTTCCTTGCTTTGTGTGTCTATTTCTTCCTTGCTTTGTGTGTCTATGTC  10917
+
+lncRNArawseq_   4463 CTCCTGTGCAAAGAGAG--------------GAGAAGGG-----------   4487
+                     .|||| |||...|.|.|              |....|.|           
+Xist_M_rep     10918 TTCCT-TGCTTTGTGTGTCTATGTCTTCCTTGTTTTGTGTATCTACTTCT  10966
+
+lncRNArawseq_   4488 -CCTTCAGTGTC-----CTTT------TCTAT---------------CAA   4510
+                      ||||..|||||     ||||      |||||               ||.
+Xist_M_rep     10967 TCCTTGTGTGTCTAATTCTTTGTTACATCTATTTCTTCCTTCCTTTGCAT  11016
+
+lncRNArawseq_   4511 GCTCCACTTAATTCCCTTGAG--------------ACAG---GTCTCACA   4543
+                     | ||..|||..||||.|||.|              .|||   ||||.||.
+Xist_M_rep     11017 G-TCTCCTTCTTTCCTTTGTGTGTCTTTTCTGTCTGCAGTGTGTCTTACC  11065
+
+lncRNArawseq_   4544 GAGACCC-TGAAACTCAC-CAT----TTTCCAGCAGGCCCCAGAGCT---   4584
+                     .|..||| ||...|||.. |||    ||||..||||..|...|||||   
+Xist_M_rep     11066 TATTCCCATGTTTCTCCTGCATGTTCTTTCTTGCAGAGCTTTGAGCTTTG  11115
+
+lncRNArawseq_   4585 CCTCCC-AACCC-----CC-------TCGGCCTTCTCTTC-CAGGTTAAA   4620
+                     ..||.| ..|.|     ||       ||.||.||.||||| |..|.||..
+Xist_M_rep     11116 TTTCACTTTCTCTGGTGCCTGTGTGGTCTGCTTTGTCTTCACTAGCTATG  11165
+
+lncRNArawseq_   4621 ACAAGGTCCAAG---AAAC--ACTGG--GACCTTGCCCTTAG-------T   4656
+                     .|    ||...|   .|.|  .||||  |...||.|.|||||       |
+Xist_M_rep     11166 GC----TCTCTGTTTTATCTATCTGGTTGCTATTTCTCTTAGCTTTTCTT  11211
+
+lncRNArawseq_   4657 TC---CCTGAC--------CTACACTGAGTGTGACA-ATGGGAT--TTCC   4692
+                     ||   ||||.|        ||.|.||..|.||.||| .|.|.||  .|||
+Xist_M_rep     11212 TCACTCCTGCCTTTCGTGACTCCCCTTTGGGTCACATGTTGCATGCATCC  11261
+
+lncRNArawseq_   4693 CTCT-------AGGAGC----------TGTTGTGAG--------------   4711
+                     ||||       ..|.||          ||||.|..|              
+Xist_M_rep     11262 CTCTCTTTTTCTTGTGCTCACCCCACTTGTTCTTTGTTCAAGTTCTCTTT  11311
+
+lncRNArawseq_   4712 ----GACCA-------------TCGGCTAC--CACACCATTGTAATTAAT   4742
+                         |.|||             ||.|||.|  |...||.|.||.|.|  |
+Xist_M_rep     11312 GTCAGTCCATTTCAGTTTTCTTTCTGCTGCTTCTATCCTTAGTGAAT--T  11359
+
+lncRNArawseq_   4743 ATTGATATCATTT-GTACATG---ATATTGAAAAGCTTTGAGGTCACAGT   4788
+                     .|||.|..||||| .|.|.||   .|.|||.....|||     ||.|.||
+Xist_M_rep     11360 CTTGTTTACATTTCTTCCCTGCCTTTCTTGGGCCACTT-----TCTCTGT  11404
+
+lncRNArawseq_   4789 GTGATGATGACCTGATTAAACAGGTTTGAACATACTGGGGG--TTC-AAA   4835
+                     .|..|..||...|..|....|   ||||   .||.|||.||  ||| .|.
+Xist_M_rep     11405 TTTCTTTTGTATTTGTGTCTC---TTTG---CTATTGGTGGATTTCTTAT  11448
+
+lncRNArawseq_   4836 CCCAGCT--ATTC----AC---------GCCTATGTAACATGTCTCTACC   4870
+                     |.||||.  ||||    .|         ||.|.|||..|   |.|||.|.
+Xist_M_rep     11449 CTCAGCATCATTCTGTTGCTTTGTGTTTGCTTGTGTTTC---TATCTTCT  11495
+
+lncRNArawseq_   4871 ACCAGACCCCACCCTG--CTTTTT---CTTTTCTTTTCTTTTC-------   4908
+                     ||....|.||...|||  |..|||   |.||||.|.|||||.|       
+Xist_M_rep     11496 ACTTTCCTCCTTTCTGTTCACTTTGAGCATTTCATCTCTTTACAAGTCTG  11545
+
+lncRNArawseq_   4909 -----CTCT--TCTTCT-------TC--TTCTT---TTTTTTTTTTTTTG   4939
+                          ||||  |.||||       ||  |||||   |.|||.|||.|.||
+Xist_M_rep     11546 TGTCTCTCTTGTATTCTAAAGTAATCCTTTCTTGGATGTTTCTTTGTATG  11595
+
+lncRNArawseq_   4940 GA------------TAC---------------------------AGGA--   4948
+                     .|            |.|                           ||||  
+Xist_M_rep     11596 TACATGTGCGTGTGTGCATGTGTGTTATGTGTGTCATGTGTGAGAGGAGC  11645
+
+lncRNArawseq_   4949 TTCATAGTTGTCCTGCCAAAAAGAATC--TCTGACTCCAAGGATGT--TT   4994
+                     |||||||.  .|||.||.||.||...|  ..||.|.||...|..|.  ||
+Xist_M_rep     11646 TTCATAGC--CCCTTCCCAATAGGTCCAGAATGTCACCCGTGGAGCCGTT  11693
+
+lncRNArawseq_   4995 TCTCAAGGGATTCCCGCCCGCACTG---------------CCAGTTA---   5026
+                     .||||.     .||.|.|.||.|||               |.|..||   
+Xist_M_rep     11694 CCTCAC-----ACCAGACTGCCCTGAGAAATAATCTAAGACAAAATACAT  11738
+
+lncRNArawseq_   5027 ----CCATCAG--CAGGACTCC--TGACTGCCTGAC-TCCACTCCATTTC   5067
+                         ||.||.|  |||||.||.  ||.||  ||||. |..||.||    |
+Xist_M_rep     11739 CATTCCGTCCGGTCAGGATTCAAGTGGCT--CTGAAGTGAACGCC----C  11782
+
+lncRNArawseq_   5068 TCATGGAAGCCAGAAGGTAGTGCAGGCT-------------GTCC-----   5099
+                     ...|.||||.||||| ||..||| |.||             |.||     
+Xist_M_rep     11783 AAGTAGAAGACAGAA-GTTTTGC-GACTTGAGATTTAAAAGGACCAAAAT  11830
+
+lncRNArawseq_   5100 CCAC------CCC-----------------CAG---GGTGACAAAGCTGT   5123
+                     .|||      |||                 |||   |.||||||..|...
+Xist_M_rep     11831 ACACAGATGGCCCGTCTTGAGCTGGCTGGACAGAATGCTGACAACCCAAA  11880
+
+lncRNArawseq_   5124 GATGAGGAGC-------------CACC--------CCAGAAG-AGGGAAC   5151
+                     ||.|||||.|             ||||        |||..|| .||||||
+Xist_M_rep     11881 GAAGAGGAACTGTTTCTACAGGACACCTGTGACTTCCAAGAGCGGGGAAC  11930
+
+lncRNArawseq_   5152 T-------------GGCAC----------CTCAG-------------CCT   5165
+                     |             |.|||          ||.||             |||
+Xist_M_rep     11931 TACGTATGTCATAAGACACAAAACCTGAGCTAAGTCCAAGCATAAGACCT  11980
+
+lncRNArawseq_   5166 GAGAAC-----------------------------------------TGG   5174
+                     .||.||                                         |||
+Xist_M_rep     11981 AAGGACCCAATCCTATATGGACAGAATATTTAAGAGATAAAGGCCTATGG  12030
+
+lncRNArawseq_   5175 CC-----CTATGG------------------CTA--------ACCGAGTA   5193
+                     ||     ||.|||                  |||        |||.||.|
+Xist_M_rep     12031 CCCAGAACTCTGGAAGGATATTTCTATCCTTCTATCCCCAAGACCAAGAA  12080
+
+lncRNArawseq_   5194 GAG------GAAG-----------------------------CTT---AA   5205
+                     |.|      ||||                             |||   |.
+Xist_M_rep     12081 GGGAAATTCGAAGATGAGACCTGCCCCCCAACCCCAGCATCCCTTTCCAT  12130
+
+lncRNArawseq_   5206 TTCTTTCTTTTTTAATTTTGC--------------ATTTTATTTTAAATT   5241
+                     |||||...|||.||.||..||              ||.|.|||||..|||
+Xist_M_rep     12131 TTCTTATATTTCTATTTAAGCTGTCTTCACTTGAGATGTAATTTTTCATT  12180
+
+lncRNArawseq_   5242 TTTATTAT------TAAAATACAACAAACATATC--AATAATATTGAG--   5281
+                     .||...||      ||||..|..||.....||.|  .|||.|||||.|  
+Xist_M_rep     12181 GTTGCCATTGCCCATAAAGGAATACGTTTTTAGCTGGATAGTATTGTGCA  12230
+
+lncRNArawseq_   5282 ------TATTTTGA---GAATC-AAATAATATATAAAAAATTTG------   5315
+                           |.||||.|   |..|| .|...||.|.|.|||...|||      
+Xist_M_rep     12231 AGGGTCTGTTTTAAACTGGGTCTTAGCCATTTGTTAAATTGTTGATGTTT  12280
+
+lncRNArawseq_   5316 TTCAACT----TTTATATTCATATC--CT----TTCATAC---CCTAAAA   5352
+                     |.|||||    |||.|.||||.|||  ||    ||.|.||   .|||||.
+Xist_M_rep     12281 TACAACTTCCATTTCTCTTCACATCTGCTCCACTTGAGACGGAACTAAAT  12330
+
+lncRNArawseq_   5353 GCATCATTAATGAATATTTAATACTGTCCATAACTGAGGATTCTGTA--T   5400
+                     .||.|.  |.||.||||   |..|||.|.||   |||...|||..||  .
+Xist_M_rep     12331 CCAGCC--AGTGTATAT---AGCCTGACTAT---TGAAACTTCCCTAGGA  12372
+
+lncRNArawseq_   5401 CTAATGTTGAATACTAAATTGTTTCAAAACATACAAAATATTTCTTGGGA   5450
+                     .|||...||.||||..|..||..|.....|||.|....||..||....|.
+Xist_M_rep     12373 ATAAGCATGCATACAGATATGCATACTGCCATCCTCCCTACCTCAGAAGC  12422
+
+lncRNArawseq_   5451 ATTAGGC---ATAGTAAAAG--AGCAT-----------------------   5472
+                     ..|||||   ..||.|||.|  |||||                       
+Xist_M_rep     12423 CCTAGGCTGACAAGAAAAGGAAAGCATCAGGTTGTTAGGGGGAAAACAAT  12472
+
+lncRNArawseq_   5473 ----------------AAAATATTAAAAATGAATC---------------   5491
+                                     |||||||.||.|.|...||               
+Xist_M_rep     12473 GTCAGGCTATCTAGAGAAAATATAAAGAGTTGTTCCAGACCAATGAGAAG  12522
+
+lncRNArawseq_   5492 ATTAAGAAATACATT---CAAAAGT-----CCTTATATGATAC-------   5526
+                     |.|.|||.|..||.|   ||.|.||     ||.|.|..||..|       
+Xist_M_rep     12523 AATTAGACAAGCAATATGCAGATGTGCCAACCCTCTGAGAAGCACCAGCC  12572
+
+lncRNArawseq_   5527 -----CACCT----------GACATA-GTGAG-AGAGTATTTAAAACTCA   5559
+                          |||||          |.|.|| ||||| ||.||||......||.|
+Xist_M_rep     12573 AGTGTCACCTTCTTTCTTTGGGCTTAGGTGAGCAGGGTATGGTTTTCTAA  12622
+
+lncRNArawseq_   5560 TTCTATATCTGTGTACA-----TGGTCT-AACAATCCGCTTATTTAAG--   5601
+                     |..|. .|.||.|.|||     .||||| |||...|.|||.||...||  
+Xist_M_rep     12623 TAATG-GTTTGGGGACAAAATGAGGTCTGAACTCCCTGCTCATAGTAGTG  12671
+
+lncRNArawseq_   5602 --CAAGATTATCAGTG--TTTCTAGGAGAGAAATTATTTTATCAGTAAGC   5647
+                       |.||....|..|||  |||| |..|.||.||.|..|...||. .|..|
+Xist_M_rep     12672 GCCGAGTAATTTGGTGCATTTC-ACCAAAGGAACTCCTGGGTCT-AATAC  12719
+
+lncRNArawseq_   5648 ATATTTTAAAAATT-------------TCAAAATA-----------GCAA   5673
+                     .||..||.||||||             ||.||..|           ||..
+Xist_M_rep     12720 CTACCTTTAAAATTAATGATGAGAGACTCTAAGGACTACTTAACGGGCTT  12769
+
+lncRNArawseq_   5674 AAACTTT-----------------------------GAAGTTAA-----A   5689
+                     ||.||||                             ||||||||     |
+Xist_M_rep     12770 AATCTTTTTCGTGCCTTCCTCTTCCTCTGTAAGAGGGAAGTTAAATGACA  12819
+
+lncRNArawseq_   5690 CATTAAGAAA-------ATGCTAAT------------TTTAAGCATG---   5717
+                     ||..|.||||       |||||.||            .|||..||||   
+Xist_M_rep     12820 CAGGATGAAAAAGTAACATGCTCATAGCACATTGGCAATTATACATGGTT  12869
+
+lncRNArawseq_   5718 ---------------AGAAAAATTATTA---------ATACTATTTCCAT   5743
+                                    |||....||..||         |.||||..|.|.|
+Xist_M_rep     12870 ATTATCTGAAAGTGTAGAGCTTTTCCTATAAGGCATCAGACTAAGTACCT  12919
+
+lncRNArawseq_   5744 GGTG-TTTGT-AGACCATGACCGTA-----ATATTCTCAA----CTGTTA   5782
+                     |..| ||||| .|..||||..|.||     ||||||...|    |...|.
+Xist_M_rep     12920 GAAGCTTTGTGGGTTCATGGTCTTAGTTGCATATTCCTTAGTTGCAAATC  12969
+
+lncRNArawseq_   5783 ATATTC-----------AACAGACAGAATAGT-TATT--------TTAA-   5811
+                     .|.|||           ||.||.||.|.|.|| ||||        ||.| 
+Xist_M_rep     12970 CTTTTCAAAAGGTAAGAAAAAGGCACACTGGTCTATTGCCTGTACTTGAT  13019
+
+lncRNArawseq_   5812 --------GATAT--------------------ATTTCATTGTTTTCTCT   5833
+                             |||||                    .|..||||..||||..|
+Xist_M_rep     13020 CAAGCCCTGATATGAATGCCAGGGAATGTCTGAGTAACATTAATTTCCTT  13069
+
+lncRNArawseq_   5834 CCCT-TTTCATTTCTGATTTTATTAATTTG-----GATTCTGAACTCTGT   5877
+                     |||| ..|..|||.||...|.|.||.|..|     |||.||  .|.||||
+Xist_M_rep     13070 CCCTGCATATTTTTTGTGCTGAATACTAAGGCTGTGATGCT--TCACTGT  13117
+
+lncRNArawseq_   5878 G----CCCTCTGGTTAGTCTGGCTAAT----GGTT------TATCTTGTT   5913
+                     |    |||.|.|||.|  |..|.||.|    |||.      .|.|.|.|.
+Xist_M_rep     13118 GGTCACCCCCAGGTAA--CAAGATATTACCAGGTAACCAGGAAACGTATG  13165
+
+lncRNArawseq_   5914 GATT--TTCTCAAAGAA-CCAAC-------TCCTGGTTT-TGTTGATTCT   5952
+                     .||.  |...|.|.||| ||.||       |||..||.. ||.|||.|.|
+Xist_M_rep     13166 AATACGTAAACCATGAAGCCTACTGTAACTTCCAAGTCAGTGCTGAGTAT  13215
+
+lncRNArawseq_   5953 ---TTGCCTAGTTCTTTTTGTTT----CTCTTTGGTTGATTTCAGCCCTG   5995
+                        ||.|.||||...|...||.|    ||||.||  ||.|.|..||.|..
+Xist_M_rep     13216 GTATTACATAGTAGCTGAAGTCTACGCCTCTGTG--TGCTATAGGCACAA  13263
+
+lncRNArawseq_   5996 AGTTTGAT-TAGGA--AACTTAATT--------------------CTTAG   6022
+                     ||.|||.| |||||  |||.|..||                    |.||.
+Xist_M_rep     13264 AGATTGCTCTAGGAATAACATGCTTTGTAAAAACAAATATATGAACATAA  13313
+
+lncRNArawseq_   6023 AGAGGC----------GCCTTCCCCACTAC-----GCC----TGTTGCTA   6053
+                     .|.|||          ..|...||...|||     |||    ||||.||.
+Xist_M_rep     13314 CGGGGCTTGAATGAATAACAGTCCATATACTTAAGGCCAGTGTGTTTCTT  13363
+
+lncRNArawseq_   6054 C-----TAGAGAGGC-----------AACTCTTCCC--TTTC--------   6077
+                     |     |.|.|||||           .|.|.|.||.  |..|        
+Xist_M_rep     13364 CTGCTTTGGTGAGGCTCAGTAAGTTATATTATACCAGGTAGCAGAAGAGA  13413
+
+lncRNArawseq_   6078 ---CACAGAGCCCCTG----------ACAGACCTG-----------AGGA   6103
+                        ||||..|...|||          |||.||..|           |||.
+Xist_M_rep     13414 AAACACATGGAAACTGATTTTAAACTACAAACTAGGTCACTAATGCAGGT  13463
+
+lncRNArawseq_   6104 GAGTGGGTGCCAGTGAGTCCTGAGTCTCCTGCACAGTCCCTGCCTTCCCT   6153
+                     ||.||..|.||.   ..|.|||| ||.|||.|. |.|..|||..|.|||.
+Xist_M_rep     13464 GATTGATTACCC---TATTCTGA-TCACCTTCT-AATTTCTGAATACCCA  13508
+
+lncRNArawseq_   6154 TTATCTGCAGCCTGGGCATTCTTGACTCTTGTCTGACATCTCCCACC-CC   6202
+                     |..||.|||  |||||.|    |.||....|. .||||| |.||||. ..
+Xist_M_rep     13509 TGTTCAGCA--CTGGGAA----TAACAAAGGG-GGACAT-TACCACAGAA  13550
+
+lncRNArawseq_   6203 CTTCACAGTCTAAGAGTTGGTAATTAAT-TAGCCTTGACC----------   6241
+                     ||..|...|..||.||...|.|.|.||| .|||.||...|          
+Xist_M_rep     13551 CTAGAATTTACAAAAGAATGCATTAAATAAAGCATTATACAGCTATCAAT  13600
+
+lncRNArawseq_   6242 TTAACCTT-------------TGACACCACCCAGCCATCCAGATGGGTTA   6278
+                     |...||.|             ||||..|...|..||.  |.||||   ||
+Xist_M_rep     13601 TGTTCCATGTGTGCAAATGAATGACTACTAACTACCT--CTGATG---TA  13645
+
+lncRNArawseq_   6279 TCC---------------ACA---------CCTG-GTAACTGACCTGGG-   6302
+                     |||               |||         |.|| |||||||.|.||.. 
+Xist_M_rep     13646 TCCGATATTGTTTTGGGTACATGAAATATTCATGAGTAACTGCCATGAAA  13695
+
+lncRNArawseq_   6303 -------GTCACCCCTCCACTCT---------------GCCCA-GCT---   6326
+                            ||...|..||||..||               |||.| |||   
+Xist_M_rep     13696 TAAGAATGTTTGCATTCCATACTATTCATAAGGAATGAGCCAATGCTTAA  13745
+
+lncRNArawseq_   6327 -----GCCG-CCCTACT----------GGGCTGAATTTT------ATGTT   6354
+                          .|.| |...|||          ||||....|..|      |..||
+Xist_M_rep     13746 TTTAATCAGTCAAAACTTGAGTGATAAGGGCATGTTAATACAAGAACATT  13795
+
+lncRNArawseq_   6355 TGC----------------TTGT-----CTTTCT---CTGAA-------T   6373
+                     |||                ||||     ||||||   ||..|       |
+Xist_M_rep     13796 TGCCCAGGTCACATTATGGTTGTGGGTACTTTCTTAACTATAAAGCAGTT  13845
+
+lncRNArawseq_   6374 CAG--ATTTTTTTCTGGTCAC--TTACTATAGCTG-ACAGCT-CC----A   6413
+                     |||  .|.|....|..|.||.  ||.||||||... |.|||| ||    |
+Xist_M_rep     13846 CAGTAGTATAAGACAAGACAAATTTTCTATAGAAATAAAGCTGCCTATAA  13895
+
+lncRNArawseq_   6414 TGCTGGCATC-ACTCTTCAGTCTGAAACCTACAGCTTTTTTTCCTCCCTT   6462
+                     ....|||||. .||||.||...| ...|.|....||||||   ..|||.|
+Xist_M_rep     13896 AATAGGCATAGTCTCTACAAAAT-TTTCATTGTACTTTTT---AGCCCAT  13941
+
+lncRNArawseq_   6463 ACT----------CTGATATACTTTCT----------TCATTTGCTTT--   6490
+                     |.|          |.|.|| ||...||          .|||.||||.|  
+Xist_M_rep     13942 AATGGGAAGAGTACAGTTA-ACAAGCTGGGTGTGGTAGCATGTGCTCTGA  13990
+
+lncRNArawseq_   6491 --------------TCCCATTGGGCCCA-AGAATGGAG----ATCAGGGT   6521
+                                   .||..|||.||||| |.|.|||||    ..|.|||.
+Xist_M_rep     13991 GCTGAAGCAACAGGACCACTTGAGCCCAGAAATTGGAGGCTAGCCTGGGA  14040
+
+lncRNArawseq_   6522 GTGCT-----GTC--TTTGAATCAAGGTGG--AAATG-TGTCTAC--AGA   6559
+                     ...|.     |||  |.|.||.|..||.||  ||||. |||||.|  .|.
+Xist_M_rep     14041 AGACCATAAGGTCAATCTCAAACCTGGAGGCTAAATATTGTCTCCCATGT  14090
+
+lncRNArawseq_   6560 GTCCCCTCCCTGCCCCGGGTATCCT---GAGCTACTGAG-----CTAAGC   6601
+                     ||....||.||..|..|||||  ||   |||.|||..||     |....|
+Xist_M_rep     14091 GTATATTCTCTTTCATGGGTA--CTGGAGAGATACACAGACGTACATTTC  14138
+
+lncRNArawseq_   6602 AATGTGG------TAAAGGAT--TCTGTCC-TGGGC------TGACCCAG   6636
+                     |.||||.      |..||.||  |.|||.| |.|||      |||.|..|
+Xist_M_rep     14139 AGTGTGTCCACACTTGAGAATAATATGTACGTTGGCATTTTATGAACTCG  14188
+
+lncRNArawseq_   6637 G-------CTCTACAGCTAGCAATACAGATTC-CCCTTG--ACC-----C   6671
+                     |       .|.||.|..||.||||.||..||| ..||||  |.|     |
+Xist_M_rep     14189 GAGGTACCATATAAATGTAACAATTCATTTTCTTACTTGGTATCAATTTC  14238
+
+lncRNArawseq_   6672 CAGGGTTT----------CCTC----------------------------   6683
+                     ||||.|||          ||.|                            
+Xist_M_rep     14239 CAGGCTTTTAAAATTCTGCCACATTTATTATACTGTGAAAATAAAGTAAA  14288
+
+lncRNArawseq_   6684 -------CAGGGAGCC------------CAGCATCC--TCCCT-ATGAG-   6710
+                            |.|.||.||            .|||||.|  |.|.| ||||| 
+Xist_M_rep     14289 TAAGTAACTGTGAACCACTGAATATATGAAGCATTCAATACTTGATGAGT  14338
+
+lncRNArawseq_   6711 -----CTGC-------TC------------------CTCCTGCT------   6724
+                          |||.       ||                  |.|.||||      
+Xist_M_rep     14339 ACATACTGAATGGCAGTCATTTATTACAAAACAGTGCCCTTGCTAGGCAC  14388
+
+lncRNArawseq_   6725 -------CA-----CATTCTT-----------TAGCTGATGCTTTTGTGC   6751
+                            ||     ||||||.           ||.||.|.|...||.|||
+Xist_M_rep     14389 TGGGATGCAAAGAGCATTCTCATTGTCCTGTGTATCTAAAGAAATTATGC  14438
+
+lncRNArawseq_   6752 -TGGGTT------------------CTATCCT-----TGTGGTTTTCTGC   6777
+                      ||.|.|                  ||..|.|     ||||..|.|.|||
+Xist_M_rep     14439 ATGAGATTAATTTATAATTTGTAAACTGCCATATATATGTGTATATATGC  14488
+
+lncRNArawseq_   6778 ATTTATTG------------------------------------------   6785
+                     |.|..|||                                          
+Xist_M_rep     14489 AATATTTGCCTGGTGTGCAATGACTTTGCTTTTATCCCAGGCATGCACAA  14538
+
+lncRNArawseq_   6786 -----------GGGGCTTTCTGCATTCCTC-GCTCT--------GAG---   6812
+                                ||.|||||.||.|.||..| |.|||        |.|   
+Xist_M_rep     14539 CAGATCTGTGTGGAGCTTTGTGAAGTCTACAGTTCTATAAAGCCGGGACC  14588
+
+lncRNArawseq_   6813 -----GTTGCCATT-----TGAACAG------CTCTCTGG---TCACCCT   6843
+                          ||||.|.||     |||||||      ||.|||..   |||...|
+Xist_M_rep     14589 TAACTGTTGGCTTTATCAGTGAACAGTGATTACTTTCTAAGTTTCATAAT  14638
+
+lncRNArawseq_   6844 GGCT-AGAATTCGGCA----GCTCTTCTC---------------------   6867
+                     |||| |.|.||...||    |||..||.|                     
+Xist_M_rep     14639 GGCTGAAACTTAATCATAATGCTTATCACCTAACACCACCTAATAATAAT  14688
+
+lncRNArawseq_   6868 ----CCATGTTG---GCTG---GTACAC----CCTGCTTCCT--------   6895
+                         |||||.|.   |.||   |.||||    ..|||||.||        
+Xist_M_rep     14689 TTTACCATGCTATGTGTTGAGCGAACACATAGATTGCTTTCTAGCATTAT  14738
+
+lncRNArawseq_   6896 ---GC-----------------CAGGACC----CTGCTGCTCTC------   6915
+                        ||                 |..||||    ||.|...||.|      
+Xist_M_rep     14739 GTAGCACTTATAGGAGTGAAATCTAGACCAAAACTTCAATTCACTTCAAT  14788
+
+lncRNArawseq_   6916 GGGG----------------------TGGATCTGGGCTAAGCT-----CC   6938
+                     |.||                      |||||.||.||.|.||.     |.
+Xist_M_rep     14789 GAGGAAATGAAAACAGAAAAAAAAAATGGATTTGTGCAAGGCAGTGTGCT  14838
+
+lncRNArawseq_   6939 AGAAG--ACAC------------------------AATTCCCAGCT----   6958
+                     |.|.|  ||||                        |.|||||||||    
+Xist_M_rep     14839 AAATGTTACACTGAGTGGACTATGCTGTCTAGGATACTTCCCAGCTGGCT  14888
+
+lncRNArawseq_   6959 -----------------------------CTGAC----------TCCATC   6969
+                                                  .||||          ||||||
+Xist_M_rep     14889 TGACTGAGGAGGTGGAAAAGGTTTTATTAATGACAGGAACTTTTTCCATC  14938
+
+lncRNArawseq_   6970 CACATGCCCAGATGTTCCTCTGCTCATTTCTCCTCTC----TTCTCTTCC   7015
+                     ||..|.|..|.|||||    ||.|.|.|.||.||..|    .|...||.|
+Xist_M_rep     14939 CAGTTTCTTAAATGTT----TGTTGAATGCTGCTGCCAGAGATGAATTAC  14984
+
+lncRNArawseq_   7016 AAA------GCCAG----GGAGCAT-------CTTGAGTGAGAGAA----   7044
+                     |||      |||||    ||||..|       |..||||||||.||    
+Xist_M_rep     14985 AAACACCTTGCCAGTAAAGGAGTTTTATAGGGCCAGAGTGAGATAATCCC  15034
+
+lncRNArawseq_   7045 ----------------GGCAC-AAGCGGGT-----CCACAGC--------   7064
+                                     ||.|| ||.||||.     |||.|||        
+Xist_M_rep     15035 AGAGCATGGGTATCAGGGAACAAAACGGGAAGAGGCCAGAGCATCTGATG  15084
+
+lncRNArawseq_   7065 ------ACTCA-TTCGGTCCATTTCCTCTCAAAAACTTTGTAGCAAACAC   7107
+                           ||||| |..||.|||...||||||.||.....|||| |...|..
+Xist_M_rep     15085 GCATGTACTCAGTGTGGCCCAGAACCTCTCGAACTAGATGTA-CTGGCTG  15133
+
+lncRNArawseq_   7108 AAGGGT--GGGCGTGGAGAGCA-GATTCCTCC--CAACTTGG--------   7144
+                     .||||.  ..||.||.|||.|| .|..|||..  .|||.|.|        
+Xist_M_rep     15134 GAGGGACCAAGCATGCAGAACACAACACCTAATGAAACATTGTATATAAA  15183
+
+lncRNArawseq_   7145 -----------AGGGGCCT--CACAAGCCAGCGCTGCAGGCCT----TCA   7177
+                                ..||.|||  .||.|....|.|..|..|.|||    |..
+Xist_M_rep     15184 ATATGCTAACCTAGGTCCTAAAACTAAAATGTGAGGTGGACCTAGTGTAG  15233
+
+lncRNArawseq_   7178 CTCCCATATCA------------TCTC----TGACCA-TTTGG-------   7203
+                     .||.|..||||            ||||    .|.||| ..|||       
+Xist_M_rep     15234 ATCACTGATCATAGGAGACATGGTCTCATAAAGCCCAGGCTGGTTCTAAT  15283
+
+lncRNArawseq_   7204 TAGTGACTGACCTGGCTAC--------------GACATCTGTGCTTAA--   7237
+                     |.|||||||.|...|||.|              .|||..|||||||||  
+Xist_M_rep     15284 TGGTGACTGTCACAGCTTCTCAAGTGCTGAGATTACAGATGTGCTTAACC  15333
+
+lncRNArawseq_   7238 ------------GAAGAGTGTG-C-----AATGAGGGATTCTCAGTGCCT   7269
+                                 |||||.|.|. |     |.||||.||.|   |.|...|
+Xist_M_rep     15334 CATGCCCAGCCTGAAGAATATATCTGATTACTGAGTGAAT---AATATTT  15380
+
+lncRNArawseq_   7270 TTGGAGCTCAATATTTTACTGGTCTATAAGCAACCTGCTACTTACGTTC-   7318
+                     ||..||....||||.||....||.|||.||.|..|||.|.||..| ||| 
+Xist_M_rep     15381 TTAAAGAATTATATATTTTATGTATATGAGTACGCTGTTGCTGTC-TTCA  15429
+
+lncRNArawseq_   7319 ------CAAGCTGAGAACCTAGCCGCCACACA-TACAG------------   7349
+                           |.||..|||..|   .||.|..|||| |||||            
+Xist_M_rep     15430 GACACACCAGAAGAGGGC---ACCACATCACATTACAGATGGTTGTGAGC  15476
+
+lncRNArawseq_   7350 --CAGTGTGTTCGAAG----------------CC-ACAGTTGAGCAGGGC   7380
+                       |..||||.|.|..|                || .|.|..||||| |.|
+Xist_M_rep     15477 CCCCATGTGGTTGTTGGGATTTGAACTCAGGACCTTCGGAAGAGCA-GTC  15525
+
+lncRNArawseq_   7381 AGA---------TCTGAGGATGAAATCCA---------------------   7400
+                     |||         .|||||.......||||                     
+Xist_M_rep     15526 AGACTCTTAACCACTGAGTCATCTCTCCAGCCTTCTGAGTAAATATTTTA  15575
+
+lncRNArawseq_   7401 --------GGTTGT---------CCAGCC---------TTTCCT------   7418
+                             ||.|||         |||.||         .|||||      
+Xist_M_rep     15576 ACTATAATGGCTGTTTGCGAAACCCAACCAAGGCCAAGATTCCTTCAACA  15625
+
+lncRNArawseq_   7419 ---ACTGGTGTCTTTAAAGCT--GAAAGCT-----GG------TCTCTTA   7452
+                        |||||.|.|||...||||  |.|||||     .|      ||||.|.
+Xist_M_rep     15626 TAAACTGGAGACTTCCTAGCTAAGGAAGCTCCAAAAGTCATTTTCTCATT  15675
+
+lncRNArawseq_   7453 GG--AGGTCAGATGACT-GCCTGCCTCCCAGTCTGTGTCTATTGCTAGCT   7499
+                     ||  ..|...||.|.|. |.|.|.||...||||||| .||.|...|...|
+Xist_M_rep     15676 GGCCTAGCTTGAAGCCAGGACAGACTTAAAGTCTGT-CCTTTAATTCATT  15724
+
+lncRNArawseq_   7500 ACCC--------------------GGAGTGCAGGAAAGGGGGAG-AGGTG   7528
+                     ||||                    |.||||....|||||.|.|. |.|..
+Xist_M_rep     15725 ACCCATTTTCCTTTTCTTACTGTTGAAGTGTTTCAAAGGAGAATCAAGAT  15774
+
+lncRNArawseq_   7529 GGCTGGATAGGGCAGACAGGGTATG---AAGGCAGAACACA----AATAG   7571
+                     |..|.||||...|..|..|..|.||   |..||....|.||    .||..
+Xist_M_rep     15775 GAATCGATAATTCTAAACGTATTTGTTCATTGCCTGGCTCAGCGTCATGT  15824
+
+lncRNArawseq_   7572 AAGC-TGCAGGAGGAGCCAGCACACT--GGGTGTGAACCT-----TGGAG   7613
+                     .||| .|.||.|....|.|.||||||  ...|.|.|||.|     ||..|
+Xist_M_rep     15825 GAGCAAGAAGAATATACTATCACACTCATACTTTTAACTTAAGTGTGATG  15874
+
+lncRNArawseq_   7614 ACACAGCAGAGC----------------------CAG---AGATCAGAGC   7638
+                     |.|..||||..|                      |.|   |||.||.||.
+Xist_M_rep     15875 AAAGTGCAGTTCTAAGTACTAAAATTTCTAAGTACTGAAAAGAACAAAGA  15924
+
+lncRNArawseq_   7639 CCCT--GGGAATGCCAGTTGGGGTGGG---------GGTGGGGGGTGTGG   7677
+                     |..|  ..|.||||.|......|||..         .||.|....||.||
+Xist_M_rep     15925 CATTTAAAGGATGCAACCCAAAGTGTACTTTACCTCAGTAGTTTCTGAGG  15974
+
+lncRNArawseq_   7678 TGAGGTGGGGTGG------GGGGCTGCCG---AAACTGCTGCTGGGG---   7715
+                     .|| .||..||..      |.|.||.|.|   ..|||...||||||.   
+Xist_M_rep     15975 GGA-CTGCAGTCACACCTTGAGACTACAGCTCTCACTTTAGCTGGGAAAA  16023
+
+lncRNArawseq_   7716 --GTGGGGGTG-GGGGGTGGAAGGATATTTCACGGGG-----CCAGAGAA   7757
+                       .|...|||| .|.||.||.|.|.||..|.|...|.     ||.     
+Xist_M_rep     16024 ACATCAAGGTGTAGAGGAGGCAAGTTAAATAAAAAGTTGCTCCCC-----  16068
+
+lncRNArawseq_   7758 AAGGAGTC--CATTGGC---CTTAGTAAAG-GGACAACATCTT----GTT   7797
+                           ||  |||.|||   |||.|||.|| |||.|..||...    |||
+Xist_M_rep     16069 ------TCCTCATGGGCATGCTTGGTAGAGTGGAAATAATAAAAGAGGTT  16112
+
+lncRNArawseq_   7798 TTATTAAAAGCCT--GTTGC-----TGGCTGGATAAGCCGTCTGCCTGCT   7840
+                     .|.|  |...|||  |||.|     |.||.|.|.|.||. .|||..||||
+Xist_M_rep     16113 CTCT--ATTTCCTCGGTTCCACACATTGCAGAAGATGCT-ACTGGATGCT  16159
+
+lncRNArawseq_   7841 GAGTG-GGC-------------AGGGGCCCAATATTACTGTGGCTAATTC   7876
+                     .|||| ..|             |.||||.|    |.|.||||.||  |.|
+Xist_M_rep     16160 AAGTGCAACACATTTGTTCCAAAAGGGCAC----TCAGTGTGACT--TAC  16203
+
+lncRNArawseq_   7877 GGA-GCCAGTGTTGGAGAGCTGA--------CATCA--AACCAGGAA---   7912
+                     .|| |||.    .|||.|||.||        |.|.|  ||.|||.||   
+Xist_M_rep     16204 AGATGCCC----CGGAAAGCAGAGGGATGCTCTTTATTAAACAGAAATAT  16249
+
+lncRNArawseq_   7913 ACGCTCGCGCG----CGCGGCT--CTCTCCCTCTCCGGCTCTCCCTCTCC   7956
+                     ..||||...||    |..|.||  ....|.||.|||...|.||||.|...
+Xist_M_rep     16250 TAGCTCAAACGTTTTCTAGACTGAAGAACACTTTCCTCATTTCCCACAGT  16299
+
+lncRNArawseq_   7957 CTCCCTCC------GCCTCC--------TCTTCTCTCATTCTTGAGC---   7989
+                     .|.||||.      |..|.|        |.||.| ||||||.|..||   
+Xist_M_rep     16300 TTGCCTCAGAGGTTGAATACAGGAAGGTTATTAT-TCATTCATTTGCTTT  16348
+
+lncRNArawseq_   7990 -TTGAATCTACTGTGCATGATATGTGTGCATGTGT----GTCCGT---GT   8031
+                      |||..||..||||.|...|....|.|||||||.|    |.||.|   .|
+Xist_M_rep     16349 ATTGGTTCGCCTGTTCTACAAGGATTTGCATGTCTCTTAGGCCTTCACTT  16398
+
+lncRNArawseq_   8032 GTCTCTCTGTG---TG--------------TGACATTATGTA--------   8056
+                     |.||| |||.|   ||              .|||||...|.|        
+Xist_M_rep     16399 GGCTC-CTGAGACATGGAAAAAGGAAACATAGACATAGGGAAGTGCTGGA  16447
+
+lncRNArawseq_   8057 --------------CAC-TTGCTGGG-AGT-TCAC--C-----CCATGGC   8082
+                                   |.| ||.||||| ||| .|||  |     ||.|.|.
+Xist_M_rep     16448 TGGGGGGGGGGGGTCTCTTTTCTGGGTAGTGGCACGACTTAGTCCTTAGT  16497
+
+lncRNArawseq_   8083 TCCC-------------------TCCTCCTCTTCCTGTCCTCTACTCCCT   8113
+                     .|||                   |||||.||.||.||||.|||.|..||.
+Xist_M_rep     16498 CCCCAAGTAATATGCAATGTGAGTCCTCATCCTCATGTCTTCTCCGGCCA  16547
+
+lncRNArawseq_   8114 CTGC--------------------------CAAGC---ACCC--------   8126
+                     ||||                          |||||   ||||        
+Xist_M_rep     16548 CTGCAATGAGTGGGAAGCTGGGCTTTGTAGCAAGCCTGACCCTAAAGTTA  16597
+
+lncRNArawseq_   8127 ---CAGCC--CCAC-CTTTGCCCCT----------GGCCTC-----CTCA   8155
+                        .||||  |||| ||..|...||          ||||..     ||..
+Xist_M_rep     16598 CAGAAGCCCTCCACGCTAAGAAACTCAATTTTCTAGGCCATTTTAGCTAT  16647
+
+lncRNArawseq_   8156 GTCT----CCGCCCC----CAGAAGACTTGA---ACAGAGAAG--ACCCA   8192
+                     |.||    ||.|..|    |||.||...|||   .||...|||  .|.||
+Xist_M_rep     16648 GACTGTGACCACTACTGGTCAGGAGGGATGACAGCCATCTAAGTTCCACA  16697
+
+lncRNArawseq_   8193 GACTATGGC--CTGGGGTTATTTACTGAGAC------GCC-----TGGG-   8228
+                     ..||..|||  ||..|..| |.|.|||.|.|      |||     ||.| 
+Xist_M_rep     16698 ATCTTAGGCTACTTTGCAT-TATCCTGGGGCAAACAAGCCATTTTTGAGC  16746
+
+lncRNArawseq_   8229 -GAGGAAAGTTTCGAAA-----TGACCA------------------AACC   8254
+                      |..|.|.|.||.||||     ||||||                  ||.|
+Xist_M_rep     16747 TGCAGCAGGCTTTGAAATACATTGACCAATTTTGCCTGTGTTCGTTAAAC  16796
+
+lncRNArawseq_   8255 C----ACCCCTTTCCA---------------------------GATCTCC   8273
+                     |    |||..|||.||                           |.|||||
+Xist_M_rep     16797 CTTTTACCTTTTTACATGCTAATGCTCACAGTAATTTAGAAATGTTCTCC  16846
+
+lncRNArawseq_   8274 AT----------------------------TTGTA-------------GG   8282
+                     .|                            |.|||             ||
+Xist_M_rep     16847 TTACTATAATATACTCAAGGTGGCTTGCTATGGTAAAATAATGCCAGTGG  16896
+
+lncRNArawseq_   8283 TTAAAAGAAAAAGTAAAGGAAGTCATT-----------------------   8309
+                     .|.|||..||.|.|||.|.....||||                       
+Xist_M_rep     16897 ATGAAAATAACATTAATGTTTAACATTCTTGCATAAAATTTAAGAATAAT  16946
+
+lncRNArawseq_   8310 ----------TCAA-AAGAAACCAGGAGGAAAG-CGGCTCTCTTCGGCA-   8346
+                               .||| .|||||.|.|||||||.| ..|..|...|.|..| 
+Xist_M_rep     16947 AAAATTGACAACAATCAGAAAACTGGAGGAACGAAAGACCAAATTGAAAG  16996
+
+lncRNArawseq_   8347 ---------------------GCATGTG---TGA---TTATTATTAATAT   8369
+                                          ||.||||   |||   ||...|||..|.|
+Xist_M_rep     16997 AACTTGAAAAAGATTAAAAATGCCTGTGCTTTGACCCTTTCCATTTTTCT  17046
+
+lncRNArawseq_   8370 TAGACT-----TGTTTAAGGCAAG-GGAAAAATGTAAAATGGCTTTTTTC   8413
+                     |..|||     .|..|..|.||.| ||...|.||.|..|..|..|....|
+Xist_M_rep     17047 TTCACTCACAGAGGGTGGGACAGGAGGCCGAGTGAAGGAAAGGGTCCAGC  17096
+
+lncRNArawseq_   8414 CTGTTTTT-----ATCGTAGTT----TTTTGTTGTTGTT----GGTTTTG   8450
+                     ||||.|.|     |||..||||    .|||..||..|||    ....|||
+Xist_M_rep     17097 CTGTCTATCTGGAATCTAAGTTGGGACTTTAATGCAGTTCCACAAAATTG  17146
+
+lncRNArawseq_   8451 TTTTTTGTT---TTTTTGTTTTT--TTGTTTTTTTTTTTCCTTTTTTCT-   8494
+                     .|.||..||   |...|||||.|  ...|.|.||||..||....|..|| 
+Xist_M_rep     17147 GTATTAATTCGCTAAATGTTTCTGAAAATGTATTTTCATCTAAATGGCTA  17196
+
+lncRNArawseq_   8495 TCTACT--GTCTTGGGAGTCAGAAGGGC---AAACAG--TAA--------   8529
+                     ||..||  |.|||  ||||||.|.|||.   ||||||  |||        
+Xist_M_rep     17197 TCAGCTAAGCCTT--GAGTCAAATGGGAATGAAACAGATTAAGTCAATGT  17244
+
+lncRNArawseq_   8530 --------TTTCAGAGT-------------AAG--------------ATG   8544
+                             |.||..|||             |||              |.|
+Xist_M_rep     17245 GATCTCTTTATCCAAGTTGCCTTAGAGCTGAAGTCACAATTTGCTGTAAG  17294
+
+lncRNArawseq_   8545 GAAGC-------------------CATCATCTC-----------------   8558
+                     |||||                   |||..|.||                 
+Xist_M_rep     17295 GAAGCTTATTCATTGTAGCATACGCATACTTTCAAAGTATCTAGACTTTA  17344
+
+lncRNArawseq_   8559 CTTAGTT--CATGTGATGTCTTTCTGG-----GAATTGGGAGAGTGAA--   8599
+                     ||||||.  |...|.|.|.|.|||.||     |||..||.|.||.|||  
+Xist_M_rep     17345 CTTAGTAACCCAATCAGGACATTCAGGCAAAAGAAAAGGAACAGAGAAGA  17394
+
+lncRNArawseq_   8600 ---------------------TGAG----------------------TTT   8606
+                                          ||.|                      |||
+Xist_M_rep     17395 TGGAGCCAGGTTGAAGAGGTCTGGGAGTTCAAACAAATTTTTTTCATTTT  17444
+
+lncRNArawseq_   8607 CATGTAAACGCCTAT---AATCAC---TTTTCCTGCTA--AGGTTTTA--   8646
+                     |||..||||.|...|   .||||.   |.||.||..||  ||.|||||  
+Xist_M_rep     17445 CATTAAAACTCAATTGGGCATCAAAAGTGTTACTAATATTAGCTTTTAAT  17494
+
+lncRNArawseq_   8647 -----GA--------GGACTCTG-AGTCTCCC------------------   8664
+                          ||        |||.||.| |.|.||||                  
+Xist_M_rep     17495 TAGTGGAAATTGGCTGGATTCAGTAATATCCCTTTGTATGGGTAGGAATG  17544
+
+lncRNArawseq_   8665 ---------------AATTTGC---------TGTAACTTAAAG-------   8683
+                                    |||||||         ..|||||.||||       
+Xist_M_rep     17545 GGCTTACATTTCTGGAATTTGCAAAGGAAAAAATAACTGAAAGCCTTCCT  17594
+
+lncRNArawseq_   8684 -TCAC------------CCAAATTGCTTCCACTTTTACCAAAAAAAAAAA   8720
+                      ||||            |.|.||||||.|||.||...|..|....|..|.
+Xist_M_rep     17595 TTCACAGTTACTGCCATCAATATTGCTACCAATTAAGCACATCCTACCAT  17644
+
+lncRNArawseq_   8721 AA-------AAAAAAAAAAAATTAATTATTTATC---CAGATTTTAA   8757
+                     .|       ..|..|.|.||||.||.|.|.||.|   |.|.|.||.|
+Xist_M_rep     17645 CATCTGCTTTGATCACATAAATGAACTGTGTACCAATCTGTTGTTGA  17691
+
+
+#---------------------------------------
+#---------------------------------------

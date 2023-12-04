@@ -1,0 +1,183 @@
+########################################
+# Program: water
+# Rundate: Mon  4 Dec 2023 20:12:13
+# Commandline: water
+#    -auto
+#    -stdout
+#    -asequence emboss_water-I20231204-201140-0509-4175654-p1m.aupfile
+#    -bsequence emboss_water-I20231204-201140-0509-4175654-p1m.bupfile
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: raw
+# 2: Tsix_M_rep
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1757
+# Identity:     650/1757 (37.0%)
+# Similarity:   650/1757 (37.0%)
+# Gaps:         750/1757 (42.7%)
+# Score: 2740.5
+# 
+#
+#=======================================
+
+raw                1 ACACCCTAGCGACCGACTGCACGTGC----AGAG--TTTGTACACGACCC     44
+                     |||||||..|..|.|..| |.||.||    ||||  ||.|..|.|| |||
+Tsix_M_rep       205 ACACCCTCTCAGCAGGAT-CCCGCGCCTCAAGAGCCTTAGGTCCCG-CCC    252
+
+raw               45 CACAAGCACACACACCAGGCAGT--TGCGCTTG-GATACCCTCGTTCTGG     91
+                     ||||..|.|.||.|||. .||||  .||||||| |..|..|.|..|||.|
+Tsix_M_rep       253 CACACTCCCTCAAACCC-TCAGTGCAGCGCTTGTGTCAGGCGCAATCTCG    301
+
+raw               92 C-----CC---GAG--GCAAC--C---CTCCA------CCC--TAGATCC    118
+                     |     ||   |||  ||.||  |   |||||      |||  .||..||
+Tsix_M_rep       302 CAAGATCCGGTGAGGCGCTACGTCGTGCTCCACTCGGTCCCAAAAGTACC    351
+
+raw              119 T-CTAGCAATGGAC---TTCGTACAGATAAACCACGGAAAAAACTGGAAT    164
+                     | |.|||..|..||   |.||..|.|  ...||..|.......||....|
+Tsix_M_rep       352 TGCAAGCGCTACACACTTGCGCTCGG--CGCCCTTGCTCTGTTCTCACTT    399
+
+raw              165 ACCTCG----CCCCACCTCTTTTTTCCT--ATTTAATTC---------GC    199
+                     .||..|    ||.|.|.||||...||||  ||..|.|.|         ||
+Tsix_M_rep       400 TCCGAGATATCCACGCATCTTGAGTCCTGCATCCACTCCCGGGAGGCGGC    449
+
+raw              200 TAAAGC-AGCTC---------------------------CTGGA---GTA    218
+                     |...|| |||.|                           ||.||   ||.
+Tsix_M_rep       450 TGCGGCAAGCGCGTGATGGAAGAAGAGCGTGATAGCCAGCTAGACAGGTG    499
+
+raw              219 ACCAAAG-AGAGTAGAAACTAAGGCG-TGGCCACTT-------------C    253
+                     .|||.|| .|||..||.|.|...||| ||||.||.|             |
+Tsix_M_rep       500 GCCAGAGCGGAGCGGACAGTGGAGCGATGGCTACGTGCTTGCGGGACAGC    549
+
+raw              254 -----AGTTGG-----GTTTTTTCCCA--------------CCTCAAAAC    279
+                          ||.|||     ||..||.||.|              |||.|||..
+Tsix_M_rep       550 GGAAGAGATGGTTAAAGTGATTGCCAAGCAGCAGAAAGATTCCTAAAATG    599
+
+raw              280 CTT------TAT------------------TTTCAGTTTTTAAAAGCCAC    305
+                     |||      |||                  |||||.|..||.|.|.|.||
+Tsix_M_rep       600 CTTGCCAGCTATGCGGAGATGAAGGTGAGGTTTCAATGATTTACATCGAC    649
+
+raw              306 CTT-AGCCCGC------------------------------CAT------    318
+                     |.. |.|||||                              |||      
+Tsix_M_rep       650 CAAGAACCCGCAGCCTCGGTCTCTCGAATCGGATCCGACATCATCCAACA    699
+
+raw              319 -------------ATTG----------------------GAACTGGCAC-    332
+                                  ||||                      |..|.||||| 
+Tsix_M_rep       700 CTTCAGTGTTAGAATTGCAAGCATGCGCTCTCCCGACCTGGGCAGGCACT    749
+
+raw              333 ----------GGTGTCTAAAGAC---------------------------    345
+                               |.||.||||||||                           
+Tsix_M_rep       750 TCGAAAAAATGATGACTAAAGACACACGTGAAGTACCAAGCGAAACTCAC    799
+
+raw              346 ----------------------------------TCCTTCC---CCGC--    356
+                                                       |||.|||   ||.|  
+Tsix_M_rep       800 GTCCTTATGGGACAGTGACTCATCACAGTCTAATTCCATCCTGGCCACCA    849
+
+raw              357 TGCTGTA--GCGC--TTC-----------CAAGAAAACACAAGTATTGAC    391
+                     .||..||  ||.|  |||           ||||.||||||.|..|.|..|
+Tsix_M_rep       850 AGCAATAATGCACATTTCTAACTGGAAGTCAAGCAAACACCAACACTTTC    899
+
+raw              392 -----TGGGC------------------------TGGGGAC---------    403
+                          ||.||                        |||..||         
+Tsix_M_rep       900 ACACTTGTGCCCATTTCTGACGAGTTACGTCAAGTGGCAACCAACACTTC    949
+
+raw              404 --CTGTGTCCGGCCACAG------------------AAAACCAATCGCTT    433
+                       ||..|.|..|||.|||                  |..|||||.|.|..
+Tsix_M_rep       950 CACTTAGCCTTGCCTCAGCTTCGAGTGGCACAAGGTAGGACCAACCACAC    999
+
+raw              434 CCCACC------CCTCAAATGTTCTCCCTTTC----CCAGCCTAAT----    469
+                     ||.|||      |..|||.|||.|.|.|...|    ||.|||.|.|    
+Tsix_M_rep      1000 CCTACCATAATGCACCAAGTGTACCCTCGGGCAAAGCCCGCCAAGTAGCT   1049
+
+raw              470 ----CCCG------------------------------------------    473
+                         ||||                                          
+Tsix_M_rep      1050 AAAGCCCGCCAAAAAAAAAATCACTGAAAGAAACCACTAGAGGGCAGGTC   1099
+
+raw              474 -------TTCAGCCG-------------------------------CTCC    485
+                            |||.|||.                               ||||
+Tsix_M_rep      1100 ACATGACTTCCGCCATCTTAGACACATTCAAGAGCATGTGCCACCTCTCC   1149
+
+raw              486 AGGAGGACTGAGA-AGGAAGCTGTTTAG------ACCATGCCATAT---T    525
+                     |||...|||.||| |.|||||||....|      ||.|.|||.|.|   |
+Tsix_M_rep      1150 AGGCTAACTCAGACATGAAGCTGACATGTGACACACAAAGCCCTTTGCGT   1199
+
+raw              526 TCTTAGGCCCCAAGAATCTTACAGATGGACAG--ATCTTCTCTT------    567
+                     |.|...||.||||||| ||      ||..|.|  |||||.||.|      
+Tsix_M_rep      1200 TATACCGCACCAAGAA-CT------TGAGCCGCCATCTTTTCCTGTACGA   1242
+
+raw              568 -CAAA---TCCTG----CCGTTGCAGC---CCAGAG-AAAGA-------G    598
+                      |.||   ||||.    ||.||||..|   |||||. |||||       |
+Tsix_M_rep      1243 CCTAAATGTCCTATAATCCATTGCTACACACCAGAACAAAGATTGGGCTG   1292
+
+raw              599 AC-AGCCAC---TGGAGCAACACATCCTCC-TGAGGGAAAATTC--AGAA    641
+                     .| ||||.|   ||||||..|..|.||.|| |.....|.|.|||  ||.|
+Tsix_M_rep      1293 TCGAGCCTCGGGTGGAGCCCCCGAGCCGCCATTTTATAGACTTCTGAGCA   1342
+
+raw              642 GAC---AAATACTC-------------------CCTTCAACAAACA----    665
+                     |.|   |||..|.|                   ||.|...||.|||    
+Tsix_M_rep      1343 GCCCTTAAAGCCACGGGGGACCGCGCCAGGGGTCCATATGCACACACACC   1392
+
+raw              666 -AGTCAGATGACC-CGTAAGTGAGGTGAACT----CCAAGGCTAAGGTGG    709
+                      .|.|..||..|| |......|..|.|..||    ||.||.|....|.||
+Tsix_M_rep      1393 CTGCCCAATCCCCACACCCACGCTGAGCCCTATCCCCTAGTCCTCTGCGG   1442
+
+raw              710 ATCCAGGG--GCAGGACAAACTGTT---CGCACGCCTAG--------CAT    746
+                     .|.|.|.|  .||...||.|||..|   .||||.|||.|        |.|
+Tsix_M_rep      1443 CTTCCGCGCAACACCGCACACTAATACGAGCACTCCTTGGCTTTCTACTT   1492
+
+raw              747 CTG--TGGACTCTACCCTCCAAGCGCTTCC-CCGGTCTTGTCG-----CG    788
+                     |.|  |.| |.|.||||..|||..|||.|| |...||..|.||     ||
+Tsix_M_rep      1493 CCGGCTAG-CACAACCCCGCAAATGCTACCACAAATCAAGGCGAATCCCG   1541
+
+raw              789 AGAACCAGAAC-------------------------CGTCGCTTTCAGGA    813
+                     ..|.||.|.||                         |..|||..|..|..
+Tsix_M_rep      1542 CAACCCCGCACATATAAAGAAAGCCTTTAGCTAGCGCAGCGCAATTGGTT   1591
+
+raw              814 AC---TCTCCATACTACAGAGTGC-------------TTCTGAACGT---    844
+                     .|   |.||||..|..|.|.|..|             ||||...|||   
+Tsix_M_rep      1592 GCTTTTATCCAGTCCGCTGTGCTCCTCGGTGTCCTAATTCTTGGCGTAAC   1641
+
+raw              845 ----------------GTACAACAC--------TAGTAACGGAAGAGG--    868
+                                     |||..||.|        ||.|..||||.|.||  
+Tsix_M_rep      1642 TGGCTCGAGAATAGCCGTATCACGCAGAAGCCATAATGGCGGACGCGGGC   1691
+
+raw              869 --TCAAAG-------------TTCAGAAAGAGAG-------GAATTTC--    894
+                       ||.|.|             .||||....||||       |..||||  
+Tsix_M_rep      1692 TCTCCACGCCCTGAACACCCACTCAGTTTAAGAGCAAAGTCGTTTTTCTA   1741
+
+raw              895 --CCAAATGATC-------CAAATCCAAGCTTAGAGAAGCCAAAGT----    931
+                       |||.|.|.||       ||...||||.|....||.|||.|.|||    
+Tsix_M_rep      1742 AGCCATAGGTTCACTCACACAGCACCAAACGATCAGCAGCAACAGTACAC   1791
+
+raw              932 ------------CATAG-----CCA--CTGGGCAGGACCTCTCTTGGCAA    962
+                                 |||||     |||  ..|.|||..|.|||.|....|.|
+Tsix_M_rep      1792 GCAAATAAGAGGCATAGATATTCCAGGTAGTGCAATAACTCACAAAACCA   1841
+
+raw              963 GTCATCTAT-TAC------------TGG-------------AATTATTAT    986
+                     ....||.|| .||            |||             ||.|.|.|.
+Tsix_M_rep      1842 TATTTCCATCCACCAAGCGCCCCGTTGGGCCGTGAAAAAAAAAATTTAAA   1891
+
+raw              987 TCAGAAA---------CAGAT--------------GTTAATAAATTTTTT   1013
+                     .|||..|         |.|||              |..||.|||.|..|.
+Tsix_M_rep      1892 GCAGGTATCCACAGCCCCGATGGGCAAAAGAAAAAGAAAAAAAAATAATA   1941
+
+raw             1014 AATGTGG   1020
+                     |..|..|
+Tsix_M_rep      1942 ACAGCAG   1948
+
+
+#---------------------------------------
+#---------------------------------------

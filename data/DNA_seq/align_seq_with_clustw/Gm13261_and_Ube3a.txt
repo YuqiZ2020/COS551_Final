@@ -1,0 +1,171 @@
+########################################
+# Program: water
+# Rundate: Mon  4 Dec 2023 20:16:56
+# Commandline: water
+#    -auto
+#    -stdout
+#    -asequence emboss_water-I20231204-201646-0463-77952495-p1m.aupfile
+#    -bsequence emboss_water-I20231204-201646-0463-77952495-p1m.bupfile
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: raw
+# 2: 7
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1635
+# Identity:     669/1635 (40.9%)
+# Similarity:   669/1635 (40.9%)
+# Gaps:         639/1635 (39.1%)
+# Score: 2770.5
+# 
+#
+#=======================================
+
+raw                1 ACACCCTAGCGACCGACTGCAC-----GTGCAGAGTTTGTACACGACCCC     45
+                     ||| .|||..|...|||..|||     |.||.|.|.||.||| |.||...
+7                 11 ACA-TCTACTGGAAGACAACACAGGAGGGGCTGGGCTTTTAC-CTACTAG     58
+
+raw               46 AC----AAGCAC---ACACACCA------GGCAGTTGCGCTTGGATACCC     82
+                     .|    ||||..   |||.|.||      |||||..||...|||    ||
+7                 59 TCTGGTAAGCCAGTGACATATCATGTTCTGGCAGAGGCTGATGG----CC    104
+
+raw               83 TCGTT--CTGGCCCGAGGCAACC---CTCCAC-CCTAGATCCT---CTAG    123
+                     |.|||  |||....|..||  ||   |||.|| |||..|||||   ||.|
+7                105 TTGTTTGCTGAAAGGTTGC--CCAATCTCAACGCCTGAATCCTTTACTCG    152
+
+raw              124 --CAAT--GG-----ACTTCGTACAGATAAAC-CACGGAAAAAA---CTG    160
+                       ||.|  ||     |..|||||..|.|.|.| |..|.||.|||   ||.
+7                153 GACAGTTCGGATGAAAAGTCGTAAGGGTCAGCTCTAGCAACAAAACGCTT    202
+
+raw              161 GAATACCTC-----GCC-CCA-----------CCTCTT----TTTTC--C    187
+                     ..||.||||     ||| |||           ||||||    |.|||  |
+7                203 CTATGCCTCCTCGTGCCGCCAGTAGGCTACACCCTCTTGGCCTATTCGTC    252
+
+raw              188 TATTTAATTC---------GCTA-------AAG------CAGCTC-CTGG    214
+                     ..|.|.|.||         ||||       .||      |.|||| |..|
+7                253 CCTCTGACTCCTGGGCTTTGCTAGGCTGGGTAGACCTGTCCGCTCTCGCG    302
+
+raw              215 AGTA-ACCAAAG-----------------AGAGT---AGAAACTAAGGCG    243
+                     |||| |||.|||                 .||||   ||.|.|..||||.
+7                303 AGTACACCGAAGCACACTGGTCTATAGATTGAGTAAAAGGAGCAGAGGCT    352
+
+raw              244 ---------TGGCCACT------------TC-AGTTGG------------    259
+                              ..|||.||            || ||.|||            
+7                353 AAAAACACCAAGCCTCTCTCAGCCCAGTCTCAAGATGGCGACGATGCTGG    402
+
+raw              260 ---GTTTTTTCCCACCTCAAAACCTTTATTTTCAGTTTTTAAAAGCCACC    306
+                        |.||...||||.|.|||..||   ||.|.|..||...|||.||| ||
+7                403 CCAGCTTCCACCCAGCCCAAGGCC---ATCTCCCCTTCCCAAAGGCC-CC    448
+
+raw              307 TTAGCC--------------------------CGCCAT---------ATT    321
+                     |..|||                          |.|||.         ||.
+7                449 TGCGCCGCAGGCGAAGGCGAGCTAGAGGAGGGCCCCACAGAGCTGCGATC    498
+
+raw              322 GGAACTG------GCACGGTGTCTAAAGACTC-----CTTCCCCGCTGC-    359
+                     ||..|.|      ||.||..|.|.....||.|     |..||||||..| 
+7                499 GGGGCGGGGCAGAGCCCGTCGCCATCCCACGCACGCGCAACCCCGCCTCG    548
+
+raw              360 TGTAGCGCTTCCAAGAAAACACAAGTATT-----GACTGGGCTGGGG---    401
+                     ..|..|||.|||  |.|..| |.||...|     |.|.|||.|||.|   
+7                549 CATCCCGCCTCC--GGACTC-CGAGCCCTCGCCCGGCAGGGTTGGCGCGC    595
+
+raw              402 ---ACCTGT-----------GTCCGGCCACAGAAAAC-------------    424
+                        .|||||           |||||.||||..|...|             
+7                596 GCTGCCTGTCGGGATACTCGGTCCGCCCACCTAGTCCTCTCGTCCAGTGC    645
+
+raw              425 --CAATCGC-------------TTCCCA-----------CCCCTCAAATG    448
+                       |..||||             .|||||           |.||||....|
+7                646 TGCGTTCGCGAGATCCGTATTTCTCCCAAGATGGTGGCGCTCCTCTTTGG    695
+
+raw              449 TT--CTC---------------CCTTTC-------CCAG--CCTAAT--C    470
+                     .|  |||               ||||||       ||||  |||..|  |
+7                696 GTGACTCCAGGAGACGACAGGGCCTTTCGTCTTTGCCAGCACCTCGTCGC    745
+
+raw              471 CCGTTCAGC---CGCTC-----CAGGAGGACTGAG-AAGGAAGCTGTTTA    511
+                     ||.|.|.||   |||||     |..|.|.||.|.| .|.|.|||||||.|
+7                746 CCCTCCTGCGCTCGCTCTCTCGCTCGCGCACCGGGCCACGCAGCTGTTCA    795
+
+raw              512 --GAC-CATGCCATATTTCTTAGGCC-CCAAGAATCTTACAGATG-GACA    556
+                       |.| |.|..|...|.||||..|.| .|..|...||.||.|..| |.|.
+7                796 CCGCCTCGTTACGCTTCTCTTCCGTCGACCTGTCGCTGACGGTGGCGCCT    845
+
+raw              557 GAT----CTTCTCTTCAAA-----TC-CTGCCGTTGCAGCCC-------A    589
+                     ..|    |||||||||..|     || |.|||.|.||..|||       |
+7                846 CCTTCTGCTTCTCTTCGGAGTTGCTCGCCGCCCTCGCCCCCCACTGTGGA    895
+
+raw              590 GAGAAAGAGACAGC---------------------------CACTGG---    609
+                     .|||..|.||||||                           |.|.||   
+7                896 CAGATCGCGACAGCAGCGCTTCAGCGCCGACTTCAAGGTTGCCCAGGCGC    945
+
+raw              610 --AGCAACACATCC------TCCTGAGGGAAAATTCAGAAGACAAAT---    648
+                       .||..|.|..||      ||||||||..||...|.|....|..||   
+7                946 CTGGCCTCTCGGCCTCGGTTTCCTGAGGAGAAGCGCGGGTCCCGCATGAG    995
+
+raw              649 ACTC----------CCTTCAACA---AACAAGTCAGATGAC---C--CGT    680
+                     ||.|          ||..|.|.|   |||.||.| |.||.|   |  ||.
+7                996 ACCCGGCGGTGGCGCCAGCGAAAGGGAACGAGGC-GGTGGCGGGCGGCGG   1044
+
+raw              681 AAGT-GAGGTGAACTCCAAGGC----TAAGGTGGATCCAGGGGC-AGGAC    724
+                     ..|| ||.|.|..|..|||||.    |.|||.||...|||..|| |||.|
+7               1045 CGGTGGACGAGGGCGACAAGGACCAGTGAGGCGGCCGCAGCTGCGAGGGC   1094
+
+raw              725 AAACTGTTCGCACGC-----CTAG--CA--TCTGTG-------GACT---    755
+                      ..|.|..|.|.|||     |.||  ||  ||.|||       |.||   
+7               1095 -CGCAGCCCACGCGCGGGGGCGAGGACAGGTCAGTGCTGCTGCGGCTGCG   1143
+
+raw              756 --CTACCCTCCAAGCGCTTCC-CCGGTCT-TGTCGCGAGAAC--------    793
+                       ||.|||..|  |||||.|| |.||||| |..|||..|..|        
+7               1144 GCCTGCCCGGC--GCGCTCCCTCTGGTCTGTACCGCCGGTCCCCTCGTCA   1191
+
+raw              794 ----CAGAACCGTCGCTTTCA------------GGAACTCTCCATACTAC    827
+                         |.|..||| ||||..||            ||..|||.||...||.|
+7               1192 CCCTCCGGCCCG-CGCTGACAGGGTAGGCGCCGGGCCCTCACCCGCCTCC   1240
+
+raw              828 -----AGAGTGCT------------TCTGAA-----CGTGTACAA-----    850
+                          .|||||||            ||||.|     || ||.|.|     
+7               1241 GTGAGCGAGTGCTTGGGGCGCGTGGTCTGGAGGGGCCG-GTGCCAGGACT   1289
+
+raw              851 ---CACTAGTAACGGAAG-------AG--------GTCAAAGTT--CAGA    880
+                        |.||.||..|.|..|       ||        ||||..|.|  |.|.
+7               1290 AGGCCCTGGTGGCTGCGGCTGCTGCAGCCTTAACTGTCAGTGCTGGCTGG   1339
+
+raw              881 A------AGAGAGGAATTT--------------CCCAAAT----------    900
+                     |      ||.||||..|||              |||.|.|          
+7               1340 ACGCAGGAGGGAGGGTTTTGTCACCCACGGGTACCCGAGTGGGCCCGGGG   1389
+
+raw              901 ------------------------GAT------CCAAATCCAAGCTTAGA    920
+                                             |||      ||..|||.||||..|||
+7               1390 TGGGGCGGACGTGCAGGGCGTCGAGATCGGGGGCCTCATCTAAGCAGAGA   1439
+
+raw              921 ---GA-AGCCAAAGTCATAGC--CA--CTG-----GGCAGGAC-------    950
+                        || ||||  ||.|.|.||  ||  |||     ||||||.|       
+7               1440 TCGGAGAGCC--AGCCGTGGCTTCAGGCTGCGAAAGGCAGGCCTTTTCCT   1487
+
+raw              951 ---------CTCTC---TTGGCAAGTCATCTAT-------TACT------    975
+                              |.|||   |.||.|||.|||.|.|       |.||      
+7               1488 CCAAAGGGGCGCTCTGGTGGGGAAGACATATTTAGATGTGTGCTTAGTGG   1537
+
+raw              976 -----GGAATT--------ATTATTCAGAA-ACAGATG----------TT   1001
+                          ||.|||        |||.....||| ||.||||          |.
+7               1538 GTTGGGGTATTGGGGGTGGATTGGAAGGAAGACGGATGAAGCGGCACCTC   1587
+
+raw             1002 AA-----------------TAAATTTTTTAATGTG   1019
+                     ||                 |...|||.||..||||
+7               1588 AAGCCCAAGGATTGCGCTCTGGTTTTATTCGTGTG   1622
+
+
+#---------------------------------------
+#---------------------------------------
