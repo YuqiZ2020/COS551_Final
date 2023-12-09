@@ -1,0 +1,12 @@
+#Dashing2 Symmetric pairwise Output
+#Dashing2Options: Dashing2Options;k:6;parsebyfile;trimchr;sketchsize:1024;sketchtype:onepermsetsketch;Fastx;outprefix:results/param_tuning/;canon
+#Sources	data/DNA_seq/shuffled/Xist_shuffled_seq1.fa	data/DNA_seq/shuffled/Airn_shuffled_seq1.fa	data/DNA_seq/shuffled/Kcnq1ot1_shuffled_seq1.fa	data/DNA_seq/random/Airn_rand_seq1.fa	data/DNA_seq/random/Xist_rand_seq1.fa	data/DNA_seq/random/Kcnq1ot1_rand_seq1.fa	data/DNA_seq/Xist_M_rep.fa	data/DNA_seq/Kcnq1ot1_M_rep.fa	data/DNA_seq/Airn_M_rep.fa
+data/DNA_seq/shuffled/Xist_shuffled_seq1.fa	-	0	0	0	0	0	0	0	0
+data/DNA_seq/shuffled/Airn_shuffled_seq1.fa	-	-	1	1	0.99902344	1	0	0.9951172	0.9980469
+data/DNA_seq/shuffled/Kcnq1ot1_shuffled_seq1.fa	-	-	-	1	0.99902344	1	0	0.9951172	0.9980469
+data/DNA_seq/random/Airn_rand_seq1.fa	-	-	-	-	0.99902344	1	0	0.9951172	0.9980469
+data/DNA_seq/random/Xist_rand_seq1.fa	-	-	-	-	-	0.99902344	0	0.9941406	0.9970703
+data/DNA_seq/random/Kcnq1ot1_rand_seq1.fa	-	-	-	-	-	-	0	0.9951172	0.9980469
+data/DNA_seq/Xist_M_rep.fa	-	-	-	-	-	-	-	0	0
+data/DNA_seq/Kcnq1ot1_M_rep.fa	-	-	-	-	-	-	-	-	0.9951172
+data/DNA_seq/Airn_M_rep.fa	-	-	-	-	-	-	-	-	-
