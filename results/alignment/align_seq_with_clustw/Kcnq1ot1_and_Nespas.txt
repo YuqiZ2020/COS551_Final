@@ -1,0 +1,335 @@
+########################################
+# Program: water
+# Rundate: Mon  4 Dec 2023 20:49:42
+# Commandline: water
+#    -auto
+#    -stdout
+#    -asequence emboss_water-I20231204-204923-0741-9352923-p1m.aupfile
+#    -bsequence emboss_water-I20231204-204923-0741-9352923-p1m.bupfile
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: raw
+# 2: raw
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 3685
+# Identity:    1459/3685 (39.6%)
+# Similarity:  1459/3685 (39.6%)
+# Gaps:        1467/3685 (39.8%)
+# Score: 5887.0
+# 
+#
+#=======================================
+
+raw            10400 GTGATTCCAGCTTTTCTAAGGAAGGCAGGTAGC--CTCTCAACCAGTCAT  10447
+                     |||.||.|.|         ||..||..||.|||  .|..|...|.|.|.|
+raw                1 GTGCTTGCTG---------GGTTGGTTGGAAGCGGTTGGCGGGCGGGCGT     41
+
+raw            10448 ATGCCCCATGCCAGACAGTCATGCCAGCCGCTCCAGTGCTCGTTAACTAC  10497
+                     |||.|   .|||||.|   |..|...|||.|      |.|||       |
+raw               42 ATGGC---GGCCAGGC---CTAGAAGGCCAC------GGTCG-------C     72
+
+raw            10498 CTTTAG-GCCTTGTGGACTTCATGTTCTATGGATGCGATTTAGTACTCCC  10546
+                     |.|.|| ||||||.||.|  ||.|.|.|.| ||||            |||
+raw               73 CGTGAGTGCCTTGGGGGC--CAAGCTTTTT-GATG------------CCC    107
+
+raw            10547 AAGAGCACCACAAGAAAGGGGATAGCAAGCAAGAAGAAACTCAGCCACAT  10596
+                     .|.|.|.|||                |.|||||..|              
+raw              108 TAAATCGCCA----------------AGGCAAGGTG--------------    127
+
+raw            10597 AGAAGGACTTGTTTGAGGCCACTGGGTGCCTGACAAGAGTCCTGCCTCTG  10646
+                     .|||||.|     .|.|.||.|      |.||      |.||..||..||
+raw              128 GGAAGGTC-----AGGGACCCC------CATG------GACCATCCCTTG    160
+
+raw            10647 GGGAAACCAGTGCTCC--ATGCCTGTAACCTTGACAGAGTGCTCTTGGAT  10694
+                     |          ||||.  |||.|.|||..| |.||..|.|.|.|...|| 
+raw              161 G----------GCTCATGATGGCGGTAGGC-TAACTCACTACACAGAGA-    198
+
+raw            10695 TTATGTTTTCATAGAAGCAGTCTGTGGAGGGCTAGAGAGGCAGCCCCTGT  10744
+                       ..|.|.||...||.|||  |.|.||      ||||||||        |
+raw              199 --GGGCTATCGCCGAGGCA--CCGCGG------AGAGAGGC--------T    230
+
+raw            10745 TTTCCTGGGTCCCTGCTTG-GGAAGTCACAGCTATCACTGTTGAGAAAGG  10793
+                     |||||.|||  ||||...| ||..|.|...||     ||.|.|||||||.
+raw              231 TTTCCAGGG--CCTGGAGGTGGTGGGCCAGGC-----CTATGGAGAAAGA    273
+
+raw            10794 CAGCCCAGGTTTGGAGCAGTTGGAGGCTATCCCAAGAGTAGGTTGGATGT  10843
+                     .|||      ||...||            |||             ||||.
+raw              274 GAGC------TTACTGC------------TCC-------------GATGC    292
+
+raw            10844 AGAGGTGTGGGTGCGTATAAATGCCATCCTGGGTAAATGGAAAGGCCACA  10893
+                     |||          ||      .||..|.|..|    |||||.||....||
+raw              293 AGA----------CG------AGCAGTACAAG----ATGGACAGATTTCA    322
+
+raw            10894 GGCCACCGTGATAAGGTACCACTTCCTCTTCCTGCCTGGTG---GGCTGC  10940
+                     ...|.|.|.|||...|.|||       ||.|  .|..||||   ||| ||
+raw              323 TTTCCCAGAGATGCTGAACC-------CTGC--ACAAGGTGAAAGGC-GC    362
+
+raw            10941 TTCAGTACCAAAATGTCCGGCCACTAACTTGGTATAAACAAATGGGTGTG  10990
+                      .||||.||.        |.||.||..   ||     ||||.|.|    |
+raw              363 -ACAGTCCCG--------GACCTCTCC---GG-----ACAAGTCG----G    391
+
+raw            10991 ATCCAAATGCAAAGAACAGATGCCCTTAGCCCCCACTCCTCCTGCCCTGA  11040
+                     |||    |||..| |.|||.|||.|....||||.|       ||   |||
+raw              392 ATC----TGCCTA-ACCAGCTGCGCGATACCCCGA-------TG---TGA    426
+
+raw            11041 TTTTCCTCAGTGGGCTGTATGTCTCCTCTCCATTCTGTTTCTAAGACCAC  11090
+                        ||||     .|||||.||   ||...|||....|.....|||..|||
+raw              427 ---TCCT-----AGCTGTCTG---CCAACCCAGGTAGCCCAGAAGGGCAC    465
+
+raw            11091 CTAAACATCAAGAATCTGGAAAATAGCCGCTACAGCAAATGTTTATATTC  11140
+                     |    |.|.|||||            ||                      
+raw              466 C----CGTAAAGAA------------CC----------------------    477
+
+raw            11141 TTCTTGGTTTGTCATTCATTCTGTTCCTCC-CAGAGAGGCCTAAATGCTG  11189
+                                         ||.|.||.|| |.|||.|.|||..|.||  
+raw              478 --------------------CTATACCACCACTGAGTGTCCTCCAAGC--    505
+
+raw            11190 AGATACTGGGCAGAGGGCAAGGAACAGTACTGCCCTCTCCAGAGGCTGCC  11239
+                         |||               |.|       |.||.||.|||..|| ||
+raw              506 ----ACT---------------ATC-------CACTATCAAGAAACT-CC    528
+
+raw            11240 AAGAGACAAGGCTGTAGTTGTAGTCTTTAGGGCCATCAGCCCTACATGAT  11289
+                     ......|..||  |.||  ||.|.|||||||.|     ||.|    .|..
+raw              529 TTTCTGCGCGG--GAAG--GTTGGCTTTAGGAC-----GCAC----GGGA    565
+
+raw            11290 GCTGTCCTC-CTCATTCCCTTTTTCCTATGGGTGGGCTTCTTCCCATGGG  11338
+                     |..||.|.| |.|   |||||||..|.|             ||.||  ||
+raw              566 GAGGTGCGCGCGC---CCCTTTTCACGA-------------TCTCA--GG    597
+
+raw            11339 CCACTTCTACCCAAAGCCATGTGAAAGGCCTTAAGTTCTAGAGGGATAAC  11388
+                     ||.|.||.|.||.               ||..|.||.||           
+raw              598 CCTCCTCGAACCT---------------CCAGAGGTGCT-----------    621
+
+raw            11389 CTGAGGGTGGCACTGAGTTGCAGGGTGCAATGAGAGATTATTGCAAGGCT  11438
+                               |||.|||..||.|                           
+raw              622 ----------CACCGAGAAGCCG---------------------------    634
+
+raw            11439 GGTAGAACCCTCCATCTGCAGGGCTGACTTCAAAGCTGCTGCTGGGCTTA  11488
+                           ||.|.||.||||                ||| ||||.|.|..|.
+raw              635 ------ACTCACCCTCTG----------------GCT-CTGCAGAGAGTG    661
+
+raw            11489 G-CCTGCTGCATCAAAGTC------AGCCAGTTAAACAGTTTTCACATAA  11531
+                     | ||..||||. |||.|.|      .|||    .||.||..||.||.|.|
+raw              662 GCCCCACTGCG-CAAGGACTGTTGGGGCC----GAAAAGGATTAACCTTA    706
+
+raw            11532 AAGGGAGAGTGGAGGGTTTAAAAGCCTTCCCGTGAAGACAGGCAGGCATT  11581
+                     ...||||||..|..||      .|.|      |||||||.          
+raw              707 TGAGGAGAGAAGCTGG------GGTC------TGAAGACC----------    734
+
+raw            11582 CCACCCTCTTCTCAGGCACAAGAGCCACTAGAGGAGAAAGTAACTGCCCC  11631
+                     |||..|||..|||.||       ||.|..|||.|.||       ||..||
+raw              735 CCAATCTCGCCTCGGG-------GCAAAAAGAAGGGA-------TGTACC    770
+
+raw            11632 TTAAAGACACAGAAATCACCTTACACCCTGGTTTAGGGTTTGAAGACTAC  11681
+                     |                |||||..|.||                 |||.|
+raw              771 T----------------ACCTTCAAACC-----------------ACTGC    787
+
+raw            11682 AGCCTTAGGTACAAGCGTAGTGAGGCACCTGTGTGGAGGGATCCTCCATT  11731
+                     ...|||.        |    |.|.||.||          |..||||    
+raw              788 GAACTTT--------C----TAAAGCTCC----------GCGCCTC----    811
+
+raw            11732 TGCATTCAGCTCCCTGCTTTATATCTGGCCTTGTATTTTGCTTCC-CTAC  11780
+                     .||.|...||||          |||           .||.||||. |||.
+raw              812 AGCTTGTGGCTC----------ATC-----------ATTACTTCATCTAG    840
+
+raw            11781 CTCCAGC-ACCTATGTTTTTGGGGTGGG--GGTGGGGGCAGGCTATC-TG  11826
+                     |||..|| ||.|..|.......|||..|  .|...|.||     ||| ||
+raw              841 CTCACGCTACATGAGAAAAACAGGTACGTCAGCAAGAGC-----ATCATG    885
+
+raw            11827 GCTGTCGGGAATAAGGAGATGTATGGTATGACAGCCCTGAGGGAACTCAG  11876
+                     ||  |.|||                    |.|.|||   ||.||.|.|.|
+raw              886 GC--TAGGG--------------------GGCGGCC---AGAGACCACTG    910
+
+raw            11877 AGTCAGGCTGCTCAGGTTGGATTCTAGCTTTTAGTCTAAACAATGGCTTT  11926
+                     ..||   |||||   ||||||.||         |....|||||.|   |.
+raw              911 GATC---CTGCT---GTTGGACTC---------GGAAGAACAAGG---TA    942
+
+raw            11927 ATACAGTGCCTTTCTTCCAGTCCTAGCAGCCTTGTGTGAATACATTTAGA  11976
+                     |.||               |.|||.     |||||               
+raw              943 AAAC---------------GACCTG-----CTTGT---------------    957
+
+raw            11977 GGAGACCCTCGTTCAGCCTCCCCAAGAACTCTCTGGGAAGATCCAGGAGA  12026
+                                       |||   |||.|.|.||.||||||.||    ||
+raw              958 ------------------TCC---AGAGCGCGCTTGGAAGAGCC----GA    982
+
+raw            12027 CTCTACCTTGCTCTCTGTCTCCCCACTTCTGCCTTCCTCTTTGCCCCCCC  12076
+                             ||..|||.||.....||.|||||||..|.||.|         
+raw              983 --------TGGACTCAGTTAAAACAGTTCTGCCAACATCAT---------   1015
+
+raw            12077 TCCCCCCACCGTTGGGTCCCTTGCCTGACTCCAGTATACTGTGATGGCAG  12126
+                                .|||..|.|   ...|||....||.||            
+raw             1016 -----------ATGGAGCAC---AAAGACATTGGTCTA------------   1039
+
+raw            12127 AAGTGCCAATGTCTCCTCTCAAGCAGAGCCTAACCCAGCTTGTGCCTTGC  12176
+                         ||||||.|           .||.||   ||.|||...|.|.....|
+raw             1040 ----GCCAATTT-----------TAGGGC---ACACAGAGAGAGGAAAAC   1071
+
+raw            12177 AGAGTGCAGAGGGGTGCT-CACCCTGCCCTCCTTCAGGGAGACATCAAAG  12225
+                     ||.  .|.|. ||||||| .....||||              |.|...|.
+raw             1072 AGG--ACTGT-GGGTGCTGGTAAATGCC--------------CGTTTGAT   1104
+
+raw            12226 GGAAACTGGAAGCATTCCCTGCTGACCCCCAGTGA-GTGGGAGAAAAGCA  12274
+                     ||||||||      .|.||.||||. |..|||||| ||||..||      
+raw             1105 GGAAACTG------ATGCCAGCTGT-CAGCAGTGAGGTGGATGA------   1141
+
+raw            12275 GCAGCTTGGCTCAGCTGGCTGGGCTGGGGATTTTCCATCCTACCAACAAT  12324
+                           |||.|..  |.|...|..||||.|..|.||         .||.|
+raw             1142 ------TGGTTTT--TAGTGTGTGTGGGAAAGTGCC---------TCATT   1174
+
+raw            12325 ATCCACAGGATAGATACCCCACTCTGGCTTTTGAGGAACCAGGAACCCTC  12374
+                     .|.||..|||.||.|             ||.||                 
+raw             1175 TTTCAGGGGAAAGCT-------------TTATG-----------------   1194
+
+raw            12375 AGGAACCAGTGTTTGA-TTTGCAGCCTGATGGTGCCATGAAGGGCTCATT  12423
+                          ||.|||.|.|| .|.||||||                  |.||| 
+raw             1195 -----CCCGTGATAGAGATGGCAGCC------------------CACAT-   1220
+
+raw            12424 GGCATTGGGGCATGGCTAGCCACTTGAGGAGTTCCCTATCCTCATGACGT  12473
+                               |    |||..||||     |||.|...|.|..||.||   
+raw             1221 ----------C----CTATGCACT-----AGTACAGAAACACCAGGA---   1248
+
+raw            12474 GCTGACGACTGGTTTGAAATCTTAGCATTTCTCACCCTAGCAGAATACTA  12523
+                      |||.|.||....||.|||.||..|||||.|             |||.||
+raw             1249 -CTGCCCACATTATTAAAAACTATGCATTAC-------------ATAATA   1284
+
+raw            12524 CCTCGAGGTCCCCTGAGATCTAGCTAGCCAGGGGAGATCACAATTTGTGT  12573
+                     |.|              ||||.|  ..|||||   |.||...|||.|   
+raw             1285 CAT--------------ATCTTG--GACCAGG---GTTCTGCATTAG---   1312
+
+raw            12574 GGGGACCCAAGAAAGGTAGAGAGAAGACTGCCTGCCTTTTCTCTATCAGC  12623
+                            ||                      ||||..||||| |...||.
+raw             1313 -------CA----------------------CTGCTCTTTCT-TGCAAGA   1332
+
+raw            12624 TGCTTATCCCCCAGGCCTTTTGTGGAGTGCACACTCCAGCCTCCGTAGCA  12673
+                     |||.|.|....|||  |   |.||||          |||....|..||||
+raw             1333 TGCGTTTGAATCAG--C---TATGGA----------CAGTTAACAAAGCA   1367
+
+raw            12674 -GCTCAGCACAGCCCAGGCTATCCTAGACTGTCCCAAGTCCTCAAGGGTT  12722
+                      .|.|..|..|||||.||..|| ||..||.||..|||.|  |||    ||
+raw             1368 TACGCTTCCGAGCCCCGGTCAT-CTGTACAGTTACAAAT--TCA----TT   1410
+
+raw            12723 TCAGCACCTCCCAAGCTAAGGGAACAGGAAGTCCAGAAATAGAAGTCAAC  12772
+                     |||||||.|     |||.||    ||.|.|.|||||.|..||        
+raw             1411 TCAGCACGT-----GCTCAG----CACGGACTCCAGGAGGAG--------   1443
+
+raw            12773 ATTTATGCTAAACCAGGGTACCCTCCCCCCTTTGACTAACATGGGCTTTT  12822
+                                  |||||    ||.|.||....|||              
+raw             1444 -------------CAGGG----CTGCACCAAAAGAC--------------   1462
+
+raw            12823 GGCAGCTTCTGGCTCTCAGATCTCCATGCACAATTTGTAGGCTAAATACT  12872
+                     .||..|.|||.||.||.||       |||..|..|||  .||.||....|
+raw             1463 AGCTCCATCTTGCACTTAG-------TGCCGAGGTTG--AGCAAATGGAT   1503
+
+raw            12873 CTACACTACTCAGGATATCTAATCCTGTCCCTCAAGAGTTAGACTGTCAG  12922
+                     ||.||     |||.|.||           .|||.    |||.|.|| || 
+raw             1504 CTGCA-----CAGAAAAT-----------GCTCT----TTAAAATG-CA-   1531
+
+raw            12923 GTTTTTCTGAGTCACAGCAACCTTAGGCCTGGTAAGTCATAGTGAGCATG  12972
+                         ||.||.|          |  |||.||      |.|.|..|.||.||
+raw             1532 ----TTATGTG----------C--AGGACT------TTAAAAAGTGCTTG   1559
+
+raw            12973 TTTCCCTCTTCAGCCTAGAACTCACAGGATGGGCCAAAGAGAATGCAGTA  13022
+                            ||.|||..|..|..|||.|.|  ||||||          ||||
+raw             1560 -------CTGCAGAGTGAATTTCAAAAG--GGGCCA----------AGTA   1590
+
+raw            13023 TGGTTTCAAGGATGTCCAGGGCCAGCAGCACTACCTGATGAGATGAGACG  13072
+                      |||                    |..|.||.||||            | 
+raw             1591 -GGT--------------------GATGAACGACCT------------C-   1606
+
+raw            13073 AGATGCTTGCCTGCTCCATCCTGTCAGGGTCTGGTCACACAACTAGGCTG  13122
+                     ||.|| ||.||.|||          .||||           ||.|||  |
+raw             1607 AGTTG-TTACCAGCT----------GGGGT-----------ACAAGG--G   1632
+
+raw            13123 GAGCAGGCTTAGAGGGCAGGATTAGACATAGTGAGATCCAACAAAGGCAT  13172
+                     |..|.  ||..|...|||||  ||.|.|.||||.|.||..|.|.. .|.|
+raw             1633 GTTCT--CTGTGTTTGCAGG--TAAATAAAGTGTGGTCATATATT-ACCT   1677
+
+raw            13173 AGAAAATATCAGAAGTGAGATAGCAAG-CCAGGCCTTAGGCTTGT--GC-  13218
+                     ..|.|.|.||||.|..|||....|.|| ||||   ||.|||..|.  || 
+raw             1678 TTAGACTTTCAGGAAGGAGGCTTCTAGACCAG---TTGGGCAGGAAGGCA   1724
+
+raw            13219 --TTCCTGTGTTCCTGTCAACGCTGCCCTACTCTATGAT-----TATGGA  13261
+                       ||||.||     ||...||..|..|.||....|.|.|     |.||||
+raw             1725 GTTTCCAGT-----TGCTTACAGTATCATATAGAAGGGTTCTTATTTGGA   1769
+
+raw            13262 AAAAGTAGGAA-AAAAATCTTTAGAGAAACCTAAGTACCAATGTGGCTTT  13310
+                     ...|.|.|||| ||.|.|||||.||                    |||  
+raw             1770 TGTATTGGGAAGAAGATTCTTTTGA--------------------GCT--   1797
+
+raw            13311 TGTAGCAGACTGAATTGTGGGAGGCCCTGGTGAAGACATATTGAGCTTTG  13360
+                       |||..|||||...|||||.|          |.|.|          ||.
+raw             1798 --TAGAGGACTGTCCTGTGGAA----------ATGGC----------TTC   1825
+
+raw            13361 ACATGTGATTGTGCCTTAGCTGAGGTCTTCTCTCAGCCAAAGCAAGGACT  13410
+                     ||..||.||| ||.|.||||        ||.....|.||||...|||.|.
+raw             1826 ACTAGTTATT-TGACATAGC--------TCCAGGGGGCAAAATGAGGGCC   1866
+
+raw            13411 CAGTTGGGTCCCGACTCCCACAAGGCTATCT--TCAAGTACTGTTTGTTC  13458
+                     .||.|||||.|.|..|.|....||||| ||.  .||||.| .|..|.|||
+raw             1867 TAGATGGGTGCTGTGTACAGGTAGGCT-TCAGCCCAAGGA-GGAATATTC   1914
+
+raw            13459 TACAGATGGAGGTGGGGGGCTGTTTCTCATTTCTGCCAAAGTCACTTAAG  13508
+                     ||     |.|.||.||          .|   ||||....||      ||.
+raw             1915 TA-----GCAAGTAGG----------AC---TCTGAAGGAG------AAT   1940
+
+raw            13509 GGACACAGAGAAGGTAGACCTGTTGCTTTTCTAGTACCTAGAAGTGGAAA  13558
+                     ||||.|.|.|..||     |.|..|||.|.|||...|..|          
+raw             1941 GGACTCGGCGTCGG-----CAGGAGCTATGCTAAGTCAAA----------   1975
+
+raw            13559 GGTGGAGGTTGGTCAGAAAGCCACAT-TTTGCTTCTCATTCCCACATGAA  13607
+                               ||.||||...|.|||| ||.|.|.....||.||       
+raw             1976 ----------GGACAGATGACTACATGTTAGATAGAGGTTTCC-------   2008
+
+raw            13608 AAAAGATGGCGCTGGGGGGTTTACCCATCTGTTCCTCTATATCT-TGTCT  13656
+                          ||||.|||.|.|        .|.|||     |||.|.|| .|.|.
+raw             2009 -----ATGGAGCTTGTG--------AAACTG-----CTAGAGCTAAGACA   2040
+
+raw            13657 TTGGCTGGCCTAGGCCCTTATCTCACCACATGCCACTCCGAAGAGAGACG  13706
+                     ..|..||.||..||||     |||...|..|||..|.||    ||.|..|
+raw             2041 AGGTTTGACCACGGCC-----CTCTGTAGTTGCTCCCCC----AGGGCTG   2081
+
+raw            13707 GAAATGACAAGAGTGGGCTAAACTATTTGGACTGGGTAAAGTCAATAATA  13756
+                            .|.|||.||||        ||||..||||              
+raw             2082 -------TAGGAGAGGGC--------TTGGGGTGGG--------------   2102
+
+raw            13757 GACAGTGCCCGATTAAGAACTGGGAGGACCATGTCTTCCTAAGTCTCATG  13806
+                        .|||...|.||.|...||       ||...|||.|||.|||.||   
+raw             2103 ---GGTGGGGGTTTCAAGCCT-------CCCACTCTGCCTCAGTTTC---   2139
+
+raw            13807 GTATGCTCCATTCTTCAAGGGGAGCCATTCCCGTAAGAGCTGGTGTGACA  13856
+                       .|.|||..|.||      |||||||             .|||||  ||
+raw             2140 --GTTCTCACTCCT------GGAGCCA-------------AGGTGT--CA   2166
+
+raw            13857 GATTTGAAGTGGCTGTGCCAGCTAGTGAGTCTTTT--CCTCTGAACCATG  13904
+                     |.          |.|.||||.|||.|.|.|...||  ||||||..||   
+raw             2167 GT----------CAGGGCCATCTATTCATTACATTGGCCTCTGGGCC---   2203
+
+raw            13905 TAGTGATAGGCAAGGCAAGTTGACAAGGAAGTTCTTTCCAATTCGAAGAA  13954
+                                                         |||           
+raw             2204 ------------------------------------TCC-----------   2206
+
+raw            13955 GCCAAGGCAGTCATCAAGCTTTGTCTTACCAGGAAAACGTCAGTGTATAT  14004
+                      ||       ||.|..|||  ||||||    |||||   |.|....|||.
+raw             2207 -CC-------TCCTGGAGC--TGTCTT----GGAAA---TTACAAAATAA   2239
+
+raw            14005 CGTTGGCTGTCTGGCTTAGAAGAGGCAACTGTGAA  14039
+                     ..||||||.|     ||||..|.  ||    ||||
+raw             2240 AATTGGCTAT-----TTAGTGGT--CA----TGAA   2263
+
+
+#---------------------------------------
+#---------------------------------------

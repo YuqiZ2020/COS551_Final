@@ -1,0 +1,1131 @@
+########################################
+# Program: water
+# Rundate: Mon  4 Dec 2023 20:31:50
+# Commandline: water
+#    -auto
+#    -stdout
+#    -asequence emboss_water-I20231204-203139-0214-92266902-p1m.aupfile
+#    -bsequence emboss_water-I20231204-203139-0214-92266902-p1m.bupfile
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 6
+# 2: lncRNArawseq_Morrbid_M_rep.fa
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 13602
+# Identity:    5292/13602 (38.9%)
+# Similarity:  5292/13602 (38.9%)
+# Gaps:        5217/13602 (38.4%)
+# Score: 20750.0
+# 
+#
+#=======================================
+
+6                 42 GCTGGCCCAACGTGTATTGACTCACAGTGTTTTCCTTCATGGTGGGAATT     91
+                     |||||      |.|            ||||        ||||||.|    
+lncRNArawseq_      1 GCTGG------GGG------------GTGT--------ATGGTGTG----     20
+
+6                 92 CTGTGAACAGTCGCTTTAAATTGAAAAACCAGACGTGGGATTGTTGAGGG    141
+                      ||||.|.|...||||                  || |.|||||      
+lncRNArawseq_     21 -TGTGTATATGTGCTT------------------GT-GCATTGT------     44
+
+6                142 AAGGGTGCAAAGGAAGGGTGGTGGGCCATGCTGCCTCTGAACACAATGGA    191
+                       |..||||||              .|....|||||.||.||.|      
+lncRNArawseq_     45 --GCATGCAAA--------------TCTGTATGCCTGTGCACTC------     72
+
+6                192 CCAGCTCTGACCACGGAAAGGTCACAAATATTCCATCTGGAATGAGATTG    241
+                           |||..||..||.|||    |.|....||.||.|         ||
+lncRNArawseq_     73 ------CTGTGCAAAGAGAGG----AGAAGGGCCTTCAG---------TG    103
+
+6                242 AAATATTTTTAAGAAGAAAAAAATGATTTCTTTAGGAAGGAACTTCCCTG    291
+                     ...| |||.||..|||....|..|.|||.|.||..||..|..| ||.|.|
+lncRNArawseq_    104 TCCT-TTTCTATCAAGCTCCACTTAATTCCCTTGAGACAGGTC-TCACAG    151
+
+6                292 GGGCAAATATCAAAACTAATTATCAACATTTACATAGTAGTTGCTGTAAT    341
+                     .|.|          .||.|...|||.|||||.|. ||.||...|...|..
+lncRNArawseq_    152 AGAC----------CCTGAAACTCACCATTTTCC-AGCAGGCCCCAGAGC    190
+
+6                342 GTCTCCCACACCCATTGACAAGAGAGGACACTTGAAAATAAAAGAATGTT    391
+                     ..||||||..|||.|.|.|..      .|.|||..|..|.|||..|.|.|
+lncRNArawseq_    191 TCCTCCCAACCCCCTCGGCCT------TCTCTTCCAGGTTAAAACAAGGT    234
+
+6                392 GCCTTCTAAAAATGCAGCGGGAAACCTCTGGACCTTAGT---CTAATTTC    438
+                      ||     ||.|..||..|||  ||||.  |.|||||||   ||.|..|.
+lncRNArawseq_    235 -CC-----AAGAAACACTGGG--ACCTT--GCCCTTAGTTCCCTGACCTA    274
+
+6                439 TTCT-AGTTAGACCGTGAAAAGTTTTGTGAAGCCC----GGTGTTTTTTT    483
+                     ..|| |||..|||..||   .|.|||      |||    ||.|.|.||.|
+lncRNArawseq_    275 CACTGAGTGTGACAATG---GGATTT------CCCTCTAGGAGCTGTTGT    315
+
+6                484 G-GAGCCTCC--CTTCTCTGCCATTGAAAGAAACA---AACCCAGCTGTG    527
+                     | |..||..|  ||.|....||||||.||..||.|   |...||..|||.
+lncRNArawseq_    316 GAGGACCATCGGCTACCACACCATTGTAATTAATATTGATATCATTTGTA    365
+
+6                528 C---AAACAGCAGACCCGTGTGGACAGATTGTGGGAAGATGCATGCCTGG    574
+                     |   |.|..|.|.|.|..||.||.||.|  |||.||.||||   .||||.
+lncRNArawseq_    366 CATGATATTGAAAAGCTTTGAGGTCACA--GTGTGATGATG---ACCTGA    410
+
+6                575 CTCTTCCTGGGAGGACTTTTGTCTGCAGTGAGTGCG---CATGCGCCTCT    621
+                     .|...|..|...|.||      .|.|.|.|.||.|.   |..||...||.
+lncRNArawseq_    411 TTAAACAGGTTTGAAC------ATACTGGGGGTTCAAACCCAGCTATTCA    454
+
+6                622 CAGCTGGGAGACCGTGGGCGGAGGTGATACAACCTGACTGATGATGGCTG    671
+                     |..||                     ||..|||.||.||        ||.
+lncRNArawseq_    455 CGCCT---------------------ATGTAACATGTCT--------CTA    475
+
+6                672 ACAAAAGAAGAAGAAAGTAGCTGAGAACCAGCAGCTGAAGAAAGTAAGCA    721
+                     .||..|||                 ..|||.|  |||             
+lncRNArawseq_    476 CCACCAGA-----------------CCCCACC--CTG-------------    493
+
+6                722 ATATTGTGTTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCT    771
+                               ||.|.||| |.||| |.|||.|..|||| ||| |||...|
+lncRNArawseq_    494 ----------CTTTTTCT-TTTCT-TTTCTTTTCCTCT-TCT-TCTTCTT    529
+
+6                772 CTCATTGTTATCTGTTGGTTTGTTGGGGTTCTGAGATAGACGCTCATGTG    821
+                     ||..||.||.|.|.||||.|  ...||.|||    ||||..| ||.||..
+lncRNArawseq_    530 CTTTTTTTTTTTTTTTGGAT--ACAGGATTC----ATAGTTG-TCCTGCC    572
+
+6                822 ATTGAGGGTGGCCTTGAACTCCCCATCCTCCTGCCTCGTCCTCCCCAGTG    871
+                     |...||..|            |.|...||||......||..||.|.||  
+lncRNArawseq_    573 AAAAAGAAT------------CTCTGACTCCAAGGATGTTTTCTCAAG--    608
+
+6                872 ATGGGATTGGATTATAGGCAGGTGCGAGTGTCTCTG---GGTACCAGCGT    918
+                             |||||...|.|.|          |.|||   |.|||||.|..
+lncRNArawseq_    609 --------GGATTCCCGCCCG----------CACTGCCAGTTACCATCAG    640
+
+6                919 AAGAATACATCGACATCTTTTCTTTCCTTTTATCTTTCCGCGTCTTGTTT    968
+                     .||.|..|.| |||..|    ||..|          |||.|         
+lncRNArawseq_    641 CAGGACTCCT-GACTGC----CTGAC----------TCCAC---------    666
+
+6                969 TTCCCAGTTCTTCCCTTCACAG-CTGATGTAAGTTTGC-GCCAATGCCCT   1016
+                       .|||.||||   |.|...|| |.||.|..||  ||| |.|..|.|||.
+lncRNArawseq_    667 --TCCATTTCT---CATGGAAGCCAGAAGGTAG--TGCAGGCTGTCCCCA    709
+
+6               1017 TCTTACTCATGTTGGTCACAGATTCGGAGAAAGGAAATTTCAAAACACCT   1066
+                     .|   |.||.|.| |.||.||.|..|..|  ||||      ...||.||.
+lncRNArawseq_    710 CC---CCCAGGGT-GACAAAGCTGTGATG--AGGA------GCCACCCCA    747
+
+6               1067 GAAGTAGGTAGATGTCCAGGTACAAGGGCCGATGGACT---CC-ACAGCT   1112
+                     ||||..||.|      |.||.||....|||...|.|||   || |..|||
+lncRNArawseq_    748 GAAGAGGGAA------CTGGCACCTCAGCCTGAGAACTGGCCCTATGGCT    791
+
+6               1113 ACCTGAGTTCAAAGAATGAGTTTGC-TGTTGCTCTCATAAAGAACTGTCT   1161
+                     |.|.||||        .|||...|| |..|.||.||.|....||   |.|
+lncRNArawseq_    792 AACCGAGT--------AGAGGAAGCTTAATTCTTTCTTTTTTAA---TTT    830
+
+6               1162 TG--TTTTGGTTTTATTTATTTTGTCTTATGTGTAGCGATGTTTTGCCTG   1209
+                     ||  ||||..|||.|.||.||.|...|.|..|..|.|.|...|.| |...
+lncRNArawseq_    831 TGCATTTTATTTTAAATTTTTATTATTAAAATACAACAAACATAT-CAAT    879
+
+6               1210 CATCATGA--TATATGTGCATCATATATGGCCCCACACCCAAGGAAGTCA   1257
+                     .||..|||  ..|.||.|.||||.|||       |.|...||..||.|..
+lncRNArawseq_    880 AATATTGAGTATTTTGAGAATCAAATA-------ATATATAAAAAATTTG    922
+
+6               1258 GACGAGGCCTTCCAATTCCCTGGAACTGGAGTTATGGATGTTATGACCCA   1307
+                     ..|.|  |.||...||||                   ||.|..|..|..|
+lncRNArawseq_    923 TTCAA--CTTTTATATTC-------------------ATATCCTTTCATA    951
+
+6               1308 CCATGTGGGCGCTAGGAATCAAACTAATGTCCTGTACAAGAGCACACGTG   1357
+                     ||.|....||...|..|||.||..|....|.||||.||            
+lncRNArawseq_    952 CCCTAAAAGCATCATTAATGAATATTTAATACTGTCCA------------    989
+
+6               1358 CTTTTAACTCTGGA--CCGTCTCTCCAGATGCAAG--GAACTGTTT----   1399
+                         |||||..|||  |.||.|||...|.||.|..  .||.|||||    
+lncRNArawseq_    990 ----TAACTGAGGATTCTGTATCTAATGTTGAATACTAAATTGTTTCAAA   1035
+
+6               1400 --TTACAAGAAATTTCTAGGAATCTGGGAACTAGAAGAGAGGAATATCTG   1447
+                       .|||||.|.||||||.||.|..|.||.| |||.|.|...|.|||    
+lncRNArawseq_   1036 ACATACAAAATATTTCTTGGGAATTAGGCA-TAGTAAAAGAGCATA----   1080
+
+6               1448 GTTTCTCCTTATTAGAGTTGGTTCTACTTGGATAGC---CTCAAGT----   1490
+                           ...|||||.|..||..||.....|.|...|   |..||||    
+lncRNArawseq_   1081 ------AAATATTAAAAATGAATCATTAAGAAATACATTCAAAAGTCCTT   1124
+
+6               1491 -AATGTGACC-CCAAGC-TAGTCAGAGG--CTTCAAGGTTCAGTACAGAC   1535
+                      .|||..||| ||...| ||||.||||.  .||.||...|||.|..|.| 
+lncRNArawseq_   1125 ATATGATACCACCTGACATAGTGAGAGAGTATTTAAAACTCATTCTATA-   1173
+
+6               1536 TTCAGGGCAGCCTGAAC--CCAAGCCTCAGCCAATGACGCCCGGGCTTGA   1583
+                      ||.|.|.| |.||..|  .|||.||.|.  .|.|.|.||..|....|.|
+lncRNArawseq_   1174 -TCTGTGTA-CATGGTCTAACAATCCGCT--TATTTAAGCAAGATTATCA   1219
+
+6               1584 GAGCTGGGGGATGGGGCGGGGAGGAGGACTGGCTTATTAAGTTAGTAAGC   1633
+                     |.|.|          .|..||| |||.|    .|||||...|.|||||||
+lncRNArawseq_   1220 GTGTT----------TCTAGGA-GAGAA----ATTATTTTATCAGTAAGC   1254
+
+6               1634 AGGTTTTGGGAGCAGAGATGTCAGGTGAGCTGCACTGTACATAGAGAAGA   1683
+                     |..||||      |.|.||.|||               |.||||..||.|
+lncRNArawseq_   1255 ATATTTT------AAAAATTTCA---------------AAATAGCAAAAA   1283
+
+6               1684 GTCAGTTCTGTGTGGTTCTAAGTGAAATCAATCACGGCTCA-GTTCAGCA   1732
+                            ||.||..|||..|..|.||...|||    |||.| .||.||||
+lncRNArawseq_   1284 -------CTTTGAAGTTAAACATTAAGAAAAT----GCTAATTTTAAGCA   1322
+
+6               1733 TTCACGGTTCACCGCGAACCACTGCCAAGTGGTTTTCAG---GGGACC--   1777
+                     |................||.|.|.|||.|..||||..||   ..||||  
+lncRNArawseq_   1323 TGAGAAAAATTATTAATACTATTTCCATGGTGTTTGTAGACCATGACCGT   1372
+
+6               1778 CAACTTCACTGCAGAAAGGAGCTGTTATTTAAAGTGGGGGCATTAAGGCA   1827
+                     .|..|||.|          |.||||||.|...        || ..||.||
+lncRNArawseq_   1373 AATATTCTC----------AACTGTTAATATT--------CA-ACAGACA   1403
+
+6               1828 GAAGGAGAAAAAGAAGGAAACCTCTCCTCAGGCTGCTGTTGTTCTCCTTA   1877
+                     ||| .||..|....|.||.|..|.||           .|||||.||    
+lncRNArawseq_   1404 GAA-TAGTTATTTTAAGATATATTTC-----------ATTGTTTTC----   1437
+
+6               1878 ACCTGCCCTCAGGAGATCACCCAGTCCCTTCCCAGAGGCGGTTTGATGAA   1927
+                                     ||.|||..|.|.||.|      .|.|||.||.||
+lncRNArawseq_   1438 ----------------TCTCCCTTTTCATTTC------TGATTTTATTAA   1465
+
+6               1928 AAGGTAGGA----GGAGAGTTTGCCTACCGGAAGCAGTATTACTGACTGC   1973
+                     .   |.|||    |.|...|.||||..|.||..  |||.|..|| |.||.
+lncRNArawseq_   1466 T---TTGGATTCTGAACTCTGTGCCCTCTGGTT--AGTCTGGCT-AATGG   1509
+
+6               1974 TCCTTCCTGGGGATTCCTAGGTCTTGGCTCTCCGGACATAACCCCTG--T   2021
+                     |...||.||..||||        ||  |||...|.||. |||.||||  |
+lncRNArawseq_   1510 TTTATCTTGTTGATT--------TT--CTCAAAGAACC-AACTCCTGGTT   1548
+
+6               2022 CTGTCTGTCCTTCCCCGGGGTTCCTCCTTGCCGCTATCTTTACTCTCTTC   2071
+                     .|||...|.|||..||..|  |.||..|||         ||.||||.|  
+lncRNArawseq_   1549 TTGTTGATTCTTTGCCTAG--TTCTTTTTG---------TTTCTCTTT--   1585
+
+6               2072 AGGGTCTTGCCCTACCCCTTGAGTAATGATTACACGCAAGCGCACACCGT   2121
+                       |||......|..|||  ||||| .||||||   |.||.|..|...| |
+lncRNArawseq_   1586 --GGTTGATTTCAGCCC--TGAGT-TTGATTA---GGAAACTTAATTC-T   1626
+
+6               2122 TAACCCATCCGGTCTTCTAAAACCCAC-AAGCCATCTTGGCTATCGCCTT   2170
+                     ||......|  |.||||     ||||| |.||        ||.|.||...
+lncRNArawseq_   1627 TAGAGAGGC--GCCTTC-----CCCACTACGC--------CTGTTGCTAC   1661
+
+6               2171 TAGGCTGGTGACTCTGTCTTCGCACCATCCACACTGTATGCACCCACAGC   2220
+                     |||...||..|||||      .|.|..||||||      |..|||....|
+lncRNArawseq_   1662 TAGAGAGGCAACTCT------TCCCTTTCCACA------GAGCCCCTGAC   1699
+
+6               2221 AACTCTAAAGCCA------TCCATTGCTTCTTCT---TCTCCCAGATCCA   2261
+                     |...||.|.|..|      .|||.||..||  ||   ||| ||.|..|..
+lncRNArawseq_   1700 AGACCTGAGGAGAGTGGGTGCCAGTGAGTC--CTGAGTCT-CCTGCACAG   1746
+
+6               2262 ACCCATCGCCAGATCCTGTTGACTTCGTCTTCTGATTCTCTCTCCAGTTG   2311
+                     .|||.  |||  .|||      |||..|||.|.|         ||   ||
+lncRNArawseq_   1747 TCCCT--GCC--TTCC------CTTTATCTGCAG---------CC---TG   1774
+
+6               2312 TGCGCTTCTAGTCCCGTGGGGAAGGTTTTCTATGAGGCTTGAATCACTTC   2361
+                     .|| .||||.|.|.|.||          |||    |.|    |||.| .|
+lncRNArawseq_   1775 GGC-ATTCTTGACTCTTG----------TCT----GAC----ATCTC-CC   1804
+
+6               2362 TCACCTGGATTTCTCTGAGTTTGTTTGTTTGTTTGTTTTTGTTTTGTTTT   2411
+                     .|.||    .|||.|.|..|..|      .|||.||..||..||.|..||
+lncRNArawseq_   1805 ACCCC----CTTCACAGTCTAAG------AGTTGGTAATTAATTAGCCTT   1844
+
+6               2412 TGTTTTTGGAGACAGGGTTTCTCTGTGTAAC--CCTGGCTGTCCTGGAAC   2459
+                               |||.   ||...||.||..||  ||..||..|||.|....
+lncRNArawseq_   1845 ----------GACC---TTAACCTTTGACACCACCCAGCCATCCAGATGG   1881
+
+6               2460 GCACTCTGTAGACCAGG---CTGGCCTCGAACTGAGAAATTCACCTGCCT   2506
+                     |...||  .|.|||.||   |||.|||.|..         |||||  |||
+lncRNArawseq_   1882 GTTATC--CACACCTGGTAACTGACCTGGGG---------TCACC--CCT   1918
+
+6               2507 CTGC-CTTCCAAATCCTGGGATTAAAGGCATGCGCCACCACTAAGGGGCT   2555
+                     |..| ||.||.|               ||.   |||.|| |||..|||||
+lncRNArawseq_   1919 CCACTCTGCCCA---------------GCT---GCCGCC-CTACTGGGCT   1949
+
+6               2556 --TTCACCTGGATTCCT-AATTTCTCTGTTTCTCACCTATTTTCTGATCA   2602
+                       .|....||..|.|.| ..||||||||..||..| .|.|||||||.|||
+lncRNArawseq_   1950 GAATTTTATGTTTGCTTGTCTTTCTCTGAATCAGA-TTTTTTTCTGGTCA   1998
+
+6               2603 GTCCTTGAATCAAAGTGATCTCTTCTGCTCTTCTTTTAACAACTTTTTAG   2652
+                     .|...|..|.|..|..|.||..|.||| .|.||        |||.||.||
+lncRNArawseq_   1999 CTTACTATAGCTGACAGCTCCATGCTG-GCATC--------ACTCTTCAG   2039
+
+6               2653 AACATCTGATAGAGCCCTTTGCTAAAAAAATTAAAAAAAAAATTTTTAAT   2702
+                         |||||.|    |||                   |.|..|||||...
+lncRNArawseq_   2040 ----TCTGAAA----CCT-------------------ACAGCTTTTTTTC   2062
+
+6               2703 GTCCAGTGACAAAGCTTTTATAACTGTGATTGTGACATCCCCAAAACCTT   2752
+                     .|||          |||     |||.||||              |..|||
+lncRNArawseq_   2063 CTCC----------CTT-----ACTCTGAT--------------ATACTT   2083
+
+6               2753 GCTTCAACCTCTAAGTCACACCAGGCTCCTTGCTTGCCTTCAAAAACACA   2802
+                     .|||||....||.. ||.||...||| ||..|..||     .|.|.||..
+lncRNArawseq_   2084 TCTTCATTTGCTTT-TCCCATTGGGC-CCAAGAATG-----GAGATCAGG   2126
+
+6               2803 GCGTGATGCTTTTGTTCCGTGCCCTCTGTAGGAAATGCTGTCTCCTGCCA   2852
+                     |.|||.||..||||...|..|      || ||||||| |||||.|.|   
+lncRNArawseq_   2127 GTGTGCTGTCTTTGAATCAAG------GT-GGAAATG-TGTCTACAG---   2165
+
+6               2853 GGTGGGCTCCTCCTTCACCAACCGATCGGATTCATTTCTAAAGGGTGGGA   2902
+                        .|.|.|||||.| .||  |||                      ||.|
+lncRNArawseq_   2166 ---AGTCCCCTCCCT-GCC--CCG----------------------GGTA   2187
+
+6               2903 TCATCTCCATAGATCTACTAGGGCGCATTAGAAGACGTACTTCAAGAACC   2952
+                     ||.|       ||.|||||   |.||.                |||.|..
+lncRNArawseq_   2188 TCCT-------GAGCTACT---GAGCT----------------AAGCAAT   2211
+
+6               2953 GACTTGTACAGTTGTCT-TCCTGGACAAATGGGGGAAGACTCCTGAAAGA   3001
+                     |  |.|||.||...||| ||||||.|          .|||.|..|....|
+lncRNArawseq_   2212 G--TGGTAAAGGATTCTGTCCTGGGC----------TGACCCAGGCTCTA   2249
+
+6               3002 CTTGCTAGCA--TCAGCTCTCCCCGCTTCTGGTGTGCCCAGCTGTTCACC   3049
+                     | .|||||||  .|||.| |||||       .||..|||||...|||   
+lncRNArawseq_   2250 C-AGCTAGCAATACAGAT-TCCCC-------TTGACCCCAGGGTTTC---   2287
+
+6               3050 AAATACTCAATAAATGCTAATGGGTGGGAAGACAATCAGCTTTGCACACA   3099
+                          |||.|                ||.||.|   ||||.|. |.|.|.
+lncRNArawseq_   2288 -----CTCCA----------------GGGAGCC---CAGCATC-CTCCCT   2312
+
+6               3100 AAGAAGCCCTGCACCCACCAGGAAGTGCCTCCCTTTCCTGGAGAGA-GCT   3148
+                     |.||.   ||||. ||.||.|       |||.|.|||.|.....|| |||
+lncRNArawseq_   2313 ATGAG---CTGCT-CCTCCTG-------CTCACATTCTTTAGCTGATGCT   2351
+
+6               3149 ATTCAGGCTGGTGGAGTCTGACCC--TAGAAATCAGCCAGGAGCTGGAAT   3196
+                     .||    .||.|||..|||..||.  |.|...||.||      .|..|.|
+lncRNArawseq_   2352 TTT----GTGCTGGGTTCTATCCTTGTGGTTTTCTGC------ATTTATT   2391
+
+6               3197 GAGGTCAAAACGCGTTCCTTTAGCTTAAAAGAACGATCGATCGAGAGAGT   3246
+                     |.||.|.....||.||||                  |||.|| .|||..|
+lncRNArawseq_   2392 GGGGGCTTTCTGCATTCC------------------TCGCTC-TGAGGTT   2422
+
+6               3247 GTAGGACCAAGAGTCAAGAG---TGGATCAAATGCGCATGCTTGGGGATT   3293
+                     |     |||...|...||..   ||| |||    |.|..|||  .|.|||
+lncRNArawseq_   2423 G-----CCATTTGAACAGCTCTCTGG-TCA----CCCTGGCT--AGAATT   2460
+
+6               3294 C-TCTGAGCTTTTCCTCCCCG-TGGCTAAATTCTGACAGTACATACAACT   3341
+                     | .|  ||||.|||..||..| |||||          .|||||..|..||
+lncRNArawseq_   2461 CGGC--AGCTCTTCTCCCATGTTGGCT----------GGTACACCCTGCT   2498
+
+6               3342 TTCT-TCAGAA--CTG-TATTCTTAGGGAGCACTTGAAGAGGTTAAACTT   3387
+                     |.|| .|||.|  ||| |..|||..|||.|.|..||    ||.|||.||.
+lncRNArawseq_   2499 TCCTGCCAGGACCCTGCTGCTCTCGGGGTGGATCTG----GGCTAAGCTC   2544
+
+6               3388 CAGTGAAC----TTCCCACCCCTACCTCTGCCTCCTCCTGTCTTTTTCCT   3433
+                     |||...||    ||||||.|.||..|||  |.|||.|.|| |     ||.
+lncRNArawseq_   2545 CAGAAGACACAATTCCCAGCTCTGACTC--CATCCACATG-C-----CCA   2586
+
+6               3434 GATTTAGTAGACATCACTTGCACTAAGTGTAGGGATGTTCAAGTGGTCAC   3483
+                     |||.|     .|.||   |||.|..            |||   |..||.|
+lncRNArawseq_   2587 GATGT-----TCCTC---TGCTCAT------------TTC---TCCTCTC   2613
+
+6               3484 TAGAAAATTCTTCCATACCCAAATACCTGCTGGAAAAAATACCACACCAC   3533
+                     |     ..|||||||.|.|||...|.|..||.||...|.           
+lncRNArawseq_   2614 T-----TCTCTTCCAAAGCCAGGGAGCATCTTGAGTGAG-----------   2647
+
+6               3534 TGTAGTCAC-AGTGTATCCAACTGGGCGTCATAACTGCGACTCCAATGCA   3582
+                     .|.||.||| ||.|..|||              ||.|| ||||  ||.|.
+lncRNArawseq_   2648 AGAAGGCACAAGCGGGTCC--------------ACAGC-ACTC--ATTCG   2680
+
+6               3583 G-CAATTGTTCCTCTAAATATTTT---------CTTAAGTGTATATAAGT   3622
+                     | |.||  |||||||.||.|..||         |..|||.||......|.
+lncRNArawseq_   2681 GTCCAT--TTCCTCTCAAAAACTTTGTAGCAAACACAAGGGTGGGCGTGG   2728
+
+6               3623 AACAAATATACTTTTTAATGACTGCAGGTTTTGATCATCGTCAAATGACT   3672
+                     |....|.||.|          ||.|....||.||....|.|||.|.|.|.
+lncRNArawseq_   2729 AGAGCAGATTC----------CTCCCAACTTGGAGGGGCCTCACAAGCCA   2768
+
+6               3673 GAGTTTCACAGCATGGCTACCACA-CACCT---TCTTTATGGAAATAACT   3718
+                     |.|.|.||...|.|..||.|||.| ||.||   .|..|.|||.|.|.|||
+lncRNArawseq_   2769 GCGCTGCAGGCCTTCACTCCCATATCATCTCTGACCATTTGGTAGTGACT   2818
+
+6               3719 AAGTATTTCTAAATGGCTTCCATTAACATAT-AGAAAAAAATGTTAATTC   3767
+                     .         |..|||||.|    .||||.| .|...||.|.|       
+lncRNArawseq_   2819 G---------ACCTGGCTAC----GACATCTGTGCTTAAGAAG-------   2848
+
+6               3768 TTTTAAATG-GCTGGTGGGGGATGCTATACATACTGTCAGAATTGAGCT-   3815
+                          |.|| || ..||.|||||.||       |.||.....|.||||| 
+lncRNArawseq_   2849 -----AGTGTGC-AATGAGGGATTCT-------CAGTGCCTTTGGAGCTC   2885
+
+6               3816 -TTTCCTAACAATTCTCTAAGCACGTTATGTTTGAAAATGCAATGTGTAT   3864
+                      .|...|.||...|||.|||||            ||..|||.|..|...|
+lncRNArawseq_   2886 AATATTTTACTGGTCTATAAGC------------AACCTGCTACTTACGT   2923
+
+6               3865 ACAGCAGAAACTGTATTAAGACCTAACAGGCTTTTATA----AGTTTGTC   3910
+                     .|.    ||.|||    |..|||||.|.|.|....|||    |||.||  
+lncRNArawseq_   2924 TCC----AAGCTG----AGAACCTAGCCGCCACACATACAGCAGTGTG--   2963
+
+6               3911 CTTCATAAACA-ATTTTAGTTTCTAAAATATGAGAATGCTTTC-------   3952
+                      |||..|..|| |.||.||......|.||.||||.|||...||       
+lncRNArawseq_   2964 -TTCGAAGCCACAGTTGAGCAGGGCAGATCTGAGGATGAAATCCAGGTTG   3012
+
+6               3953 -CCTGCCAATTCCATATCAAAGCTCTGAGACT--TTGCATGTCTACAGAG   3999
+                      ||.||| .||||...|.....||.|.|..||  ..||..|||| |..||
+lncRNArawseq_   3013 TCCAGCC-TTTCCTACTGGTGTCTTTAAAGCTGAAAGCTGGTCT-CTTAG   3060
+
+6               4000 CAGAGTTC--ATGACCTCCTGCTAACCT-----TGT---TAACAATCTAC   4039
+                       |||.||  |||||..|||||...||.     |||   |..|.|.||||
+lncRNArawseq_   3061 --GAGGTCAGATGACTGCCTGCCTCCCAGTCTGTGTCTATTGCTAGCTAC   3108
+
+6               4040 CAGGTTTCTAAAGGCTCAGCAGGGGTTAGAGTTAGAAGGCTCTGCCACTA   4089
+                     |.||..|      ||.....|||||.....||..|..||.|..|.||   
+lncRNArawseq_   3109 CCGGAGT------GCAGGAAAGGGGGAGAGGTGGGCTGGATAGGGCA---   3149
+
+6               4090 ACATCAATAACAGGATCTG-TGAC--AACACTTGGAGAACATTTCCACCA   4136
+                             .|||||.|.|| .|.|  |||||....||||           
+lncRNArawseq_   3150 --------GACAGGGTATGAAGGCAGAACACAAATAGAA-----------   3180
+
+6               4137 CGCTCACCAAGAAAGGTTCCAAACATTCAGAGACTGAAGCGCCGACTGAA   4186
+                      |||  .||.|  |||..||                 |||.|  ||||..
+lncRNArawseq_   3181 -GCT--GCAGG--AGGAGCC-----------------AGCAC--ACTGGG   3206
+
+6               4187 AGAAATCTATGGTTAGTCATTCCAGACAGACTCTAGAGAGACACATTTCT   4236
+                     .|..|.|..|||               ||||.|...||||.||.|..||.
+lncRNArawseq_   3207 TGTGAACCTTGG---------------AGACACAGCAGAGCCAGAGATCA   3241
+
+6               4237 TCAGACCTTGTTTTTAAAAAGTGGGAGTTTTAAACTCTCTCTCTCCGTGT   4286
+                     . ||.||.||....|...|..||||                       ||
+lncRNArawseq_   3242 G-AGCCCCTGGGAATGCCAGTTGGG-----------------------GT   3267
+
+6               4287 GTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTTATATTACAATAGC   4336
+                     |.|.||| |.|.||||| |||.| ||| |.|||.|               
+lncRNArawseq_   3268 GGGGGTG-GGGGGTGTG-GTGAG-GTG-GGGTGGG---------------   3298
+
+6               4337 CATACTTACTATTTTAAAGAGCTTTACCACAGACTTTTTAAATAGCCAAC   4386
+                                       |.|||                     |||.  
+lncRNArawseq_   3299 ------------------GGGCT---------------------GCCG--   3307
+
+6               4387 CTATGGACAAACTATTCATATCTAAATGAACTTAGAGTTCAAGTTTTTGG   4436
+                             |||||.       ||....|...|..|.||....|.|....|
+lncRNArawseq_   3308 --------AAACTG-------CTGCTGGGGGTGGGGGTGGGGGGTGGAAG   3342
+
+6               4437 TTTGATCCAC-AGGCAAGAAAATATGAGTGAAGTCACAAATGTCACCAAG   4485
+                     ..|..|.||| .|||.|||.||.|.||||       |.|.||.| |..||
+lncRNArawseq_   3343 GATATTTCACGGGGCCAGAGAAAAGGAGT-------CCATTGGC-CTTAG   3384
+
+6               4486 GAAAGGAAGAACAGAAAAATAACTTGAATATTCAAGATGGGCAGCCTAGT   4535
+                     .|||||.|.|||        |.||||..|..|.||      .|||||..|
+lncRNArawseq_   3385 TAAAGGGACAAC--------ATCTTGTTTTATTAA------AAGCCTGTT   3420
+
+6               4536 TCAACGACACATCAAGCCTTGTGAAAAGGTGACTCCGAGGTAAGAGTTGC   4585
+                     .|.  |.|.....|||||.|.||..    || ||..|.||..||.|  ||
+lncRNArawseq_   3421 GCT--GGCTGGATAAGCCGTCTGCC----TG-CTGAGTGGGCAGGG--GC   3461
+
+6               4586 CTGCTCTTCCAGAGAAGCTGA----GTGCCTGAGTT------CAGTCC-C   4624
+                     |...|.||.|.|.|  |||.|    |.|||.|.|||      |.|.|. |
+lncRNArawseq_   3462 CCAATATTACTGTG--GCTAATTCGGAGCCAGTGTTGGAGAGCTGACATC   3509
+
+6               4625 CAGCCTGGTGACTCATCGAACAAGTGACTGTAATTAATTCCAGGAGACCC   4674
+                     .|.||.||..||.| |||..|..|.|.||                    |
+lncRNArawseq_   3510 AAACCAGGAAACGC-TCGCGCGCGCGGCT--------------------C   3538
+
+6               4675 ACACCCTCTTCTGCCTGACAAGGTCACAAGACTTTTAGACACAAGTAGTG   4724
+                     .|.||||||.|.||         ||.|   .||.|    |.|        
+lncRNArawseq_   3539 TCTCCCTCTCCGGC---------TCTC---CCTCT----CCC--------   3564
+
+6               4725 TACAAATGCACACATTTACACATTAATAAAAACAATCTTTAAAGACAACA   4774
+                     |.|....|| |.|.|.|.|.|          .||.||||           
+lncRNArawseq_   3565 TCCCTCCGC-CTCCTCTTCTC----------TCATTCTT-----------   3592
+
+6               4775 ACAAAAACTTCACATAAGACCAAAGAGAATGCATCTGAGTTTACAGAAAC   4824
+                                             |||..||.|||      |||.| ..|
+lncRNArawseq_   3593 ------------------------GAGCTTGAATC------TACTG-TGC   3611
+
+6               4825 ATATTAAGAGCTAATTTCAAAGCATTTGTAAACAT-TTTAATTCAATTTC   4873
+                     ||..||.|.|          .||||.|||...|.| |.|...||..|.| 
+lncRNArawseq_   3612 ATGATATGTG----------TGCATGTGTGTCCGTGTGTCTCTCTGTGT-   3650
+
+6               4874 AAGACATTTCTTAAAATCAAAAAATACT-TTGCAACAATATTAATTTATC   4922
+                     ..||||||             |..|||. ||||     |...|.||.|.|
+lncRNArawseq_   3651 GTGACATT-------------ATGTACACTTGC-----TGGGAGTTCACC   3682
+
+6               4923 CATGGATTTTTGCAAAGCAGGAAAGTATGTTTTCTAACCTCCTTTTAAAA   4972
+                     |           ||..||              ||...||||||.||    
+lncRNArawseq_   3683 C-----------CATGGC--------------TCCCTCCTCCTCTT----   3703
+
+6               4973 ACCCGTTCTTGAACTGGGCATACTGGTACAAGCTTGAAAACCCAGTACTC   5022
+                      ||.||.||    ||...|...|||  .|||||     |.|||||..|  
+lncRNArawseq_   3704 -CCTGTCCT----CTACTCCCTCTG--CCAAGC-----ACCCCAGCCC--   3739
+
+6               5023 AGAAGACAGAGTTAAGCAAATTTTTGTGGGTTCAAGGCTAGCCTTGTCTA   5072
+                                     ||..|||      |..|..|||...|...||||.
+lncRNArawseq_   3740 ----------------CACCTTT------GCCCCTGGCCTCCTCAGTCTC   3767
+
+6               5073 CATAGTGAGTTCCCAGATAGCCAGGGCTATGTAGAGACCCTGTATAAATA   5122
+                     |       |..||||||...|..|..|  .|...||||||.|..||    
+lncRNArawseq_   3768 C-------GCCCCCAGAAGACTTGAAC--AGAGAAGACCCAGACTA----   3804
+
+6               5123 AATAAATAAATAAATAAATAAATAAATAAATAAATAAATAAAATTCTCGT   5172
+                                                                       
+lncRNArawseq_   3805 --------------------------------------------------   3804
+
+6               5173 GTGGGCTAGAGAAATGGCTCAACAGTTGCTGTACTTGCAGGGGTTCACAG   5222
+                      |||.||.|.|..||          ||.|||......|.||||...|.||
+lncRNArawseq_   3805 -TGGCCTGGGGTTAT----------TTACTGAGACGCCTGGGGAGGAAAG   3843
+
+6               5223 CATCCTGGTGGC--AGCTCACAGATGCCCGTAACTCCAGTTCTAGGGGAC   5270
+                     ..||....||.|  |.|.|||     |||.|   |||||.|||      |
+lncRNArawseq_   3844 TTTCGAAATGACCAAACCCAC-----CCCTT---TCCAGATCT------C   3879
+
+6               5271 CCATCGCCCTCTTCTGGCCTGCTTGA--GCAGTGCATACACATAGCACAC   5318
+                     |..|.|.....|....|......|.|  |.||| |||....|.||.|..|
+lncRNArawseq_   3880 CATTTGTAGGTTAAAAGAAAAAGTAAAGGAAGT-CATTTCAAAAGAAACC   3928
+
+6               5319 AGACATACAGGCAAGCAAAAGCATCCATACACATAACATAAATAAAGTAA   5368
+                     ||.     |||.||||   .||...|.|...|  |.|||...|   |...
+lncRNArawseq_   3929 AGG-----AGGAAAGC---GGCTCTCTTCGGC--AGCATGTGT---GATT   3965
+
+6               5369 ATCCTTTTTAAAAGTCTTACTCAATTC----------TCTTCATTTGCCT   5408
+                     ||..||..||..||.|||..|.||..|          |.|..|.|.||.|
+lncRNArawseq_   3966 ATTATTAATATTAGACTTGTTTAAGGCAAGGGAAAAATGTAAAATGGCTT   4015
+
+6               5409 TCCTTCACTTCTTTTCAAAGTTGACTGCTTTGAATGGATGGTTGAGGTTT   5458
+                     |..|.|..||.||.||..||||...||  |||  |.|.|||||..|.|||
+lncRNArawseq_   4016 TTTTCCTGTTTTTATCGTAGTTTTTTG--TTG--TTGTTGGTTTTGTTTT   4061
+
+6               5459 TAGTCTTAAAAGCAAAGGGTGTGGCCTAGTGAGATAACTCAGTAGATAAA   5508
+                     |.||.||            |.||...|..||...|...|.          
+lncRNArawseq_   4062 TTGTTTT------------TTTGTTTTTTTGTTTTTTTTT----------   4089
+
+6               5509 GGTGCCAATCTTGAGGACCCGATTCAATCCCTGGGACCTACATGGTAGAG   5558
+                       |.||..|.||      |...|.|..| |.|||||       |..|||.
+lncRNArawseq_   4090 --TTCCTTTTTT------CTTCTACTGT-CTTGGGA-------GTCAGAA   4123
+
+6               5559 GGGAGAGCTGTTGTCCACAAGTTCCCCTTTAGCCTCCATATACATA-TAT   5607
+                     |||..|.|.||..|.....|||........||||..|||.|.|.|| |..
+lncRNArawseq_   4124 GGGCAAACAGTAATTTCAGAGTAAGATGGAAGCCATCATCTCCTTAGTTC   4173
+
+6               5608 ATGTAAAATAAAAGTTTTGGGGCTGGAGAGCACTGACTGCTCTTCTAGAG   5657
+                     ||||.|..|..   ||.||||..|.|.||| |.|||.||...|||..|  
+lncRNArawseq_   4174 ATGTGATGTCT---TTCTGGGAATTGGGAG-AGTGAATGAGTTTCATG--   4217
+
+6               5658 GTCCTGAGTTCAACTCCTAGCAACCACACAGTGGCTCACAACCATCTGTA   5707
+                              |.|||.||||..|             ||||..         
+lncRNArawseq_   4218 ---------TAAACGCCTATAA-------------TCACTT---------   4236
+
+6               5708 ATGAGATCCGATGCCCTCTTCTGGTGTGTCTGAAGACAGTGACAGTGTAC   5757
+                          .||         ||.||...||.|..||.|||..||  |||.|.|
+lncRNArawseq_   4237 -----TTC---------CTGCTAAGGTTTTAGAGGACTCTG--AGTCTCC   4270
+
+6               5758 TCATATGCATAAAATAAATAAATCTTTTTGAAAAGTTTTGTAAATGGAGG   5807
+                     ..||.|||          |..|.|||     |||||.....||||.|   
+lncRNArawseq_   4271 CAATTTGC----------TGTAACTT-----AAAGTCACCCAAATTG---   4302
+
+6               5808 ATAACATTCAAATCTTAAGACAGGAC------------------AGTTGT   5839
+                          .|||.|.|.||   ||...||                  .|....
+lncRNArawseq_   4303 -----CTTCCACTTTT---ACCdnachromosomechromosomeGRCmC   4344
+
+6               5840 TCCTTGCTC--CTCAGAGGCTCACATATATGAAGTATCTGTATTTCTCTG   5887
+                     .||||||||  |||..|   ||||.||          ||||.|.||.|| 
+lncRNArawseq_   4345 ACCTTGCTCATCTCCCA---TCACCTA----------CTGTTTCTCGCT-   4380
+
+6               5888 TAGCCTGTGGCAGGAAGACAATGTAACAACCATTACCAGTTCTCTGGGGC   5937
+                        |.||||                                 |.||||| 
+lncRNArawseq_   4381 ---CATGTG---------------------------------TATGGGG-   4393
+
+6               5938 ACTGCAGGCCACATGATG-GTGATGTCGAAGGCAGTGCTTCCTCAGTGTC   5986
+                     .|||..||....|||.|| ||| |||..|    .||||||...||.|||.
+lncRNArawseq_   4394 GCTGGGGGGTGTATGGTGTGTG-TGTATA----TGTGCTTGTGCATTGTG   4438
+
+6               5987 AGAGTCAGCGTGGTGGCGTCTGTGCACAACCCTGGCAAGCTGGTCTTCTG   6036
+                     ...|..|...||...||  ||||||||.  ||||              ||
+lncRNArawseq_   4439 CATGCAAATCTGTATGC--CTGTGCACT--CCTG--------------TG   4470
+
+6               6037 CACCTTTAATTTTGAGGAAGCTCACTGTCCGTCTGTCTATAATGCCAGGC   6086
+                     ||     ||....|..||||      |.||.||.||           |.|
+lncRNArawseq_   4471 CA-----AAGAGAGGAGAAG------GGCCTTCAGT-----------GTC   4498
+
+6               6087 CTGTTCTCCGTCCAGCTCAGCAGCATGGCAGCCATTCTTACACAAAGACA   6136
+                     ||.||||  .||.|||||          ||  |.|..||.|....|||||
+lncRNArawseq_   4499 CTTTTCT--ATCAAGCTC----------CA--CTTAATTCCCTTGAGACA   4534
+
+6               6137 TCTGTGAGTTTGGGTGGGATCTTGTTAACTATCTCCAATTAGGCTAAGTG   6186
+                                      |.|||             ||...||.|...|  
+lncRNArawseq_   4535 -----------------GGTCT-------------CACAGAGACCCTG--   4552
+
+6               6187 ATAAACTCAATTTGGGGTTCTTTCAGAAAAAAAAATAAAAGGCTAATTCA   6236
+                       |||||||.         |.||                       |||.
+lncRNArawseq_   4553 --AAACTCAC---------CATT-----------------------TTCC   4568
+
+6               6237 ATAAAGCCCAACGGTGATTTCATAAGAACTTCCACCCCACCTGCCCAGTC   6286
+                     |..|.||||  |.|.|.  ||.|...|||  ||.|.|..|||.|.|. ||
+lncRNArawseq_   4569 AGCAGGCCC--CAGAGC--TCCTCCCAAC--CCCCTCGGCCTTCTCT-TC   4611
+
+6               6287 CAGG---AAACATGACCAGGGTAGCCATGGCAATTTGCACTCTGCAGCTA   6333
+                     ||||   |||||.|..|...|.|.|..|||.|..||||.||..|    |.
+lncRNArawseq_   4612 CAGGTTAAAACAAGGTCCAAGAAACACTGGGACCTTGCCCTTAG----TT   4657
+
+6               6334 AATTGTCTCTTTTCTAAAT-TGCCATATGTACAAACTCTGCCTCTGGAGG   6382
+                     ...||.| ||...||.|.| ||.|| |||......|    |||||.|..|
+lncRNArawseq_   4658 CCCTGAC-CTACACTGAGTGTGACA-ATGGGATTTC----CCTCTAGGAG   4701
+
+6               6383 AAGTT-------CC--CTGTTACTTGCAATCCAAGAATAAGCTATTTACA   6423
+                     ..|||       ||  |.|.|||   ||..|||     ..|..|||.|.|
+lncRNArawseq_   4702 CTGTTGTGAGGACCATCGGCTAC---CACACCA-----TTGTAATTAATA   4743
+
+6               6424 GTGAAGACACTGGTAC----TGTTTAGTAGCAAAAAGAGAGAAG-GCTAA   6468
+                     .|||...||.|.||||    |.||.|..|||....||.....|| |..|.
+lncRNArawseq_   4744 TTGATATCATTTGTACATGATATTGAAAAGCTTTGAGGTCACAGTGTGAT   4793
+
+6               6469 ATTAACGAGAATATACAGG--AGGACTTGGTCCGCTATCACTCTCTG-TA   6515
+                     ..|.||..||.||.|||||  .|.||.|..|..|...|||..|.|.| ||
+lncRNArawseq_   4794 GATGACCTGATTAAACAGGTTTGAACATACTGGGGGTTCAAACCCAGCTA   4843
+
+6               6516 TCCGCCACCACAGGGAAGGGCCAGACACAACCAGACTCT--CACCTGGCT   6563
+                     |.|.|              |||. |...|||..|.||||  ||||.|.|.
+lncRNArawseq_   4844 TTCAC--------------GCCT-ATGTAACATGTCTCTACCACCAGACC   4878
+
+6               6564 CCACCCTGGCACTTTCACTTAGGAAACACTACAGGAAACAATAAATTTTC   6613
+                     ||||||||   ||||..|                           |||||
+lncRNArawseq_   4879 CCACCCTG---CTTTTTC---------------------------TTTTC   4898
+
+6               6614 CATTTTGATTTAAAATGGGGCTTTTCTCCATCTCTTGTGGTTAACATTTT   6663
+                       ||||              ||||||     |||||        |.|.||
+lncRNArawseq_   4899 --TTTT--------------CTTTTC-----CTCTT--------CTTCTT   4919
+
+6               6664 AAAAGTTTTTTTTTTTTTTTTACTCAATTCTGACTATATGGTCAACATCC   6713
+                     .     ||.||||||||||||..|..||.|.|..|..||.||...|.|.|
+lncRNArawseq_   4920 C-----TTCTTTTTTTTTTTTTTTGGATACAGGATTCATAGTTGTCCTGC   4964
+
+6               6714 TAAAAATCTGTCTTTTTTTTTTTTTTTTTTTTTTTTTTTTGGATTTGAGA   6763
+                     .||||                                          |||
+lncRNArawseq_   4965 CAAAA------------------------------------------AGA   4972
+
+6               6764 ATCTTGCTATGTACCCTGACTTGGTCTGGAACTCTTTATATAG-----AC   6808
+                     ||||           ||||||   .|..|.|...|||.|..||     .|
+lncRNArawseq_   4973 ATCT-----------CTGACT---CCAAGGATGTTTTCTCAAGGGATTCC   5008
+
+6               6809 CAATCAAGCTGACCTGGAACTCACAGAGATTTCCTGTCTTTGCCTCCTGG   6858
+                     |...|...||| ||.|..||...|||       |.|     |.|||||| 
+lncRNArawseq_   5009 CGCCCGCACTG-CCAGTTACCATCAG-------CAG-----GACTCCTG-   5044
+
+6               6859 GTGCTTAAATTAAAGGGGTAAACTACCATAATACACT---TTTCTCTTTA   6905
+                                          |||.||..|.|.||||   ||||||    
+lncRNArawseq_   5045 ---------------------ACTGCCTGACTCCACTCCATTTCTC----   5069
+
+6               6906 ATTATGGTAAAAATACAAACTTAAAACTTATGTCAGCTGGGCATGGTAGT   6955
+                        ||||                      |.|.|||      |.||||||
+lncRNArawseq_   5070 ---ATGG----------------------AAGCCAG------AAGGTAGT   5088
+
+6               6956 GCATGACTTTAATCCCAGTACTAGGGAGGCAGAGGCAGGAGGATATCTGT   7005
+                     ||| |.||.|.  ||||...|.||||.|.||.||            ||||
+lncRNArawseq_   5089 GCA-GGCTGTC--CCCACCCCCAGGGTGACAAAG------------CTGT   5123
+
+6               7006 GAGTTGGAGGCTAACCTCTATAGTTCCAAAACAGTCAGAGCTATATAGTA   7055
+                     ||...||||.|  |||         |||.||.||  .||.||        
+lncRNArawseq_   5124 GATGAGGAGCC--ACC---------CCAGAAGAG--GGAACT--------   5152
+
+6               7056 AGACTCTATCTCAAGAATACCAAAATAATAATAATAATAATAATAATAAT   7105
+                      |.|.|                                            
+lncRNArawseq_   5153 -GGCAC--------------------------------------------   5157
+
+6               7106 AATAATAATAATTTTATGTCTAAGCCAGCATGATAGGACACCTTGCCTGA   7155
+                                        ||.||||.         ||.|.||.|||   
+lncRNArawseq_   5158 -------------------CTCAGCCT---------GAGAACTGGCC---   5176
+
+6               7156 CACGTAAAGTCCATGTGATAGACCTATACTATGATGCACACAGCGCTATC   7205
+                                                 |||||           ||||.|
+lncRNArawseq_   5177 ----------------------------CTATG-----------GCTAAC   5187
+
+6               7206 CTATTCATGGACAATTGAAGATTTTCACAATAAAATGCTGGGAAATTTGG   7255
+                     |.|.|...|||...|| ||...||||....|           .|||||.|
+lncRNArawseq_   5188 CGAGTAGAGGAAGCTT-AATTCTTTCTTTTT-----------TAATTTTG   5225
+
+6               7256 GGTCAAATGATGTAATTTAATTATGGGGATTAATAAAGACATATCTTAGA   7305
+                     ..|...||..|..|.|||.||||| ...|.||..|.|.|||||||     
+lncRNArawseq_   5226 CATTTTATTTTAAATTTTTATTAT-TAAAATACAACAAACATATC-----   5269
+
+6               7306 AGTTAAGGGTAGAAACAAAATGATGATGAAGATTATTTTACTCACATGGA   7355
+                                       |||.||..|||..|||.|...|.|||    .|
+lncRNArawseq_   5270 ------------------AATAATATTGAGTATTTTGAGAATCA----AA   5297
+
+6               7356 TTCTCTCTAGTGATTTTATTTA--TTTAATATACATAAGGATGCTGTAGC   7403
+                     |..|.|.||...|.|||.||.|  |||.||||.|||    ||.||.|...
+lncRNArawseq_   5298 TAATATATAAAAAATTTGTTCAACTTTTATATTCAT----ATCCTTTCAT   5343
+
+6               7404 TGTCTTCAGGCACTCCAGAAGAGGGTGTAAGATGGCCTAGTCGGCCATCA   7453
+                     ...||..|.|||  .||..|..|..|.|...||  .||    |.||||.|
+lncRNArawseq_   5344 ACCCTAAAAGCA--TCATTAATGAATATTTAAT--ACT----GTCCATAA   5385
+
+6               7454 CTGCAAAGAGAG-GCCCATTGGACAGGCAAACTTTATATGCCCCAGTACA   7502
+                     |||...|....| ..|.|.||   ..|.|.|||..|| ||...||..|||
+lncRNArawseq_   5386 CTGAGGATTCTGTATCTAATG---TTGAATACTAAAT-TGTTTCAAAACA   5431
+
+6               7503 GGGGAACGCCAGGGCCAAAAAATGGGAATGGGTGGGTAGGGGAGTTGGGG   7552
+                                  ..|||||.||                           
+lncRNArawseq_   5432 -------------TACAAAATAT---------------------------   5441
+
+6               7553 GGGGGTGTGGGGGACTTTTGTGATTGCATTGGAAATGTAATTGAGGAAAA   7602
+                                   .|.|||.||.|   |.||.|..||||..|||.|.||
+lncRNArawseq_   5442 --------------TTCTTGGGAAT---TAGGCATAGTAAAAGAGCATAA   5474
+
+6               7603 TATGTAATAAAAAAAATCAGAAAAAAAAAAAAAAAAGATCCCATTACAGA   7652
+                     .||.|.| ||||..|||||..||.|||.|.|...||.|..||.|....||
+lncRNArawseq_   5475 AATATTA-AAAATGAATCATTAAGAAATACATTCAAAAGTCCTTATATGA   5523
+
+6               7653 TGGTTGTGAGCCACCATGTGATTGT---TGGGAATT--GAACTCAGGACC   7697
+                     |        .||||| ||..||.||   .|.|.|||  .||||||  ..|
+lncRNArawseq_   5524 T--------ACCACC-TGACATAGTGAGAGAGTATTTAAAACTCA--TTC   5562
+
+6               7698 TTTGGAAAAGCAGTCAGTGCTTTTAACCTCTGAGCCATCTCTCCAGCCCT   7747
+                     |.|         .||.|||     .||  .||..|.|.|..||| ||   
+lncRNArawseq_   5563 TAT---------ATCTGTG-----TAC--ATGGTCTAACAATCC-GC---   5592
+
+6               7748 GGGATTTATTTTTAATGATGTGCATACATGGTGTCTTTGTGGGGTGTGTG   7797
+                          |||||                                        
+lncRNArawseq_   5593 -----TTATT----------------------------------------   5597
+
+6               7798 CAGGTGAGCACAACTGCCTGTGGATTTCTTGGAGCCGGAGTTTAAGGCAA   7847
+                         |.||||..|.|..|.|||  |||||.||||  .||..|||....|.
+lncRNArawseq_   5598 ----TAAGCAAGATTATCAGTG--TTTCTAGGAG--AGAAATTATTTTAT   5639
+
+6               7848 TCGTGAGCTACCTGAATCAAGTGCTGGGAACCAAGTCATGATTCTTTAAA   7897
+                     ..||.|||....|..|..||.|.|.....|.|||      |..||||   
+lncRNArawseq_   5640 CAGTAAGCATATTTTAAAAATTTCAAAATAGCAA------AAACTTT---   5680
+
+6               7898 AAAGCAGTCCACCCTCTTAGCCACTGAGCCTTATCCCCAGCCCCTCAGCA   7947
+                        |.|||..|.|.| |.||..|.||   ||.||        ..|.||||
+lncRNArawseq_   5681 ---GAAGTTAAACAT-TAAGAAAATG---CTAAT--------TTTAAGCA   5715
+
+6               7948 GAGGACTGTGATGCATCATCTGTCTCCTCTCCCTTCTGAAATATTTCCAA   7997
+                           ||.||...||.||...|                |.||||||||.
+lncRNArawseq_   5716 ------TGAGAAAAATTATTAAT----------------ACTATTTCCAT   5743
+
+6               7998 GATTTGTATTTGTT-ACAATTATAAAAAGATAAAGAAATATAAGAGTATG   8046
+                     |    ||.|||||. ||.||.|....||.||....||.|.|.|    ||.
+lncRNArawseq_   5744 G----GTGTTTGTAGACCATGACCGTAATATTCTCAACTGTTA----ATA   5785
+
+6               8047 TTCTATGGGGATGTGGTGAGGTACAGGGGAAGAGGATGTCTCAGTGGGCC   8096
+                     |||.|..|              ||||    |...|.|.|.|.|  .|...
+lncRNArawseq_   5786 TTCAACAG--------------ACAG----AATAGTTATTTTA--AGATA   5815
+
+6               8097 CATGCCAAGGTCCCATCCCTTCCTCCTGAGGGACCAGCCACATGACAGGT   8146
+                     .||..||..||  ..||.||.|||..|             |||..|.|.|
+lncRNArawseq_   5816 TATTTCATTGT--TTTCTCTCCCTTTT-------------CATTTCTGAT   5850
+
+6               8147 ATAGCATCGAATAGTGTTTATTTAGGGCATGGGGAGGGGAGTTAAGAGGG   8196
+                     .|            |.||.||||              |||          
+lncRNArawseq_   5851 TT------------TATTAATTT--------------GGA----------   5864
+
+6               8197 TAGTACAGGCAGAGAAAGGCAGAGAGAAGTGGAGAGTAGAGAAGTAGAGG   8246
+                        |.|                                            
+lncRNArawseq_   5865 ---TTC--------------------------------------------   5867
+
+6               8247 CCGGCCATGAACACGTGGGGGTGGGGCGCAGCTAGGGAATGAGGAGAGAT   8296
+                            |||||.|                         ||.|       
+lncRNArawseq_   5868 -------TGAACTC-------------------------TGTG-------   5878
+
+6               8297 GGGGATCAAGAGGGCAAGAAAGCCAGAGGAGAGAGGCAGGAGTAAGAGAG   8346
+                                                                       
+lncRNArawseq_   5879 --------------------------------------------------   5878
+
+6               8347 GGAGGAGGGGGCAAGCAGCCCCTTTTATAGTGGGTCAGGCCTACCTGGCT   8396
+                                        ||||.|       |||.||     .||||||
+lncRNArawseq_   5879 -------------------CCCTCT-------GGTTAG-----TCTGGCT   5897
+
+6               8397 GTTGCCAGGTAACTGTGGGGGTCCAGACAGAATACCAACAGTATTTATGA   8446
+                     ..||                         |..||.|       ||..|||
+lncRNArawseq_   5898 AATG-------------------------GTTTATC-------TTGTTGA   5915
+
+6               8447 CCAAAGAGAGGCTTATATCCAAAACCACATTGTTTGAAACCAACGCCATG   8496
+                                 ||.|.||.||              .|||||||.|| ||
+lncRNArawseq_   5916 ------------TTTTCTCAAA--------------GAACCAACTCC-TG   5938
+
+6               8497 GTATTTAGTGAGCTTCCTCAGCTGTGCATCTTTTATTCTGTGTTTCCCAC   8546
+                     || |||..|||   |.||..||...| .||||||      ||||||.|. 
+lncRNArawseq_   5939 GT-TTTGTTGA---TTCTTTGCCTAG-TTCTTTT------TGTTTCTCT-   5976
+
+6               8547 ATCCTGACACTGCTCAGTGGCAGACTTGGTTGTAAACAAGGCATAGTCAG   8596
+                                              |||||||....||...|..|||..|
+lncRNArawseq_   5977 -------------------------TTGGTTGATTTCAGCCCTGAGTTTG   6001
+
+6               8597 --TTGGTACCAGAAGTGCATGCTAGCTGGGAAAAGAGACGTGGGCCAGTA   8644
+                       |.||.|.|     |..||.||       .|.||||.|    |||    
+lncRNArawseq_   6002 ATTAGGAAAC-----TTAATTCT-------TAGAGAGGC----GCC----   6031
+
+6               8645 AAGAGAGCCCTGGCACAAAG--TGTAACATGCTAGAATGTGTTCAATTCA   8692
+                          ..|||   |||.|.|  |||..| |.|||||..|   .|||.||.
+lncRNArawseq_   6032 -----TTCCC---CACTACGCCTGTTGC-TACTAGAGAG---GCAACTCT   6069
+
+6               8693 TGCCACTCCACATCACCGGAGCCTCAGGGAATTGGTCAAACCCAGCCTCA   8742
+                     |.||..||||||      |||||                      |||.|
+lncRNArawseq_   6070 TCCCTTTCCACA------GAGCC----------------------CCTGA   6091
+
+6               8743 CAAACAGAAAAATGGGTTCTTGAGTAAGACTGTGACAAGTGAGACCAGGT   8792
+                     ||.||                        |||.|...||||      |||
+lncRNArawseq_   6092 CAGAC------------------------CTGAGGAGAGTG------GGT   6111
+
+6               8793 TATAGATGTGAGCCAGGCGGGGCCAACATGCAGCTCAGCTGCCGAGCCTG   8842
+                                |||||                          .|||.|  
+lncRNArawseq_   6112 -----------GCCAG--------------------------TGAGTC--   6122
+
+6               8843 TGCTTAGCATGTTGCTGAGGGGGCTCCAGCATCATGTCAGGTGGCTCACA   8892
+                                   ||||   |.||||.|||      |||     ||   
+lncRNArawseq_   6123 --------------CTGA---GTCTCCTGCA------CAG-----TC---   6141
+
+6               8893 CCTGCCTGTCACTTCATCTGCAAGGGATCCAACACCATCCTCTGGGCTCC   8942
+                     ||||||| ||.|||.|||||||.     ||....|..||.|   |.|||.
+lncRNArawseq_   6142 CCTGCCT-TCCCTTTATCTGCAG-----CCTGGGCATTCTT---GACTCT   6182
+
+6               8943 --TCAGGAACCACACACACACCTACACACACACACACACACACACACACA   8990
+                       ||.|..|.|.|.||| |.|||.|||                       
+lncRNArawseq_   6183 TGTCTGACATCTCCCAC-CCCCTTCAC-----------------------   6208
+
+6               8991 CACACACACACACACACTTAAAAATAAAGTCTTAGAAAAAGAGAAAAAGA   9040
+                                                |||||.||               
+lncRNArawseq_   6209 ---------------------------AGTCTAAG---------------   6216
+
+6               9041 GCAACAGTGCTCCACTGGTGCACAGAGAAGTGTGCTGTTAAATCAGCGTC   9090
+                                                 ||| ||.|..|.|||.|||  |
+lncRNArawseq_   6217 ----------------------------AGT-TGGTAATTAATTAGC--C   6235
+
+6               9091 TAAGTGGACTGCTTGGGAAAATATAATCTGT-TCATCATGATTCCCAGGC   9139
+                     |   ||..||             |||.||.| .||.||     |||||  
+lncRNArawseq_   6236 T---TGACCT-------------TAACCTTTGACACCA-----CCCAG--   6262
+
+6               9140 TCCTCAGGCTCATGCATAAGTAAGCTTTTAATCCACATTTCTGAAATTAC   9189
+                      ||                           |||||.|    ||...|..|
+lncRNArawseq_   6263 -CC---------------------------ATCCAGA----TGGGTTATC   6280
+
+6               9190 CACCTTTTGAACCCTGAAAAAAAAATTACTTTCAAAAGCTTGAAATTGGG   9239
+                     |||        .||||        .|.|||                   |
+lncRNArawseq_   6281 CAC--------ACCTG--------GTAACT-------------------G   6295
+
+6               9240 ACAGGCAAGGTGGCGCAGTGGGTAGCTGAGGTGGCTCAGCAAGTAAAGGC   9289
+                     ||                       |||.|||                  
+lncRNArawseq_   6296 AC-----------------------CTGGGGT------------------   6304
+
+6               9290 TTTTGCTCGCCTCCCCCCACCCCCGCCGCCCCCCAAGCCTAAAGACCTGA   9339
+                          |.|.|||||.|.|..|||.||.|||.|||.|          |||.
+lncRNArawseq_   6305 -----CACCCCTCCACTCTGCCCAGCTGCCGCCCTA----------CTGG   6339
+
+6               9340 GTTCAATCCCTGGGTTTCATATGGCGTAACAAGAGAAACAGCTCCTGAAA   9389
+                     |        |||..|||.||.|                ..||        
+lncRNArawseq_   6340 G--------CTGAATTTTATGT----------------TTGC--------   6357
+
+6               9390 TTTGTCCTCTGGTCTAAGAATTTGAGAGAGAGAGGAAAAGAAGAGAAGCT   9439
+                      |||||.|    |||..||||                           |.
+lncRNArawseq_   6358 -TTGTCTT----TCTCTGAAT---------------------------CA   6375
+
+6               9440 GTTTTCTTGGGTTTTCATCTGACACGTGTCCATGGGACAAAGACAAAGTG   9489
+                     |.|||      |||||.  .|.||| |..|.||.|    ..||||..   
+lncRNArawseq_   6376 GATTT------TTTTCT--GGTCAC-TTACTATAG----CTGACAGC---   6409
+
+6               9490 TCTTCCATTTAATGTTTTTATACTTCGCCATCTTCATAGAGGAAAACGTT   9539
+                        ||||  |..||       .|.||.|  |||||  ||....||||.|.
+lncRNArawseq_   6410 ---TCCA--TGCTG-------GCATCAC--TCTTC--AGTCTGAAACCTA   6443
+
+6               9540 CTAATTTGTCTCCTCCAGAGTCACTTGGAGTTCAATGAATTGAAAAATGT   9589
+                     |...|||.|.||||||       |||                 |...||.
+lncRNArawseq_   6444 CAGCTTTTTTTCCTCC-------CTT-----------------ACTCTGA   6469
+
+6               9590 TTTTCTTTCTTTTTTTTTTTTTTTTACAGACATGGAGGCACATGCCTGTA   9639
+                     |.|.|||||||..|||..||||    |  .|||.| |||.||.|..||.|
+lncRNArawseq_   6470 TATACTTTCTTCATTTGCTTTT----C--CCATTG-GGCCCAAGAATGGA   6512
+
+6               9640 GCCTCACCACACAGGCAGGTGGTGGTGAATTCTACACT------AACCTT   9683
+                     |..            ||||..|||.||..||..|..|.      ||...|
+lncRNArawseq_   6513 GAT------------CAGGGTGTGCTGTCTTTGAATCAAGGTGGAAATGT   6550
+
+6               9684 GGCTACACAGT-GACACACTGCCCCAAAACAGAAACAAAAAGCAAAAAGT   9732
+                     |.|||||.||| ..|.|.|||||||                     ..||
+lncRNArawseq_   6551 GTCTACAGAGTCCCCTCCCTGCCCC---------------------GGGT   6579
+
+6               9733 TTCTCAGTGAACCTCAGAAAAGGTTCCTAAGGTAACAAAAGAATCAAAAT   9782
+                     .|| |.|.|...||.||..|||    | ||.||...|||.||.||     
+lncRNArawseq_   6580 ATC-CTGAGCTACTGAGCTAAG----C-AATGTGGTAAAGGATTC-----   6618
+
+6               9783 ATGCCCT-AGCTCACCCCAAATGCCAAGAGCCTTGCTATGTTTAGTAAGC   9831
+                      ||.||| .|||.||||           ||.||  |||    .||..|||
+lncRNArawseq_   6619 -TGTCCTGGGCTGACCC-----------AGGCT--CTA----CAGCTAGC   6650
+
+6               9832 ACCTCCATAAAATGCTGTTTTCCCGGAAGAGAGCTGAGGCCAGAGAAGTT   9881
+                               |||.|.|.||.|||         .|||  ||         
+lncRNArawseq_   6651 ----------AATACAGATTCCCC---------TTGA--CC---------   6670
+
+6               9882 GCCAAGTGTCAATCCTACCACATCACGTTCCTACGTCTGCCCTGTCCTCC   9931
+                      |||.| ||  .|||| |||.....|   ||..|.||..||||.|...|.
+lncRNArawseq_   6671 -CCAGG-GT--TTCCT-CCAGGGAGC---CCAGCATCCTCCCTATGAGCT   6712
+
+6               9932 ACTCGGCACCAGCGTTAACAAAGTGCAGCCAATAATTTCATGACATTTTT   9981
+                     .|||  |.||.||  |.|||...|..|||..||..|||..||        
+lncRNArawseq_   6713 GCTC--CTCCTGC--TCACATTCTTTAGCTGATGCTTTTGTG--------   6750
+
+6               9982 CTGTCATTTGATTCTTTGTTCCTT-TGCTTTTATTCATTTTT--GAGACA  10028
+                     |||      |.||||   .||||| ||.||||.|.|||||.|  |.|.| 
+lncRNArawseq_   6751 CTG------GGTTCT---ATCCTTGTGGTTTTCTGCATTTATTGGGGGC-   6790
+
+6              10029 GATTCAGATGCTGCCCAAGCCAACCCGAGTTTACCA-------GGTTC-C  10070
+                      .|||   |||...||..||   .|.|||.||.|||       .|.|| |
+lncRNArawseq_   6791 -TTTC---TGCATTCCTCGC---TCTGAGGTTGCCATTTGAACAGCTCTC   6833
+
+6              10071 AGGAATGAC---CTTGAATTC--CAGATCCTTCTGCCCCCATCATCTGAG  10115
+                     .||.....|   ||.||||||  |||.| |||||   |||||        
+lncRNArawseq_   6834 TGGTCACCCTGGCTAGAATTCGGCAGCT-CTTCT---CCCAT--------   6871
+
+6              10116 TGCTGGGTTACGGTTGGGTGGCTATACCTGCCTCTCACCTGGGTCTTTGA  10165
+                                 |||||.|||.....|||||.||...|| .||.|..||.
+lncRNArawseq_   6872 ------------GTTGGCTGGTACACCCTGCTTCCTGCC-AGGACCCTGC   6908
+
+6              10166 AACAAAAGAGGGAAGAAAGAAAGAAGGAAAGAAAGAAAGAAAGAAAGAAA  10215
+                     ..|....|.||                                       
+lncRNArawseq_   6909 TGCTCTCGGGG---------------------------------------   6919
+
+6              10216 GAAAGAAAGAAAGAAAGAAAGAAGAAAAGAAAGAAAGAAGAAAGAAAGAA  10265
+                                                                       
+lncRNArawseq_   6920 --------------------------------------------------   6919
+
+6              10266 AGAAAGAAAGAAGAAAGAAAGAAAGAAAGAAGAAAGAAAGAAAGAAGAAA  10315
+                                                                       
+lncRNArawseq_   6920 --------------------------------------------------   6919
+
+6              10316 GAAGAAAGAAAGAAAGAAAGAAGAAAGAAAGAAAGAAAGAAAGAAAGAAA  10365
+                                                                       
+lncRNArawseq_   6920 --------------------------------------------------   6919
+
+6              10366 GAAGAAAAAAGGAAAGGAGAGAGAGAGAGATTGAGAATATGAGATCTTCA  10415
+                                                            || |||||   
+lncRNArawseq_   6920 ---------------------------------------TG-GATCT---   6926
+
+6              10416 TTAACCATAAAAGTCAGGGATCGGGTAAAGCCTTGCAGCATAAATAACAT  10465
+                                           |||..||||  |.|||     |..|||.
+lncRNArawseq_   6927 ----------------------GGGCTAAGC--TCCAG-----AAGACAC   6947
+
+6              10466 AAATTCAAAATAGTTGACATTTCATTCAGTCCACAAAAGAGCCTTGGCTG  10515
+                     ||.|.|.|..|.  ||||       ||..||||||    .|||..|....
+lncRNArawseq_   6948 AATTCCCAGCTC--TGAC-------TCCATCCACA----TGCCCAGATGT   6984
+
+6              10516 AACACTGATAATTTTACATTTGAATTTCTCAGGCGTATCCATTTCTAAGT  10565
+                     ..|.|||.|.||||..|.|.|   .|||||      .||||...|     
+lncRNArawseq_   6985 TCCTCTGCTCATTTCTCCTCT---CTTCTC------TTCCAAAGC-----   7020
+
+6              10566 ACAGAGGTGATCTGTGGTGTGGGCTG--ACAAGTTATTCCG-ATCTATC-  10611
+                      |||.|...||||...|||.|.|..|  |||||....|||. |.|..|| 
+lncRNArawseq_   7021 -CAGGGAGCATCTTGAGTGAGAGAAGGCACAAGCGGGTCCACAGCACTCA   7069
+
+6              10612 TTCAGTGGGAAAACCAAGGTTTCACACCAAAA--TGACAGCATAAAGTCC  10659
+                     |||.||       |||.  ||.|.|.|.||||  |...||||.|      
+lncRNArawseq_   7070 TTCGGT-------CCAT--TTCCTCTCAAAAACTTTGTAGCAAA------   7104
+
+6              10660 CACACGTGTGGCTTCTAAGCTTAAAAAGCCTAAGATGAAACTTCCCCTGA  10709
+                     ||||.|.||||       ||.|..|.|||   ||||              
+lncRNArawseq_   7105 CACAAGGGTGG-------GCGTGGAGAGC---AGAT--------------   7130
+
+6              10710 TCCTATCATCAAAATAAACACTTACTATATTACCAAATATTACACAACTA  10759
+                     ||||..||.|..........||.||.|    .|||      .|.|..|  
+lncRNArawseq_   7131 TCCTCCCAACTTGGAGGGGCCTCACAA----GCCA------GCGCTGC--   7168
+
+6              10760 AGATCCATCACTTCTGCTTTAAATGCTTTGCCCTTTCCTGGGGTATTTTA  10809
+                     ||. ||.|||||.|  |.|...|| ||.||.||.||.    ||||     
+lncRNArawseq_   7169 AGG-CCTTCACTCC--CATATCAT-CTCTGACCATTT----GGTA-----   7205
+
+6              10810 TTTGACATGTGTCCATGGTACAAAGACAAATCCCTGTCTGCTTGATAAGG  10859
+                      .||||   ||.|| |||  |.|.||||                      
+lncRNArawseq_   7206 -GTGAC---TGACC-TGG--CTACGACA----------------------   7226
+
+6              10860 TGTCAGAGCTCGCTTAGAGGTTAAGAAGGGGCCGTCGAGCTGTTTTTCTT  10909
+                       ||.|.||           ||||||||.|          |||.      
+lncRNArawseq_   7227 --TCTGTGC-----------TTAAGAAGAG----------TGTG------   7247
+
+6              10910 CCACTGAGGGTTACATGAGAGACTCGGTAGCGCTTGTTGAAAGAATTTTA  10959
+                      ||.||||||.|.| |.||.|.||..|.|||.|        |..||||||
+lncRNArawseq_   7248 -CAATGAGGGATTC-TCAGTGCCTTTGGAGCTC--------AATATTTTA   7287
+
+6              10960 CCTGTGGATAATAGCCCTTATCTCACCGCTATCTATCATGCTATCGGTTT  11009
+                     |   |||                        ||||| |.||.|.|.|.|.
+lncRNArawseq_   7288 C---TGG------------------------TCTAT-AAGCAACCTGCTA   7309
+
+6              11010 CTTTATTACAGGAGTTTACCTTCGGGCAGCTCATACACCAGCTGACAATC  11059
+                     |              ||||.|||              |.||||||.||.|
+lncRNArawseq_   7310 C--------------TTACGTTC--------------CAAGCTGAGAACC   7331
+
+6              11060 TGTCCTCACCCCGAGACGGCAAGCCAAGCTCAGGTGTGTTACGGCTCCAC  11109
+                     |..||.|..|.| |.||.|||            ||||||| ||...||  
+lncRNArawseq_   7332 TAGCCGCCACAC-ATACAGCA------------GTGTGTT-CGAAGCC--   7365
+
+6              11110 CAGAAAAAGATTATTTGCCTTCTTTCCCTCGGTGAACAGCTGAAGCCAAA  11159
+                                                        ||||.|||       
+lncRNArawseq_   7366 -----------------------------------ACAGTTGA-------   7373
+
+6              11160 ACGCAGCCCCTGGCA---CTCCAGCTGTACTCCGTCACAAGGCAGGGCCA  11206
+                       ||||     ||||   ||...|.||.|.|||                 
+lncRNArawseq_   7374 --GCAG-----GGCAGATCTGAGGATGAAATCC-----------------   7399
+
+6              11207 GGAAGGTTCTAATTCTTGCTTCCCAGATCACACACTTTACAACTGAAGAG  11256
+                        |||||.|            ||||       .||||.|.||||    |
+lncRNArawseq_   7400 ---AGGTTGT------------CCAG-------CCTTTCCTACTG----G   7423
+
+6              11257 CGTCTCGGTTTTGCTCTTGATCCTACTTTAACCTTTGCCAGCTCCTAGTC  11306
+                     .||||                     ||.||.|  ||..||   ||.|||
+lncRNArawseq_   7424 TGTCT---------------------TTAAAGC--TGAAAG---CTGGTC   7447
+
+6              11307 CTTTACTAAAGCATTGAAAACTGTAAAAAGCCTCC---TCAGT-TCAAAT  11352
+                     ..|||..|...||  ||..||||   ...||||||   ||.|| ||.|.|
+lncRNArawseq_   7448 TCTTAGGAGGTCA--GATGACTG---CCTGCCTCCCAGTCTGTGTCTATT   7492
+
+6              11353 GCCCATAAGCAGAGCCCCGATCGAATGGAATGACATCCCATTAAACCAAC  11402
+                     ||    .|||.   .|||        |||.||                  
+lncRNArawseq_   7493 GC----TAGCT---ACCC--------GGAGTG------------------   7509
+
+6              11403 TACTAGGCACTGAGAAAGGGAAAAAGAAAGGGGGCTGAGTGAGGGGGTCG  11452
+                              |.| |||||||..|.||   |.||||||   ||..|||..|
+lncRNArawseq_   7510 ---------CAG-GAAAGGGGGAGAG---GTGGGCTG---GATAGGGCAG   7543
+
+6              11453 AGAGGGAGGGACGTGGGAATGCTTTTAAGTAACAATGGGGAATGATTTTC  11502
+                     |.||||...||.|...|||..|...| ||.|.|              |.|
+lncRNArawseq_   7544 ACAGGGTATGAAGGCAGAACACAAAT-AGAAGC--------------TGC   7578
+
+6              11503 AAGATATATTGGGGGGAATGGGAGATGC--GCAAAATGGAGCAGTACCTT  11550
+                     |                   ||||..||  |||.|.|||....|.|||  
+lncRNArawseq_   7579 A-------------------GGAGGAGCCAGCACACTGGGTGTGAACC--   7607
+
+6              11551 TTGTGTTTGAAAAGGTAGAAAAGCCTAATGACTTCCATACTCATGTAGAG  11600
+                           |||.|.|...||.|.||||   .||..||           ||||
+lncRNArawseq_   7608 ------TTGGAGACACAGCAGAGCC---AGAGATC-----------AGAG   7637
+
+6              11601 ACCCTGAAGATGACACTCAGATCCACTAACAGGAGAACCGGGGTCCAACC  11650
+                     .|||||...|||.||.|..|..        .||.|....|||||      
+lncRNArawseq_   7638 CCCCTGGGAATGCCAGTTGGGG--------TGGGGGTGGGGGGT------   7673
+
+6              11651 GTGTATCAAACCAGCAAGATGACAGGCATGCGAAAGAGGATTCTCATGAC  11700
+                     |||          |..||.||          |...|.||        |.|
+lncRNArawseq_   7674 GTG----------GTGAGGTG----------GGGTGGGG--------GGC   7695
+
+6              11701 TGCCTTTCTCATATGTCTTATTTTTGAACTATATAAATATGTATAAATAT  11750
+                     ||||                    ..||||.                   
+lncRNArawseq_   7696 TGCC--------------------GAAACTG-------------------   7706
+
+6              11751 ATTACCTATTCAGAGAAAGGAAAAACAGTAGGATGCTAAAAGAATGGAGA  11800
+                          ||..|..|.|...||.......||.|.|.|.||... .|.||.|.
+lncRNArawseq_   7707 -----CTGCTGGGGGTGGGGGTGGGGGGTGGAAGGATATTT-CACGGGGC   7750
+
+6              11801 CATAGACCAGAAAATCTGGCCATGGGCAATGTAAGTTGAAAGAATATATG  11850
+                     ||.|||..||.|     |.||||.|||.   |.|||  ||||.      |
+lncRNArawseq_   7751 CAGAGAAAAGGA-----GTCCATTGGCC---TTAGT--AAAGG------G   7784
+
+6              11851 TCAATAATTCAAAAAACTGAAATTTTAGTTTTTAAAATATTTTTTTAGAT  11900
+                     .|||.|  ||                                       |
+lncRNArawseq_   7785 ACAACA--TC---------------------------------------T   7793
+
+6              11901 TGATTTTATGTTATGTGAATGAATGCTTGCCTGCATGTGTGCATGTGCAT  11950
+                     || ||||||      |.||.|..|| ||||..||     ||.||..||  
+lncRNArawseq_   7794 TG-TTTTAT------TAAAAGCCTG-TTGCTGGC-----TGGATAAGC--   7828
+
+6              11951 CATGTGCATGCTTGGTGCCCAAGGAAGTCAGGGGACGGTGGACCCTCTAG  12000
+                     |.|.|||.||||..|||         |.||||||        |||..||.
+lncRNArawseq_   7829 CGTCTGCCTGCTGAGTG---------GGCAGGGG--------CCCAATAT   7861
+
+6              12001 AACTGGATGATTACAAATGATTGTGAACCACCATGTGGGCACCCAGGTTC  12050
+                     .||||  ||..||      |||..||.|||  .|||.||           
+lncRNArawseq_   7862 TACTG--TGGCTA------ATTCGGAGCCA--GTGTTGG-----------   7890
+
+6              12051 TCTGCAAGATCAACAAGTGCTCTCAACTGCTGAGCCGTATCTCCAGACCT  12100
+                           |||                   |||||       |..||.|||.
+lncRNArawseq_   7891 ------AGA-------------------GCTGA-------CATCAAACCA   7908
+
+6              12101 GGAGCAAAGCTGAGTAGAGCTTCCAGCTCTACCAACCCCTCAAGGGCTGC  12150
+                     |||  ||.||    |.|.||...|.|||||  |..||.|||.  ||||  
+lncRNArawseq_   7909 GGA--AACGC----TCGCGCGCGCGGCTCT--CTCCCTCTCC--GGCT--   7946
+
+6              12151 CTGGCCTGCGCACATTATTTGACCACCCAGTGCCTGCTCCACAAGAGTTG  12200
+                     ||  ||  |.|.|         ||.|||...||||.|||..|.....|| 
+lncRNArawseq_   7947 CT--CC--CTCTC---------CCTCCCTCCGCCTCCTCTTCTCTCATT-   7982
+
+6              12201 GGGGTAGGATTGAGAAAGTTAGAACAAGGACAAGGATACCACAAGAAGAT  12250
+                             .|||||                           |..||  ||
+lncRNArawseq_   7983 --------CTTGAG---------------------------CTTGA--AT   7995
+
+6              12251 CTACAGAGTCAACTAACCTGGGTGCATGG------GGGAAGCTCTCAGAG  12294
+                     ||||.|.| ||  |.|..||.|||||||.      |.|...|||||.|.|
+lncRNArawseq_   7996 CTACTGTG-CA--TGATATGTGTGCATGTGTGTCCGTGTGTCTCTCTGTG   8042
+
+6              12295 ACTAAATGCCAACCAAAGAGCCTGCAGGGGCTGGGCCTAAGCCCCCTACA  12344
+                     ..|.|        ||....|  |.||...||||||..|...||||.|   
+lncRNArawseq_   8043 TGTGA--------CATTATG--TACACTTGCTGGGAGTTCACCCCAT---   8079
+
+6              12345 CATTTGTAGCAGATGTGCAGCTTGGTCTTCATGTGGGCTCCCTAACAATT  12394
+                                                        ||||||||.      
+lncRNArawseq_   8080 -----------------------------------GGCTCCCTC------   8088
+
+6              12395 GCACCAAGGACTGTCTCAGTCTCTGTTCC--CTGCCTTTGGATCCCCTTT  12442
+                      |.||.....|||||     ||||..|||  |||||  ..|..||||...
+lncRNArawseq_   8089 -CTCCTCTTCCTGTC-----CTCTACTCCCTCTGCC--AAGCACCCCAGC   8130
+
+6              12443 CCCTAGATGGACTGCCTGGTCAGGCCTCAGTGGGAGAAGATGTCCCAAGA  12492
+                     |||....|.|.|  |||||.|.  ||||||          |.|||     
+lncRNArawseq_   8131 CCCACCTTTGCC--CCTGGCCT--CCTCAG----------TCTCC-----   8161
+
+6              12493 TGGGTTAGCACCCAAGGGGGGCTTCCCCTTCTCCGAGGAGAAGAGGAGA-  12541
+                            ||.||||  |..|.|||             ||..||||.||| 
+lncRNArawseq_   8162 -------GCCCCCA--GAAGACTT-------------GAACAGAGAAGAC   8189
+
+6              12542 --GGATAATGGAGGAGGGGGTTGGGGG-GGGGAGGGCTGGAAAGGAGAGG  12588
+                       .||..||||.  ..||||||..... .|.||.|.||||..||||.|| 
+lncRNArawseq_   8190 CCAGACTATGGC--CTGGGGTTATTTACTGAGACGCCTGGGGAGGAAAG-   8236
+
+6              12589 GGGCTGCTAACGAGATATAAAGTGAATAAATAGTTAATGAAAACAAATAA  12638
+                            |..|||                      |||||..        
+lncRNArawseq_   8237 -------TTTCGA----------------------AATGACC--------   8249
+
+6              12639 TGAAATACAGTCTAAAAATAAATGTACATTTCAGATACTTTTTTTTTAAG  12688
+                       |||..||..|              |.||.||||| ||...|||.||.|
+lncRNArawseq_   8250 --AAACCCACCC--------------CTTTCCAGAT-CTCCATTTGTAGG   8282
+
+6              12689 TTTCAAGGGA--------GAACACCTCCCTCAGAAGATGACCGTGAGGAT  12730
+                     ||..|||..|        |||..|.|  .|||.|||| .|||..||||  
+lncRNArawseq_   8283 TTAAAAGAAAAAGTAAAGGAAGTCAT--TTCAAAAGA-AACCAGGAGG--   8327
+
+6              12731 TAAATTAGACACTCTCGCACGCGCACACACACATACACAGAGAGAGGGAG  12780
+                       ||...|.|.||||   .|| |||     .|||                
+lncRNArawseq_   8328 --AAAGCGGCTCTCT---TCG-GCA-----GCAT----------------   8350
+
+6              12781 AGAGGAAGAGAGAGAGAGGGGGGGGGGAGAAGAAGAAGAAGAAGAAGAAG  12830
+                                           |.|.||..|..|..|..|..|||.    
+lncRNArawseq_   8351 ----------------------GTGTGATTATTATTAATATTAGAC----   8374
+
+6              12831 GAAGAAGAAGAAGAAGAAGAAGAAGAAGAAGAAGAAGAAGAAGAAAAAGA  12880
+                                                             ..|...||| 
+lncRNArawseq_   8375 ----------------------------------------TTGTTTAAG-   8383
+
+6              12881 GGAGGAGGAGGAGGAGGAGGAGGAGGAGGAGGAGGAGAAAGAACGAAGAG  12930
+                                                                       
+lncRNArawseq_   8384 --------------------------------------------------   8383
+
+6              12931 GAGGAGGAGAGAGAGAGAGAGATCACAGCTAGCTTTTGGC------TCAT  12974
+                               |..||.||.|.||...|..|.||||||..|      |.||
+lncRNArawseq_   8384 ----------GCAAGGGAAAAATGTAAAATGGCTTTTTTCCTGTTTTTAT   8423
+
+6              12975 CACAAGCAGCTTTCTACTTTATTTCTCTTTGACTCTTGTTT-----GTTG  13019
+                     |    |.||.|||.|..|.|..||...||||..|.||||||     .||.
+lncRNArawseq_   8424 C----GTAGTTTTTTGTTGTTGTTGGTTTTGTTTTTTGTTTTTTTGTTTT   8469
+
+6              13020 TTTGTTTTAGTTACTCCCCACCCCCACCCCAGTCT-----GACCTTTCTT  13064
+                     ||||||||..||..|||......|..|..|.||||     |.|.......
+lncRNArawseq_   8470 TTTGTTTTTTTTTTTCCTTTTTTCTTCTACTGTCTTGGGAGTCAGAAGGG   8519
+
+6              13065 CCACCCTTAGGGTTTTAGAGTT------TTTCC--CCTTTCCTTTCTTCT  13106
+                     |.|.|..||  .|||.|||||.      ...||  |.|.|||||..|||.
+lncRNArawseq_   8520 CAAACAGTA--ATTTCAGAGTAAGATGGAAGCCATCATCTCCTTAGTTCA   8567
+
+6              13107 CTCCA--CCTTTCT----TTTAAAAATGAGAATG------------AAAC  13138
+                     ....|  .||||||    .||...|..|.|||||            |..|
+lncRNArawseq_   8568 TGTGATGTCTTTCTGGGAATTGGGAGAGTGAATGAGTTTCATGTAAACGC   8617
+
+6              13139 CTAAAATAA----TCC--CAGAGTTTATTAGA-----CAAAGTTGCCCTA  13177
+                     |||.|||.|    |||  |..||.|| |||||     |..|||..|||.|
+lncRNArawseq_   8618 CTATAATCACTTTTCCTGCTAAGGTT-TTAGAGGACTCTGAGTCTCCCAA   8666
+
+6              13178 AAGAAAGACAC------TCACACAGGAAATGGAACCTGTGGTGTTTGCTA  13221
+                     ......|..||      ||||.||  ||.||...||..|    |||.|.|
+lncRNArawseq_   8667 TTTGCTGTAACTTAAAGTCACCCA--AATTGCTTCCACT----TTTACCA   8710
+
+6              13222 GGAAAACGCAGAATTAAAAACATCAGCGTGAAAGTCGATC----TTCACA  13267
+                     ..||||   |.||..|||||.|..|...|.|...|..|||    ||...|
+lncRNArawseq_   8711 AAAAAA---AAAAAAAAAAAAAAAAAATTAATTATTTATCCAGATTTTAA   8757
+
+6              13268 GC  13269
+                     ||
+lncRNArawseq_   8758 GC   8759
+
+
+#---------------------------------------
+#---------------------------------------

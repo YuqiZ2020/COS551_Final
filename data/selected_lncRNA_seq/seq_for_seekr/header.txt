@@ -1,0 +1,35 @@
+==> Airn_M_rep.fa <==
+>Airn_rep
+
+==> Gm13261_M_act.fa <==
+>Gm13261_act
+
+==> Gm16084_M_act.fa <==
+>Gm16084_act
+
+==> Halr1_M_rep.fa <==
+>Halr1_rep
+
+==> Hottip_M_act.fa <==
+>Hottip_act
+
+==> Kcnq1ot1_M_rep.fa <==
+>Kcnq1ot1_rep
+
+==> Morrbid_M_rep.fa <==
+>Morrbid_rep
+
+==> Nespas_M_rep.fa <==
+>Nespas_rep
+
+==> Tsix_M_rep.fa <==
+>Tsix_rep
+
+==> Ube3a_M_rep.fa <==
+>Ube3a_rep
+
+==> XistAR_M_act.fa <==
+>XistAR_act
+
+==> Xist_M_rep.fa <==
+>Xist_rep

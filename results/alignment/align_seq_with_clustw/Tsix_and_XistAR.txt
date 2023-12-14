@@ -1,0 +1,267 @@
+########################################
+# Program: water
+# Rundate: Mon  4 Dec 2023 21:16:14
+# Commandline: water
+#    -auto
+#    -stdout
+#    -asequence emboss_water-I20231204-211605-0691-3049149-p1m.aupfile
+#    -bsequence emboss_water-I20231204-211605-0691-3049149-p1m.bupfile
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Tsix_M_rep
+# 2: KJ440524.1MusmusculusXistARantisenseRNA_completesequence_XistAR_M_act
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 2811
+# Identity:    2313/2811 (82.3%)
+# Similarity:  2313/2811 (82.3%)
+# Gaps:         263/2811 ( 9.4%)
+# Score: 12947.0
+# 
+#
+#=======================================
+
+Tsix_M_rep         1 GTGTGTTCATGC-----------GTGCGCAC-----GTGTACCCGT--GC     32
+                     |..|.|..||||           |..|.|||     ||..|...||  ||
+KJ440524.1Mus      2 GAATCTAGATGCCATAAAGGCAAGAACACACAGAAAGTTGAAATGTAGGC     51
+
+Tsix_M_rep        33 GTCCACACTCC------GCCAGCACGTGTGCTAGCTTGCA---AG-TTTT     72
+                     .|..|.|.|.|      ..|||.|.||.||.|||....||   || .||.
+KJ440524.1Mus     52 CTTAATATTACTATTATAACAGTAAGTCTGATAGAGGACACAGAGCATTA    101
+
+Tsix_M_rep        73 CAGTTTGAG-----TACAGAC-------ACCA--GGCC---ATAGC----    101
+                     ||.||..||     |.|.|||       ||||  .|.|   |||||    
+KJ440524.1Mus    102 CAATTCAAGGCTCTTGCTGACAAGTAAAACCATTAGTCAATATAGCATCA    151
+
+Tsix_M_rep       102 CCAATGGCAGCAGTGACAGGG--AGGACCGTGGCAGCATGTAACAATCAG    149
+                     .||||.|||.||....||..|  .|.||.|....||.|..|.|.|..|..
+KJ440524.1Mus    152 ACAATAGCAACAAAAGCAAAGCCTGAACTGGTATAGAACCTCAAATACTC    201
+
+Tsix_M_rep       150 AAGACAACT--TCCGGATTTTCAC---------------TCTGT------    176
+                     ..||||.|.  ||...||.|||||               |||||      
+KJ440524.1Mus    202 CTGACATCCAGTCATAATGTTCACTTTACATTAACAGTATCTGTGTTATA    251
+
+Tsix_M_rep       177 ---CCTAAAAA---------------GGTGGTCAAGTGTGCTAACCACAC    208
+                        |.||||||               |||||...|||.||..|...|...
+KJ440524.1Mus    252 AGACTTAAAAATTTGAAGAGTAGCTCGGTGGATGAGTTTGAAAGAAAGTA    301
+
+Tsix_M_rep       209 CCTCTCAG---CAGG----------ATCCCGCGCC----------TCAAG    235
+                     |.|.|.||   ||.|          |||....|||          |..|.
+KJ440524.1Mus    302 CATTTAAGTGCCAAGTAATTTGAGTATCATCTGCCAAAAAAATTATTGAA    351
+
+Tsix_M_rep       236 AGCCTTAGG---TCCCGCCCCACAC-TCCCTCAA-------ACCCTCAGT    274
+                     |.|.|||.|   |||......|||. ||.||.||       |...|.|.|
+KJ440524.1Mus    352 AACTTTAAGGACTCCAAAGTAACAATTCACTAAAGGTAATTAAAATGAAT    401
+
+Tsix_M_rep       275 GCAGCGCTTGTGTCAGGCG-----------------CAATC---TCG---    301
+                     .||.|...|..|..|..||                 |||||   |||   
+KJ440524.1Mus    402 TCAACAAGTAAGCAAATCGTAAATACATTTTGAAAACAATCACTTCGGTT    451
+
+Tsix_M_rep       302 -------CAAGATCCGGTGAGGCGC----TACGTCGTGCTCCACTCGG--    338
+                            |||...|..|..|.||.|    |..|.|||| ||  .|.||  
+KJ440524.1Mus    452 TTAAATTCAAACACTAGCAAAGCACACTATCAGACGTG-TC--GTTGGCA    498
+
+Tsix_M_rep       339 TCCCAAAAGTACC-TGCAAGC-----GCTACAC---------ACTTGCGC    373
+                     |||.|||..|.|. ||.||.|     ||.||.|         .|.||.|.
+KJ440524.1Mus    499 TCCAAAATATTCATTGAAATCAAAATGCAACCCCAGCAATAGTCATGGGG    548
+
+Tsix_M_rep       374 TCG----------------GCGCCCTTGCTCTGTTCTCACTTTCCGAGAT    407
+                     |.|                |....||..||||    ||||   |.|.|||
+KJ440524.1Mus    549 TAGATTTTGGAAGAAGGTAGGATTCTACCTCT----TCAC---CAGTGAT    591
+
+Tsix_M_rep       408 -----ATCCAC---GCATCTTGAGTCC--TGCATCCACT----CCCGGGA    443
+                          ||||||   |..|||   |.||  .|...|||||    |||.|.|
+KJ440524.1Mus    592 TTGTGATCCACTATGACTCT---GGCCAAAGTCACCACTTATACCCAGTA    638
+
+Tsix_M_rep       444 GGC---GGCTGCGGCAAGCG---CGTGATGG---AAGAAGAG--C---GT    479
+                     |||   |....|.||..|.|   .|||.|||   ||..||||  |   ||
+KJ440524.1Mus    639 GGCTTAGAGAACCGCTTGAGATCAGTGCTGGCTAAATCAGAGGCCAAGGT    688
+
+Tsix_M_rep       480 GATAGCCAGCTAGACAGGTGGCCAGAGCGGAGCGGA-CAGTGGAGCGATG    528
+                     |..||....||||.||      |.||.|....|..| .|.||||.||  |
+KJ440524.1Mus    689 GTAAGTAGACTAGCCA------CTGAACAATACAAAGGAATGGAACG--G    730
+
+Tsix_M_rep       529 GCTACGT----GCTTGCGGGACAGCGGA-AGAG-ATGGTTAAAG----TG    568
+                     |||..||    |.||||....|..||.| |||| |..||.|.||    ||
+KJ440524.1Mus    731 GCTGAGTTTTAGTTTGCACCGCCACGTATAGAGCACTGTAAGAGACTATG    780
+
+Tsix_M_rep       569 ATTGCCAAGCAGCAGA---AAGATTCC-TAAAATG--CTTGCCAGCTATG    612
+                     |..| |||||.|..||   ||...||| |.|||||  |||.....||.|.
+KJ440524.1Mus    781 AACG-CAAGCGGATGAGTCAAATGTCCTTGAAATGGCCTTAGATACTTTT    829
+
+Tsix_M_rep       613 CGGAGAT---GAAGGTGAGGTTTCAATGATTTACATCGACCAAGAACCCG    659
+                     |.....|   ..||||||||||||||||||||||||||||||||||||||
+KJ440524.1Mus    830 CTTTCTTTTAATAGGTGAGGTTTCAATGATTTACATCGACCAAGAACCCG    879
+
+Tsix_M_rep       660 CAGCCTCGGTCTCTCGAATCGGATCCGACATCATCCAACACTTCAGTGTT    709
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KJ440524.1Mus    880 CAGCCTCGGTCTCTCGAATCGGATCCGACATCATCCAACACTTCAGTGTT    929
+
+Tsix_M_rep       710 AGAATTGCAAGCATGCGCTCTCCCGACCTGGGCAGGCACTTCGAAAAAAT    759
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KJ440524.1Mus    930 AGAATTGCAAGCATGCGCTCTCCCGACCTGGGCAGGCACTTCGAAAAAAT    979
+
+Tsix_M_rep       760 GATGACTAAAGACACACGTGAAGTACCAAGCGAAACTCACGTCCTTATGG    809
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KJ440524.1Mus    980 GATGACTAAAGACACACGTGAAGTACCAAGCGAAACTCACGTCCTTATGG   1029
+
+Tsix_M_rep       810 GACAGTGACTCATCACAGTCTAATTCCATCCTGGCCACCAAGCAATAATG    859
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KJ440524.1Mus   1030 GACAGTGACTCATCACAGTCTAATTCCATCCTGGCCACCAAGCAATAATG   1079
+
+Tsix_M_rep       860 CACATTTCTAACTGGAAGTCAAGCAAACACCAACACTTTCACACTTGTGC    909
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KJ440524.1Mus   1080 CACATTTCTAACTGGAAGTCAAGCAAACACCAACACTTTCACACTTGTGC   1129
+
+Tsix_M_rep       910 CCATTTCTGACGAGTTACGTCAAGTGGCAACCAACACTTCCACTTAGCCT    959
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KJ440524.1Mus   1130 CCATTTCTGACGAGTTACGTCAAGTGGCAACCAACACTTCCACTTAGCCT   1179
+
+Tsix_M_rep       960 TGCCTCAGCTTCGAGTGGCACAAGGTAGGACCAACCACACCCTACCATAA   1009
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KJ440524.1Mus   1180 TGCCTCAGCTTCGAGTGGCACAAGGTAGGACCAACCACACCCTACCATAA   1229
+
+Tsix_M_rep      1010 TGCACCAAGTGTACCCTCGGGCAAAGCCCGCCAAGTAGCTAAAGCCCGCC   1059
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KJ440524.1Mus   1230 TGCACCAAGTGTACCCTCGGGCAAAGCCCGCCAAGTAGCTAAAGCCCGCC   1279
+
+Tsix_M_rep      1060 AAAAAAAAAATCACTGAAAGAAACCACTAGAGGGCAGGTCACATGACTTC   1109
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KJ440524.1Mus   1280 AAAAAAAAAATCACTGAAAGAAACCACTAGAGGGCAGGTCACATGACTTC   1329
+
+Tsix_M_rep      1110 CGCCATCTTAGACACATTCAAGAGCATGTGCCACCTCTCCAGGCTAACTC   1159
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KJ440524.1Mus   1330 CGCCATCTTAGACACATTCAAGAGCATGTGCCACCTCTCCAGGCTAACTC   1379
+
+Tsix_M_rep      1160 AGACATGAAGCTGACATGTGACACACAAAGCCCTTTGCGTTATACCGCAC   1209
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KJ440524.1Mus   1380 AGACATGAAGCTGACATGTGACACACAAAGCCCTTTGCGTTATACCGCAC   1429
+
+Tsix_M_rep      1210 CAAGAACTTGAGCCGCCATCTTTTCCTGTACGACCTAAATGTCCTATAAT   1259
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KJ440524.1Mus   1430 CAAGAACTTGAGCCGCCATCTTTTCCTGTACGACCTAAATGTCCTATAAT   1479
+
+Tsix_M_rep      1260 CCATTGCTACACACCAGAACAAAGATTGGGCTGTCGAGCCTCGGGTGGAG   1309
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KJ440524.1Mus   1480 CCATTGCTACACACCAGAACAAAGATTGGGCTGTCGAGCCTCGGGTGGAG   1529
+
+Tsix_M_rep      1310 CCCCCGAGCCGCCATTTTATAGACTTCTGAGCAGCCCTTAAAGCCACGGG   1359
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KJ440524.1Mus   1530 CCCCCGAGCCGCCATTTTATAGACTTCTGAGCAGCCCTTAAAGCCACGGG   1579
+
+Tsix_M_rep      1360 GGACCGCGCCAGGGGTCCATATGCACACACACCCTGCCCAATCCCCACAC   1409
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KJ440524.1Mus   1580 GGACCGCGCCAGGGGTCCATATGCACACACACCCTGCCCAATCCCCACAC   1629
+
+Tsix_M_rep      1410 CCACGCTGAGCCCTATCCCCTAGTCCTCTGCGGCTTCCGCGCAACACCGC   1459
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KJ440524.1Mus   1630 CCACGCTGAGCCCTATCCCCTAGTCCTCTGCGGCTTCCGCGCAACACCGC   1679
+
+Tsix_M_rep      1460 ACACTAATACGAGCACTCCTTGGCTTTCTACTTCCGGCTAGCACAACCCC   1509
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KJ440524.1Mus   1680 ACACTAATACGAGCACTCCTTGGCTTTCTACTTCCGGCTAGCACAACCCC   1729
+
+Tsix_M_rep      1510 GCAAATGCTACCACAAATCAAGGCGAATCCCGCAACCCCGCACATATAAA   1559
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KJ440524.1Mus   1730 GCAAATGCTACCACAAATCAAGGCGAATCCCGCAACCCCGCACATATAAA   1779
+
+Tsix_M_rep      1560 GAAAGCCTTTAGCTAGCGCAGCGCAATTGGTTGCTTTTATCCAGTCCGCT   1609
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KJ440524.1Mus   1780 GAAAGCCTTTAGCTAGCGCAGCGCAATTGGTTGCTTTTATCCAGTCCGCT   1829
+
+Tsix_M_rep      1610 GTGCTCCTCGGTGTCCTAATTCTTGGCGTAACTGGCTCGAGAATAGCCGT   1659
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KJ440524.1Mus   1830 GTGCTCCTCGGTGTCCTAATTCTTGGCGTAACTGGCTCGAGAATAGCCGT   1879
+
+Tsix_M_rep      1660 ATCACGCAGAAGCCATAATGGCGGACGCGGGCTCTCCACGCCCTGAACAC   1709
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KJ440524.1Mus   1880 ATCACGCAGAAGCCATAATGGCGGACGCGGGCTCTCCACGCCCTGAACAC   1929
+
+Tsix_M_rep      1710 CCACTCAGTTTAAGAGCAAAGTCGTTTTTCTAAGCCATAGGTTCACTCAC   1759
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KJ440524.1Mus   1930 CCACTCAGTTTAAGAGCAAAGTCGTTTTTCTAAGCCATAGGTTCACTCAC   1979
+
+Tsix_M_rep      1760 ACAGCACCAAACGATCAGCAGCAACAGTACACGCAAATAAGAGGCATAGA   1809
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KJ440524.1Mus   1980 ACAGCACCAAACGATCAGCAGCAACAGTACACGCAAATAAGAGGCATAGA   2029
+
+Tsix_M_rep      1810 TATTCCAGGTAGTGCAATAACTCACAAAACCATATTTCCATCCACCAAGC   1859
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KJ440524.1Mus   2030 TATTCCAGGTAGTGCAATAACTCACAAAACCATATTTCCATCCACCAAGC   2079
+
+Tsix_M_rep      1860 GCCCCGTTGGGCCGTGAAAAAAAAAATTTAAAGCAGGTATCCACAGCCCC   1909
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KJ440524.1Mus   2080 GCCCCGTTGGGCCGTGAAAAAAAAAATTTAAAGCAGGTATCCACAGCCCC   2129
+
+Tsix_M_rep      1910 GATGGGCAAAAGAAAAAGAAAAAAAAATAATAACAGCAGGTATCCGAGGC   1959
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KJ440524.1Mus   2130 GATGGGCAAAAGAAAAAGAAAAAAAAATAATAACAGCAGGTATCCGAGGC   2179
+
+Tsix_M_rep      1960 CCCGTTGGGCATGGGAAAAAAAGACTAAACGCAGGTATCCGAGGTCCCGA   2009
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KJ440524.1Mus   2180 CCCGTTGGGCATGGGAAAAAAAGACTAAACGCAGGTATCCGAGGTCCCGA   2229
+
+Tsix_M_rep      2010 TGGACCGAGAAAGGTTTTTTTGTTTTTTTTTTTTTTTTTACAAAAAGCAG   2059
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KJ440524.1Mus   2230 TGGACCGAGAAAGGTTTTTTTGTTTTTTTTTTTTTTTTTACAAAAAGCAG   2279
+
+Tsix_M_rep      2060 GTATCCATGGCCCCGATGGGCTAAGGAGAAGAAAAAAAGAATAAAAGCAG   2109
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KJ440524.1Mus   2280 GTATCCATGGCCCCGATGGGCTAAGGAGAAGAAAAAAAGAATAAAAGCAG   2329
+
+Tsix_M_rep      2110 GTATCCACAGCCCAGATGGGCAAGTTTAGAAAAAAAAATAATAAGAAAAA   2159
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KJ440524.1Mus   2330 GTATCCACAGCCCAGATGGGCAAGTTTAGAAAAAAAAATAATAAGAAAAA   2379
+
+Tsix_M_rep      2160 AAAAGAATGAAAAGGCAGGTAAGTATCCAAAACCCCGTTGGGCATGGAAT   2209
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KJ440524.1Mus   2380 AAAAGAATGAAAAGGCAGGTAAGTATCCAAAACCCCGTTGGGCATGGAAT   2429
+
+Tsix_M_rep      2210 GGCGGGGAGGACACACAGGTATCCGTGGCCCCGATGGGCAAGAATATATA   2259
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KJ440524.1Mus   2430 GGCGGGGAGGACACACAGGTATCCGTGGCCCCGATGGGCAAGAATATATA   2479
+
+Tsix_M_rep      2260 AACAATGAAAGAAAGGTAAGTCCACCATACACACACAAGTATCAACCAAA   2309
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KJ440524.1Mus   2480 AACAATGAAAGAAAGGTAAGTCCACCATACACACACAAGTATCAACCAAA   2529
+
+Tsix_M_rep      2310 AGGCACAACAAAGAAATATTCCTTAAAAATGAAAAATTGACTGAAAATAT   2359
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KJ440524.1Mus   2530 AGGCACAACAAAGAAATATTCCTTAAAAATGAAAAATTGACTGAAAATAT   2579
+
+Tsix_M_rep      2360 TACAAATATCAAAAAGTATGGAGGACATGTCAAAAAAAAAATCTTACCAG   2409
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KJ440524.1Mus   2580 TACAAATATCAAAAAGTATGGAGGACATGTCAAAAAAAAAATCTTACCAG   2629
+
+Tsix_M_rep      2410 AACATATCAAAACGTCAAAAATCTCGTGGAATTTTGATATGTTTTCTTAA   2459
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KJ440524.1Mus   2630 AACATATCAAAACGTCAAAAATCTCGTGGAATTTTGATATGTTTTCTTAA   2679
+
+Tsix_M_rep      2460 ATAAGCCATAAGGCTTGGTGGTAGGGGAACTAAAAATGTTCCCCCAAAGC   2509
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KJ440524.1Mus   2680 ATAAGCCATAAGGCTTGGTGGTAGGGGAACTAAAAATGTTCCCCCAAAGC   2729
+
+Tsix_M_rep      2510 TCCTTAGATGGAGAGAAACCACGGAAGAACCGCACATCCACGGGAAACGA   2559
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KJ440524.1Mus   2730 TCCTTAGATGGAGAGAAACCACGGAAGAACCGCACATCCACGGGAAACGA   2779
+
+Tsix_M_rep      2560 GCAAACATGGC   2570
+                     |||||||||||
+KJ440524.1Mus   2780 GCAAACATGGC   2790
+
+
+#---------------------------------------
+#---------------------------------------
