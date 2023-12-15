@@ -24,6 +24,6 @@ def create_heatmap_from_file(file_path, output_image_path):
     plt.savefig(output_image_path)
 
 file_path = 'comparison_table'
-output_image_path = 'COS551_Final/heatmap_output.png'
+output_image_path = 'COS551_Final/images/heatmap_output.png'
 create_heatmap_from_file(file_path, output_image_path)
 
